@@ -4,9 +4,9 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>编译器错误</title>
-  <meta name="generator" content="Adobe RoboHelp 2020" />
+  <meta name="generator" content="Adobe RoboHelp 2022" />
   <link rel="stylesheet" href="../../assets/css/default.css" type="text/css" />
-  <script src="../../assets/scripts/main_script.js"></script>
+  <script src="../../assets/scripts/main_script.js" type="module"></script>
   <meta name="rh-authors" content="Mark Alexander" />
   <meta name="topic-comment" content="Page that explains the various compiler errors" />
   <meta name="rh-index-keywords" content="Compile Errors" />
@@ -14,16 +14,16 @@
 </head>
 <body>
   <!--<div class="body-scroll" style="top: 150px;">-->
-  <h1>编译错误</h1>
-  <p>可以为你的游戏报告的第二种类型的错误是<strong>编译器错误</strong>。当你的游戏遇到语法检查器可能无法检测到的某种类型的错误时，就会发生编译器错误--例如，很容易忘记声明一个变量或错误地将<span class="notranslate">string</span> 作为实数输入--或者当错误与你如何从目标平台的<a href="../../Setting_Up_And_Version_Information/Platform_Preferences.htm">平台首选项</a>中设置编译工具有关。这些错误会在游戏编译时被<span data-keyref="GameMaker Name">GameMaker</span>捕获，这些信息也会显示在<a href="../../Introduction/The_Output_Window.htm">编译器错误输出</a>中，如下图所示。</p>
+  <h1>编译器错误</h1>
+  <p>游戏报告的第二类错误是<strong>编译器错误。</strong>编译器错误发生在游戏遇到语法检查器无法检测到的错误时 - 例如，忘记声明变量或错误地将字符串键入为实数 - 或者错误与您在 <a href="../../Setting_Up_And_Version_Information/Platform_Preferences.htm">偏好设置</a> 中为目标平台设置编译工具的方式有关。<span data-keyref="GameMaker 名称">GameMaker</span> 会在编译游戏时捕捉到这些错误，这些信息也会显示在 <a href="../../Introduction/The_Output_Window.htm">编译器错误输出</a> 中，如下图所示：</p>
   <p><img alt="Compile Errors" class="center" src="../../assets/Images/Scripting_Reference/Additional_Information/Errors_Compile_Output.png" /></p>
-  <p class="note"><span class="note">注意</span>这些错误通常不会弹出一个窗口，只是在编译器输出中显示<span class="inline" style="font-size: 14px">&quot;Build Failed</span>&quot;。如果弹出一个窗口，通常是Runner Error，<a href="Runner_Errors.htm">这里</a>有解释。</p>
-  <p>编译器的错误信息都将遵循相同的格式。</p>
-  <p class="code">[object] - [event] - [Line Number]: [error string]</p>
-  <p>如果错误是在<span class="notranslate">script</span> ，那么它将简单地被发现。</p>
-  <p class="code">[script] - [Line Number]: [error string]</p>
-  <p>然后，你可以在任何一个编译器错误条目上双击<img> ，在标记为出错的位置打开给定的<span class="notranslate">asset</span> ，然后你可以使用消息中包含的信息，准确地指出错误发生在<span class="notranslate">object</span> 或<span class="notranslate">script</span> 。然而，有时这些错误看起来有点神秘，所以下面你可以找到一个所有错误的完整列表，以及对它们的含义的简要解释。</p>
-  <p> </p>
+  <p class="note"><span class="note">注意</span> 这些错误通常不会弹出窗口，只会在编译器输出中显示 &quot;<span class="inline" style="font-size: 14px">Build Failed（编译失败）</span>&quot;。如果弹出窗口，通常是运行程序错误，<a href="Runner_Errors.htm">此处</a>有解释。</p>
+  <p>编译器错误信息的格式都是一样的：</p>
+  <p class="code">[对象] - [事件] - [行号]: [错误字符串］</p>
+  <p>如果在脚本中发现错误，那么就是：</p>
+  <p class="code">[脚本] - [行号]: [错误字符串]</p>
+  <p>您可以双击<img alt="Icon LMB" class="icon" height="24" src="../../assets/Images/Icons/Icon_LMB.png" width="21" />任何一个编译器错误条目，在标记为出错的位置打开给定的资产，然后您就可以使用消息中包含的信息来准确定位错误发生在对象或脚本的哪个位置。不过，有时这些错误看起来有点莫名其妙，因此下面列出了所有错误的完整列表，并简要解释了这些错误的含义：</p>
+  <p> </p>
   <table>
     <colgroup>
       <col />
@@ -31,151 +31,150 @@
     </colgroup>
     <tbody>
       <tr>
-        <th>误差</th>
-        <th>描述</th>
+        <th>错误</th>
+        <th>说明</th>
       </tr>
-      <tr>
+      <tr class="rh-cursor-row">
         <td colspan="2" style="text-align: center;padding-top: 5px;padding-right: 10px;padding-left: 10px;padding-bottom: 8px">
           <p><strong>杂项</strong></p>
         </td>
       </tr>
       <tr>
-        <td>没有要编译的程序</td>
-        <td>之前的一个编译错误导致编译器解析树没有被创建，因此编译器没有程序数据可以编译。</td>
+        <td>No program to compile</td>
+        <td>之前的编译错误导致编译器无法创建解析树，因此编译器没有可编译的程序数据。</td>
       </tr>
       <tr>
-        <td>编译<i>[名称]</i>时出现致命错误--跳出的细节如下</td>
-        <td>这条信息只是意味着发现了一些错误，但编译器无法确定是什么或在哪里（如果这种情况持续发生，你可能希望联系<a href="https://accounts.yoyogames.com/contact-us" target="_blank">支持部门</a>，并提供编译器输出窗口显示的细节）。</td>
+        <td>Fatal Error while compiling <i>[name]</i> - bailing details below</td>
+        <td>该信息仅表示发现了某些错误，但编译器无法确定是什么错误或在哪里出错（如果这种情况经常出现，您可以联系 <a href="https://accounts.yoyogames.com/contact-us" target="_blank">技术支持</a>，并提供编译器输出窗口显示的详细信息）</td>
       </tr>
       <tr>
-        <td>不支持递归的宏扩展</td>
-        <td>你已经使用了递归宏，它们相互引用并不断扩展</td>
+        <td>Recursive macro expansion is not supported</td>
+        <td>您使用了相互引用的递归宏，并不断扩展</td>
       </tr>
       <tr>
-        <td>无法找到TextureGroup <span class="inline">[group]</span></td>
-        <td>这个错误通常只在试图运行一个畸形的项目文件时发现（如果这种情况持续发生，你可能希望与<a href="https://accounts.yoyogames.com/contact-us" target="_blank">支持部门</a>联系，并提供编译器输出窗口显示的细节）。</td>
+        <td>Unable to find TextureGroup <span class="inline">[group]</span></td>
+        <td>通常只有在尝试运行畸形项目文件时才会出现这种错误（如果经常出现这种情况，您可以联系 <a href="https://accounts.yoyogames.com/contact-us" target="_blank">技术支持</a> ，并提供编译器输出窗口显示的详细信息）</td>
       </tr>
       <tr>
-        <td>将 <span class="inline">[value]</span> 转为数字是错误的</td>
-        <td>你已经尝试将给定的数值，例如<span class="notranslate">string</span> ，转换成一个数字。</td>
+        <td>Wrong to convert <span class="inline">[value]</span> to number</td>
+        <td>您尝试将给定值（例如字符串）转换为数字</td>
       </tr>
       <tr>
-        <td>除以0</td>
-        <td>你曾试图用一个值除以0</td>
+        <td>Division by 0</td>
+        <td>您尝试将一个值除以 0</td>
       </tr>
       <tr>
-        <td>无效的<span class="notranslate">object</span> id <span class="inline">[object ID]</span> 。</td>
-        <td>你试图用一个不正确的ID值访问一个<span class="notranslate">object</span> 。</td>
+        <td>Invalid object id <span class="inline">[object ID]</span> used</td>
+        <td>您尝试使用不正确的 ID 值访问对象</td>
       </tr>
       <tr>
-        <td>脚本结尾处的未封闭注释 (<span class="inline">/*</span>)</td>
-        <td>你已经创建了一个<span class="notranslate">script</span> 评论，使用<br>
-          <span class="inline">/* [comment] */</span><br>
-          创建了一个评论，但没有提供结尾的评论标签
-        </td>
+        <td>Unclosed comment (<span class="inline">/*</span>) at end of script</td>
+        <td>您使用以下方法创建了脚本注释<br />
+          /* [注释] */<br />
+          创建了脚本注释，但没有提供结尾注释标记</td>
       </tr>
       <tr>
-        <td>无效令牌</td>
-        <td>你的游戏代码中有一个无效的字符，这可能发生在外国语言字符或Unicode中。</td>
+        <td>Invalid token</td>
+        <td>您的游戏代码中出现了无效字符，这可能与非英文字符或 Unicode 有关。</td>
       </tr>
       <tr>
-        <td>数字 <span class="inline">[num]</span> ，格式不正确</td>
-        <td>给出的数字--在错误中显示--对于正在执行的函数或操作来说不是正确的格式，例如，你提供了一个整数，而需要一个指针。</td>
+        <td>Number <span class="inline">[num]</span> in incorrect format</td>
+        <td>错误中显示的给定数字格式与正在执行的函数或操作的格式不符，例如，在需要指针的情况下提供了一个整数</td>
       </tr>
       <tr>
-        <td>遇到了意外的EOF</td>
-        <td>在使用文件功能时，您意外地到达了文件的终点</td>
+        <td>Unexpected EOF encountered</td>
+        <td>在使用文件功能时，您意外地到达了文件终点</td>
       </tr>
       <tr>
         <td colspan="2" style="text-align: center;padding-top: 5px;padding-right: 10px;padding-left: 10px;padding-bottom: 8px">
-          <p><strong>弦乐</strong></p>
+          <p><strong>字符串</strong></p>
         </td>
       </tr>
       <tr>
-        <td>不能不是一个字符串</td>
-        <td>你曾试图在一个字符串上使用 &quot;<span class="inline">!</span>&quot; (not)。</td>
+        <td>Unable to Not a string</td>
+        <td>您尝试在字符串上使用 &quot;!&quot; (或是 not 关键字)。</td>
       </tr>
       <tr>
-        <td>无法否定一个字符串</td>
-        <td>你曾试图否定一个<span class="notranslate">string</span> ，例如<br>
+        <td>Unable to Negate a string</td>
+        <td>您曾尝试否定一个字符串，例如<br />
           <span class="inline">string = -string</span>
         </td>
       </tr>
       <tr>
         <td colspan="2" style="text-align: center;padding-top: 5px;padding-right: 10px;padding-left: 10px;padding-bottom: 8px">
-          <p><strong>脚本。 </strong><strong>函数 </strong><strong>和论据</strong></p>
+          <p><strong>脚本、函数和参数</strong><strong></strong></p>
         </td>
       </tr>
       <tr>
-        <td>函数的参数数量不对 <span class="inline">[function]</span></td>
-        <td>你为给定的函数提供了太多或太少的参数</td>
+        <td>Wrong number of arguments for function <span class="inline">[function]</span></td>
+        <td>您为给定函数提供的参数过多或过少</td>
       </tr>
       <tr>
-        <td>解析action_execute_script()失败 - 收到的参数数量不正确</td>
-        <td><span class="notranslate">GML</span> Visual action Execute<span class="notranslate">Script</span> 的参数太多或者太少，不适合被调用的<span class="notranslate">script</span> 。</td>
+        <td>Failed to parse action_execute_script() - incorrect number of arguments received</td>
+        <td>对于调用的给定脚本，GML Visual 操作 Execute Script 的参数过多或过少</td>
       </tr>
       <tr>
-        <td>未知函数 <span class="inline">[function]</span> ，检查<span class="notranslate">script</span> 是否为空。</td>
-        <td>调用了一个编译器无法识别的<span class="notranslate">script</span> 或函数（这个错误通常是由空的<span class="notranslate">script</span> <span class="notranslate">asset</span> 引用引起的，因为编译器会在编译时剥离这些<span class="notranslate">assets</span> ）。</td>
+        <td>Unknown function <span class="inline">[function]</span> check to see if script is empty</td>
+        <td>调用了编译器无法识别的脚本或函数（此错误通常由空脚本资产引用引起，因为编译器会在编译时清除这些资产）。</td>
       </tr>
       <tr>
-        <td>函数 <span class="inline">[function]</span> 希望得到 <span class="inline">n</span> 参数， <span class="inline">a</span> 提供了</td>
-        <td><span>一个函数被赋予了错误的参数数量(<span class="inline">n</span>)，而预期的参数数量是一定的(<span class="inline">a</span>)。</span></td>
+        <td>Function <span class="inline">[function]</span> expects <span class="inline">n</span> arguments, <span class="inline">a</span> provided</td>
+        <td><span>一个函数的参数数（n）有误，而预期参数数（a）是一定的</span></td>
       </tr>
       <tr>
-        <td>赋值为空（函数不返回任何东西？）</td>
-        <td>你试图从一个函数中分配一个返回值，而该函数没有返回任何东西</td>
+        <td>Assignment of an empty value (function does not return anything?)</td>
+        <td>您尝试从函数中赋值，但该函数没有返回任何值</td>
       </tr>
       <tr>
-        <td>无法找到函数 <span class="inline">[function]</span> </td>
-        <td>你调用了一个未知的函数</td>
+        <td>Unable to find function <span class="inline">[function]</span>    </td>
+        <td>您调用了未知函数</td>
       </tr>
       <tr>
-        <td>调用一个需要实例的函数，但没有实例可用</td>
-        <td><span>被调用的函数或<span class="notranslate">script</span> 是为了作用于一个实例，但在运行时没有实例存在。</span></td>
+        <td>Calling a function that needs an instance and no instance is available</td>
+        <td>调用的函数或脚本用于作用于某个实例，但在运行时并不存在实例</td>
       </tr>
       <tr>
-        <td>调用一个需要另一个人的函数，但没有另一个人可用</td>
-        <td>你在碰撞事件之外或在 <span class="inline">with</span> 语句之外使用了关键词 <span class="inline">other</span> </td>
+        <td>Calling a function that needs an other and no other is available</td>
+        <td>您在碰撞事件之外或 with 语句之外使用了关键字 other</td>
       </tr>
       <tr>
-        <td>参数命名错误， <span class="inline">n</span> 参数，但没有发现对<span class="inline"> a</span></td>
-        <td>你给一个<span class="notranslate">script</span> ，但没有在<span class="notranslate">script</span> 中引用其中一个参数，例如，你的<span class="notranslate">script</span> 需要三个参数，但你只使用了参数 <span class="inline">n </span>和 <span class="inline">a</span></td>
+        <td>Argument naming error, <span class="inline">n</span> arguments but no reference found to<span class="inline"> a</span></td>
+        <td>您为脚本提供了多个参数，但却没有在脚本中引用其中一个参数，例如，您的脚本需要三个参数，但您只使用了参数 n 和 a<span class="inline"></span></td>
       </tr>
       <tr>
-        <td>不能比较参数</td>
-        <td>你曾试图比较两种不同的参数类型，比如<span class="notranslate">string</span> 和实数。</td>
+        <td>Cannot compare arguments</td>
+        <td>您尝试比较两种不同的参数类型，如字符串和实数</td>
       </tr>
       <tr>
-        <td>功能不明或<span class="notranslate">script</span> <span class="inline">[functions/script]</span> </td>
-        <td>编译器不能识别被调用的函数或<span class="notranslate">script</span> 。</td>
+        <td>Unknown function or script <span class="inline">[functions/script]</span> </td>
+        <td>编译器无法识别被调用的函数或脚本</td>
       </tr>
       <tr>
-        <td>不能使用资源名称 <span class="inline">[resource] </span>，因为它没有被导出。</td>
-        <td>你试图访问一个没有被标记为正在编译的平台项目的一部分的资源。</td>
+        <td>Cannot use resource name <span class="inline">[resource] </span>as it is not being exported</td>
+        <td>您尝试访问的资源未被标记为编译平台项目的一部分</td>
       </tr>
       <tr>
-        <td>不能使用函数/脚本名称作为变量，使用 <span class="inline">[functions/script]</span></td>
-        <td>例如，你曾试图使用一个函数名称或一个<span class="notranslate">script</span> 名称作为变量。<br>
+        <td>Cannot use function/script name for a variable, using <span class="inline">[functions/script]</span></td>
+        <td>例如，您曾尝试使用函数名或脚本名作为变量：<br />
           <span class="inline">string = &quot;Hello World&quot;</span>
         </td>
       </tr>
       <tr>
-        <td>不能在脚本外使用一个参数 </td>
-        <td>内置的参数变量只能在<span class="notranslate">script</span> 内使用，但你却试图在其他地方使用它们</td>
+        <td>Cannot use an argument outside a script </td>
+        <td>内置参数变量只能在脚本内使用，但您却试图在其他地方使用它们</td>
       </tr>
       <tr>
-        <td>没有提到 <span class="inline">argument[num]</span> ，但提到 <span class="inline">argument[num]</span></td>
-        <td>你正在使用对一个不存在的参数的引用，但它可以映射到另一个参数上</td>
+        <td>No references to <span class="inline">argument[num]</span> but references <span class="inline">argument[num]</span></td>
+        <td>您正在使用对一个不存在的参数的引用，但该参数可以映射到另一个参数</td>
       </tr>
       <tr>
-        <td>访问器的参数数量不正确</td>
-        <td>在使用访问器时，你提供了错误的参数数量</td>
+        <td>Incorrect number of arguments for accessor</td>
+        <td>您在使用访问器时提供了错误的参数数</td>
       </tr>
       <tr>
-        <td>错误的论据类型为（以下之一）。<br>
-          /, div, mod, +, -, &amp;&amp;, ||, &amp;, |, ^, &lt;&lt;, &gt;&lt;</td>
-        <td>你为被评估的表达式提供了错误的参数类型。</td>
+        <td>Wrong type of arguments for (one of the below):<br />
+          /, div, mod, +, -, &amp;&amp;, ||, &amp;, |, ^, &lt;&lt;, &gt;&gt;</td>
+        <td>您为正在求值的表达式提供了错误的参数类型</td>
       </tr>
       <tr>
         <td colspan="2" style="text-align: center;padding-top: 5px;padding-right: 10px;padding-left: 10px;padding-bottom: 8px">
@@ -183,53 +182,53 @@
         </td>
       </tr>
       <tr>
-        <td>使用未初始化的变量<i>[var]</i>。</td>
-        <td>你试图在命名的变量被初始化之前使用它。</td>
+        <td>Using uninitialized variable <i>[var]</i></td>
+        <td>您试图在命名变量初始化之前使用它</td>
       </tr>
       <tr>
-        <td>变量<i>[var]</i>是只读的</td>
-        <td>你试图在不能改变的情况下改变命名的变量</td>
+        <td>Variable <i>[var]</i> is read-only</td>
+        <td>您尝试更改已命名变量，但该变量无法更改</td>
       </tr>
       <tr>
-        <td>无法找到名为<i>[var]</i>的变量</td>
-        <td>在当前编译中找不到命名的变量</td>
+        <td>Unable to find variable named <i>[var]</i></td>
+        <td>当前编译中找不到命名的变量</td>
       </tr>
       <tr>
-        <td>畸形的变量引用</td>
-        <td>你试图以错误的方式引用一个变量</td>
+        <td>Malformed variable reference</td>
+        <td>您试图以错误的方式引用变量</td>
       </tr>
       <tr>
-        <td>试图设置一个只读变量<i>[var]</i>。</td>
-        <td>你试图设置一个只读变量</td>
+        <td>Trying to set a read only variable <i>[var]</i></td>
+        <td>您试图设置一个只读变量</td>
       </tr>
       <tr>
-        <td>不能重新声明一个内置变量</td>
-        <td>你试图使用与一个内置变量相同的名称来声明一个局部变量</td>
+        <td>Cannot re-declare a built in variable</td>
+        <td>您试图声明一个与内置变量同名的局部变量</td>
       </tr>
       <tr>
-        <td>不能使用资源名称作为变量</td>
-        <td>你可以使用与资源树中的资源相同的名称作为局部变量</td>
+        <td>Cannot use resource name for a variable</td>
+        <td>您试图将资源树中与资源相同的名称用作本地变量</td>
       </tr>
       <tr>
-        <td>[<i>变量]</i>是只读的</td>
-        <td>你试图使用一个已经被标记为只读的变量</td>
+        <td><i>[Variable]</i> is read-only</td>
+        <td>您试图使用已标记为只读的变量</td>
       </tr>
       <tr>
         <td colspan="2" style="text-align: center;padding-top: 5px;padding-right: 10px;padding-left: 10px;padding-bottom: 8px">
-          <p><b>常数</b></p>
+          <p><b>常量</b></p>
         </td>
       </tr>
       <tr>
-        <td>不能将一个常数[常数]设置为一个值</td>
-        <td>你曾试图将一个常数设置为不同的值</td>
+        <td>Cannot set a constant [constant] to a value</td>
+        <td>您尝试将常量设置为不同的值</td>
       </tr>
       <tr>
-        <td>常数在这里是无效的</td>
-        <td>你试图在某处使用一个常数，但该常数对正在运行的代码无效。</td>
+        <td>Constant is invalid here</td>
+        <td>您试图在某处使用常量，但该常量对正在运行的代码无效</td>
       </tr>
       <tr>
-        <td>不能赋值给[var]--它是一个常数</td>
-        <td>你曾试图为命名的常量分配一个新的值</td>
+        <td>Cannot assign to [var] - it&#39;s a constant</td>
+        <td>您尝试为已命名的常量赋值</td>
       </tr>
       <tr>
         <td colspan="2" style="text-align: center;padding-top: 5px;padding-right: 10px;padding-left: 10px;padding-bottom: 8px">
@@ -237,141 +236,140 @@
         </td>
       </tr>
       <tr>
-        <td>阵列索引不应该是负数</td>
-        <td>你试图使用一个负数组索引访问、创建或设置一个数组值</td>
+        <td>Array index should not be negative</td>
+        <td>您尝试使用负数组索引访问、创建或设置数组值</td>
       </tr>
       <tr>
         <td colspan="2" style="text-align: center;padding-top: 5px;padding-right: 10px;padding-left: 10px;padding-bottom: 8px">
-          <p><b>畸形的...</b></p>
+          <p><b>畸形操作...</b></p>
         </td>
       </tr>
       <tr>
-        <td>畸形的条件运算符</td>
-        <td>你使用了一个错误的条件（三元）运算符或<span class="notranslate">if statement</span> ，而不是格式。<br>
-          <span class="inline">[condition] ? [expression1] : [expression2];</span>
-        </td>
+        <td>Malformed Conditional operator</td>
+        <td>您使用了错误的条件（三元）运算符或 if 语句，而不是标准格式：<br />
+          [条件] ? [表达式 1] : [表达式 2];<span class="inline"></span></td>
       </tr>
       <tr>
-        <td>如果需要一个then语句</td>
-        <td>你已经写了一个<span class="notranslate">if statement</span> 和要评估的表达式，但没有给出要运行的任何然后部分</td>
+        <td>If requires a then statement</td>
+        <td>您编写了 if 语句和要评估的表达式，但没有给出要运行的 then 部分</td>
       </tr>
       <tr>
-        <td>畸形的分配语句</td>
-        <td>在代码中，你使用了一个错误的赋值运算符</td>
+        <td>malformed assignment statement</td>
+        <td>在代码中，您使用了错误的赋值运算符</td>
       </tr>
       <tr>
-        <td>畸形的<br>
-          if / repeat / while / do / for / with /<span class="notranslate">switch</span> / break / continue / exit<br>
-          语句</td>
-        <td>所给语句的结构是不正确的。</td>
+        <td>Malformed<br />
+          if / repeat / while / do / for / with / switch / break / continue / exit<br />
+          statement</td>
+        <td>给定语句的结构不正确。</td>
       </tr>
       <tr>
-        <td>畸形的后inc或dec语句</td>
-        <td>你曾试图以非法方式使用 <span class="inline">[var]++</span> 或 <span class="inline">[var]--</span> </td>
+        <td>Malformed post inc or dec statement</td>
+        <td>您试图以非法方式使用 [var]++ 或 [var]--</td>
       </tr>
       <tr>
-        <td>畸形的pre inc或dec语句</td>
-        <td>你曾试图以非法方式使用 <span class="inline">++[var]</span> 或 <span class="inline">--[var]</span> </td>
+        <td>Malformed pre inc or dec statement</td>
+        <td>您试图以非法方式使用 ++[var]或--[var]。</td>
       </tr>
       <tr>
-        <td>畸形的全局gml_pragma</td>
-        <td>你在使用 "全局<span class="notranslate">string</span> "时创建了一个错误的全局 。 <span class="inline">gml_pragma</span></td>
+        <td>Malformed global gml_pragma</td>
+        <td>您在使用 gml_pragma 时创建了一个错误的全局字符串<span class="inline"></span></td>
       </tr>
       <tr>
-        <td>畸形的PNGCrush gml_pragma</td>
-        <td>你为PNGCrush创建了一个错误的<span class="notranslate">string</span> 命令，当使用 <span class="inline">gml_pragma</span></td>
+        <td>Malformed PNGCrush gml_pragma</td>
+        <td>使用 gml_pragma 时，您为 PNGCrush 创建了一个错误的字符串命令<span class="inline"></span></td>
       </tr>
       <tr>
-        <td>畸形的Texgroup.Scale gml_pragma</td>
-        <td>当你使用 "我 "时，你已经创建了一个错误的全局<span class="notranslate">string</span> 。 <span class="inline">gml_pragma</span></td>
+        <td>Malformed Texgroup.Scale gml_pragma</td>
+        <td>您在使用 gml_pragma 时创建了一个错误的全局字符串<span class="inline"></span></td>
       </tr>
       <tr>
         <td colspan="2" style="text-align: center;padding-top: 5px;padding-right: 10px;padding-left: 10px;padding-bottom: 8px">
-          <p><b>开关/外壳</b></p>
+          <p><b>Switch / Case</b></p>
         </td>
       </tr>
       <tr>
-        <td>默认值不能在一个开关中多次使用</td>
-        <td>在你的<span class="notranslate">switch</span> 语句中，你已经定义了default: 多于一次</td>
+        <td>Default cannot be used multiple times in a switch</td>
+        <td>在 switch 语句中，您不止一次定义了 default:</td>
       </tr>
       <tr>
-        <td>条款表达式类型不匹配（条款表达式应该都是相同的类型）。</td>
-        <td>在你的<span class="notranslate">switch</span> ，你正在检查两种不同的常数情况类型，例如，一种情况是<span class="notranslate">string</span> ，另一种情况是整数</td>
+        <td>Clause expression type mismatch (clause expressions should all be the same type)</td>
+        <td>在 switch 中，您要检查两种不同的常量类型，例如一种情况下是字符串，另一种情况下是整数</td>
       </tr>
       <tr>
-        <td>案例参数应该是一个常数</td>
-        <td>你曾试图在你的一个<span class="notranslate">switch</span> 案例中使用一个不被评估为常数的值</td>
+        <td>Case argument should be a constant</td>
+        <td>您试图在某个 switch 情况下使用一个不能求值为常量的值</td>
       </tr>
       <tr>
-        <td><span class="notranslate">switch</span> 中的声明必须出现在案例或默认之后</td>
-        <td>你在 <span class="inline">case:</span> 或 <span class="inline">default:</span> 调用之外的<span class="notranslate">switch</span> 中添加了一条语句。</td>
+        <td>Statement in a switch MUST appear after case or default</td>
+        <td>您在 case: 或 default: 调用之外为 switch 添加了一条语句</td>
       </tr>
       <tr>
-        <td>发现重复的案件声明/原件在此</td>
-        <td>你在一个<span class="notranslate">switch</span> ，在两个不同的地方使用了相同的案例常数（注意 &quot;原来在这里 &quot;的注释会在另一行，可以点击显示原来的案例）。</td>
+        <td>Duplicate case statement found / original here</td>
+        <td>您在一个 switch 中的两个不同地方使用了相同的大小写常量（注意 &quot;此处为原文 &quot;的注释会在另一行，点击后可显示原文大小写）</td>
       </tr>
       <tr>
         <td colspan="2" style="text-align: center;padding-top: 5px;padding-right: 10px;padding-left: 10px;padding-bottom: 8px">
-          <p><b>表达方式</b></p>
+          <p><b>表达式</b></p>
         </td>
       </tr>
       <tr>
-        <td>表达式没有返回值（表达式有返回值吗？）</td>
-        <td>当表达式没有返回任何东西时，你试图将表达式的返回值分配给一个变量。</td>
+        <td>No return value from expression (does expression have a return value?)</td>
+        <td>您试图将表达式的返回值赋给变量，而表达式没有返回任何值</td>
       </tr>
       <tr>
-        <td>期待在'.'后的表达</td>
-        <td>你错误地使用了点 &quot;<span class="inline">.</span>&quot; 符号，并且没有在后面正确地添加表达式。</td>
+        <td>Expecting expression after the &#39;.&#39;</td>
+        <td>您错误地使用了点&quot;.&quot;符号，并且没有在后面正确地添加表达式</td>
       </tr>
       <tr>
-        <td>表达式中出现意外的符号[符号]。</td>
-        <td>该表达式使用了一个不属于可接受的表达式符号集的符号--有关的符号将被显示出来。</td>
+        <td>Unexpected symbol [symbol] in expression</td>
+        <td>表达式使用的符号不属于可接受的表达式符号集 - 将显示相关符号</td>
       </tr>
       <tr>
         <td colspan="2" style="text-align: center;padding-top: 5px;padding-right: 10px;padding-left: 10px;padding-bottom: 8px">
-          <p><b>未知操作者</b></p>
+          <p><b>未知运算符</b></p>
         </td>
       </tr>
       <tr>
-        <td>未知的预操作员</td>
-        <td>你试图使用一个符号作为前置操作符，而该符号是不允许的，例如： <span class="inline">**[var]</span> 或 <span class="inline">&gt;&gt;[var]</span> - 只有 <span class="inline">++</span> 和 <span class="inline">--</span> 可以接受。</td>
+        <td>Unknown Pre operator</td>
+        <td>您尝试使用一个符号作为前运算符，而该符号是不允许使用的，例如 **[var] 或 &gt;&gt;[var]，只有 ++ 和 -- 是可以接受的</td>
       </tr>
       <tr>
-        <td>未知职位操作员</td>
-        <td>你试图使用一个符号作为后置操作符，而该符号是不允许的，例如： <span class="inline">[var]**</span> 或 <span class="inline">[var]&gt;&gt;</span> - 只有 <span class="inline">++</span> 和 <span class="inline">--</span> 可以接受。</td>
+        <td>Unknown Post operator</td>
+        <td>您尝试使用一个符号作为后置操作符，而该符号是不允许使用的，例如 [var]** 或 [var]&gt;&gt;，只有 ++ 和 -- 是可以接受的</td>
       </tr>
       <tr>
-        <td>未知pragma [gml_pragma string]</td>
-        <td>你使用了一个编译器未知的pragma<span class="notranslate">string</span> 。</td>
+        <td>Unknown pragma [gml_pragma string]</td>
+        <td>您使用了编译器未知的 pragma 字符串</td>
       </tr>
       <tr>
-        <td>未知的单数运算符</td>
-        <td>你试图将一个未知的符号作为单数运算符使用</td>
+        <td>Unknown unary operator</td>
+        <td>您试图将未知符号用作一元运算符</td>
       </tr>
       <tr>
-        <td>未知二进制运算符</td>
-        <td>你试图使用一个未知的符号作为二进制运算符</td>
+        <td>Unknown binary operator</td>
+        <td>您试图将未知符号用作二元运算符</td>
       </tr>
       <tr>
-        <td>未知的操作者 [操作者]</td>
-        <td>你试图使用一个未知的符号作为运算符（该符号将显示在错误中）。</td>
+        <td>Unknown operator [operator]</td>
+        <td>您尝试使用未知符号作为运算符（该符号将显示在错误中）</td>
       </tr>
       <tr>
         <td colspan="2" style="text-align: center;padding-top: 5px;padding-right: 10px;padding-left: 10px;padding-bottom: 8px">
-          <p><b>休息/继续</b></p>
+          <p><b>Break / Continue </b></p>
         </td>
       </tr>
       <tr>
-        <td>在没有背景的情况下使用断裂</td>
-        <td>您没有在<span class="notranslate">switch</span> 、<span class="notranslate">loop</span> 或任何其他允许的结构内使用断裂</td>
+        <td>Break used without context</td>
+        <td>您没有在开关、循环或任何其他允许的结构中使用断点</td>
       </tr>
       <tr>
-        <td>继续使用，没有背景</td>
-        <td>你没有在正确的上下文中使用继续。</td>
+        <td>Continue used without context</td>
+        <td>您没有在正确的语境中使用 continue</td>
       </tr>
       <tr>
-        <td>这时不允许继续声明</td>
-        <td>你在你的代码中不允许使用的地方使用了 "继续"。</td>
+        <td>continue statement is not allowed at this point</td>
+        <td>您在代码中不允许使用 continue 的地方使用了 continue</td>
       </tr>
       <tr>
         <td colspan="2" style="text-align: center;padding-top: 5px;padding-right: 10px;padding-left: 10px;padding-bottom: 8px">
@@ -379,111 +377,111 @@
         </td>
       </tr>
       <tr>
-        <td>枚举num是无效的</td>
-        <td>枚举号码对枚举来说是无效的</td>
+        <td>enum num is invalid</td>
+        <td>枚举编号对枚举无效</td>
       </tr>
       <tr>
-        <td>畸形的枚举</td>
-        <td>你没有正确创建枚举</td>
+        <td>malformed enum</td>
+        <td>您没有正确创建枚举</td>
       </tr>
       <tr>
-        <td>枚举[enum]已经被定义了</td>
-        <td>你试图使用与之前定义的另一个枚举相同的名称来定义一个枚举。</td>
+        <td>enum [enum] has already been defined</td>
+        <td>您试图使用与先前定义的另一个枚举相同的名称来定义该枚举。</td>
       </tr>
       <tr>
-        <td>畸形的枚举条目</td>
-        <td>该枚举有一个无效的条目</td>
+        <td>malformed enum entry</td>
+        <td>枚举中有一个无效条目</td>
       </tr>
       <tr>
-        <td>枚举表达式必须是一个整数常数</td>
-        <td>枚举条目不能作为一个整数常数来计算</td>
+        <td>enum expression must be an integer constant</td>
+        <td>枚举项不能作为整数常量进行求值</td>
       </tr>
       <tr>
-        <td>枚举参考[键]不存在于[枚举]中</td>
-        <td>你试图用一个以前没有定义过的键来引用一个枚举条目。</td>
-      </tr>
-      <tr>
-        <td colspan="2" style="text-align: center;padding-top: 5px;padding-right: 10px;padding-left: 10px;padding-bottom: 8px">
-          <p><strong>预期的符号/值</strong></p>
-        </td>
-      </tr>
-      <tr>
-        <td>符号（预期<br>
-          符号）预期<br>
-          符号，或）预期<br>
-          符号 { 预期的<br>
-          符号 } 预期<br>
-          符号 ，或 } 预期<br>
-          符号：预期<br>
-          符号；预期<br>
-          符号[预期<br>
-          符号] 预期<br>
-          符号，或]预期</td>
-        <td>你在编写代码时没有使用必要的符号</td>
-      </tr>
-      <tr>
-        <td>预期的ID或字符串</td>
-        <td>你在一个Layer函数中使用了一个既不是图层ID也不是图层名称的值--作为<span class="notranslate">string</span> 。</td>
-      </tr>
-      <tr>
-        <td>关键字 直到预期</td>
-        <td>你创建了一个do...until<span class="notranslate">loop</span> ，但忽略了提供一个until表达式。</td>
-      </tr>
-      <tr>
-        <td>预期的功能名称</td>
-        <td>你在你的代码中使用了函数名称以外的东西，而不是一个函数应该去的地方</td>
-      </tr>
-      <tr>
-        <td>预期的变量名称</td>
-        <td>你提供了一个不是变量名的名字，而这个名字是应该有的。</td>
-      </tr>
-      <tr>
-        <td>预期的赋值运算符</td>
-        <td>你创建了一个期望有运算符的赋值，但没有提供运算符。</td>
+        <td>enum reference [key] does not exist in [enum]</td>
+        <td>您尝试使用先前未为枚举定义的键引用枚举条目</td>
       </tr>
       <tr>
         <td colspan="2" style="text-align: center;padding-top: 5px;padding-right: 10px;padding-left: 10px;padding-bottom: 8px">
-          <p><b>安卓独家</b></p>
+          <p><strong>预期符号 / 值</strong></p>
         </td>
       </tr>
       <tr>
-        <td>Android<span class="notranslate">ARM</span> ToolChain目录[dir]不存在</td>
-        <td><span class="notranslate">Android</span> 首选项中给出的<span class="notranslate">ARM</span> 工具链的链接是不正确的，不存在。</td>
+        <td>Symbol ( expected<br />
+          Symbol ) expected<br />
+          Symbol , or ) expected<br />
+          Symbol { expected<br />
+          Symbol } expected<br />
+          Symbol , or } expected<br />
+          Symbol : expected<br />
+          Symbol ; expected<br />
+          Symbol [ expected<br />
+          symbol ] expected<br />
+          Symbol , or ] expected</td>
+        <td>您在编写代码时未使用必填符号</td>
       </tr>
       <tr>
-        <td>Android MIPS ToolChain目录[dir]不存在</td>
-        <td><span class="notranslate">Android</span> Preferences中给出的MIPS工具链的链接是不正确的，不存在。</td>
+        <td>Expected id or string</td>
+        <td>您在某个图层函数中使用了一个既不是图层 ID 也不是图层名称（字符串）的值</td>
       </tr>
       <tr>
-        <td>安卓x86工具链目录[dir]不存在</td>
-        <td><span class="notranslate">Android</span> Preferences中给出的x86工具链的链接是不正确的，不存在。</td>
+        <td>keyword Until expected</td>
+        <td>您创建了一个 do... until 循环，但忽略了提供终点表达式</td>
       </tr>
       <tr>
-        <td>安卓NDK目录[dir]不存在</td>
-        <td><span class="notranslate">Android</span> Preferences中给出的<span class="notranslate">Android</span> NDK的链接不正确，不存在。</td>
+        <td>Function name expected</td>
+        <td>您在代码中使用了函数名以外的其他名称，而函数名应放在此处</td>
+      </tr>
+      <tr>
+        <td>variable name expected</td>
+        <td>您提供的名称不是预期的变量名</td>
+      </tr>
+      <tr>
+        <td>Assignment operator expected</td>
+        <td>您创建的赋值需要运算符，但没有提供运算符</td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: center;padding-top: 5px;padding-right: 10px;padding-left: 10px;padding-bottom: 8px">
+          <p><b>Android 独占</b></p>
+        </td>
+      </tr>
+      <tr>
+        <td>Android ARM ToolChain directory [dir] does not exist</td>
+        <td>Android 偏好设置中给出的 ARM 工具链链接不正确，也不存在。</td>
+      </tr>
+      <tr>
+        <td>Android MIPS ToolChain directory [dir] does not exist</td>
+        <td>Android 偏好设置中给出的 MIPS 工具链链接不正确，也不存在。</td>
+      </tr>
+      <tr>
+        <td>Android x86 ToolChain directory [dir] does not exist</td>
+        <td>Android 偏好设置中给出的 x86 工具链链接不正确，也不存在。</td>
+      </tr>
+      <tr>
+        <td>Android NDK directory [dir] does not exist</td>
+        <td>Android 偏好设置中给出的 Android NDK 链接不正确，也不存在。</td>
       </tr>
       <tr>
         <td colspan="2">
-          <p><strong>窗口专用</strong></p>
+          <p>Windows 独占</p>
         </td>
       </tr>
       <tr>
-        <td>配置问题：<span class="notranslate">Windows</span> <span class="notranslate">Visual Studio</span> <span class="notranslate">Path</span> 需要设置为指向<span class="notranslate">Visual Studio</span> （.bat）批处理文件。</td>
-        <td><span class="notranslate">Windows</span> 首选项中给出的<span class="notranslate">Visual Studio</span> （.bat）批处理文件的链接不正确，不存在。</td>
+        <td>Configuration Problem : Windows Visual Studio Path needs to be set to point to Visual Studio (.bat) batch file.</td>
+        <td>Windows 偏好设置中给出的 Visual Studio (.bat) 批次文件链接不正确，也不存在。</td>
       </tr>
     </tbody>
   </table>
-  <p> </p>
-  <p> </p>
-  <p> </p>
+  <p> </p>
+  <p> </p>
+  <p> </p>
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div style="float:left">返回。<a href="../Error_Reporting.htm">错误报告</a></div>
-        <div style="float:right">下一个。<a href="Runner_Errors.htm">跑步者的错误</a></div>
+        <div style="float:left">Back: <a href="../Error_Reporting.htm">Error Reporting</a></div>
+        <div style="float:right">Next: <a href="Runner_Errors.htm">Runner Errors</a></div>
       </div>
     </div>
-    <h5><span data-keyref="Copyright Notice">© Copyright<span class="notranslate">YoYo Games Ltd.</span> 2022 All Rights Reserved</span></h5>
+    <h5><span data-keyref="Copyright Notice">© Copyright YoYo Games Ltd. 2023 All Rights Reserved</span></h5>
   </div>
   <!-- KEYWORDS
 Compiler Errors

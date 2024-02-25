@@ -28,7 +28,7 @@ jobs:
       - name: Enable git long paths to bypass path limit on Windows
         run: git config --system core.longpaths true
       - name: Check out the GMS2_Documentation repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         with:
           path: Manual  
           token: ${{ secrets.GH_TOKEN }}

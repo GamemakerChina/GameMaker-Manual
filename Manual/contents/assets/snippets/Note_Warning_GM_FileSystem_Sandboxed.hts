@@ -8,6 +8,6 @@
   <link rel="stylesheet" type="text/css" href="../css/default.css"/>
 </head>
 <body>
-  <p class="note"><b><span data-conref="Tag_warning.hts"> </span> </b>This function may not work as you expect due to <span data-keyref="GameMaker Name">GameMaker</span> being sandboxed! Please see the section on <a data-xref="{title}" href="../../Additional_Information/The_File_System.htm">The File System</a> for more information.</p>
+  <p class="note"><b><span data-conref="Tag_warning.hts"> </span> </b>This may not work as you expect due to <span data-keyref="GameMaker 名称">GameMaker</span> being sandboxed! Please see the section on <a data-xref="{title}" href="../../Additional_Information/The_File_System.htm">The File System</a> for more information.</p>
 
 </body></html>
