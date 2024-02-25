@@ -1,49 +1,50 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <meta name="generator" content="Adobe RoboHelp 2022"/>
-  <title>Project Format</title>
-  <meta name="topic-status" content="Draft"/>
-  <link rel="stylesheet" type="text/css" href="../assets/css/default.css"/>
-  <meta name="template" content="../assets/masterpages/Manual_Page.htt"/>
-  <meta name="rh-authors" content="Bart Teunis"/>
-  <meta name="topic-comment" content="Page explaining the details of GameMaker&#39;s project format"/>
-  <meta name="search-keywords" content="project,format,structure,resource order,resource,order,yyp,YYP,YYZ,yyz,YYMPS,YYMP,GMEZ,GMX,package,custom order,project format,.resource_order"/>
-  <meta name="rh-index-keywords" content="project format"/>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2022" />
+  <title>项目格式</title>
+  <meta name="topic-status" content="Draft" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/default.css" />
+  <meta name="template" content="../assets/masterpages/Manual_Page.htt" />
+  <meta name="rh-authors" content="Bart Teunis" />
+  <meta name="topic-comment" content="Page explaining the details of GameMaker&#39;s project format" />
+  <meta name="search-keywords" content="project,format,structure,resource order,resource,order,yyp,YYP,YYZ,yyz,YYMPS,YYMP,GMEZ,GMX,package,custom order,project format,.resource_order" />
+  <meta name="rh-index-keywords" content="project format" />
 </head>
 <body>
-  <h1><span data-field="title" data-format="default">Project Format</span></h1>
-  <p>This page contains details on the project format used by <span data-keyref="GameMaker 名称">GameMaker</span>.</p>
-  <h2>Format Basics</h2>
-  <h3>The YYP Project File</h3>
-  <p>At the root is the main project file, with a <span class="inline2">*.yyp</span> extension. It describes the resources in the project and other meta data specific to it.</p>
-  <h3>The .resource_order File</h3>
-  <p>Next to it is another file with the same name, but a <span class="inline2">*.resource_order</span> extension instead. This file stores the order of groups and assets in <a data-xref="{title}" href="../Introduction/The_Asset_Browser.htm">The Asset Browser</a> used when the filter is set to <strong>Custom Order</strong>.</p>
-  <p class="note"><span data-conref="../assets/snippets/Tag_tip.hts"> </span> When using version control, you can e.g. add this file to .gitignore so each user of the project can have their own custom ordering in <a data-xref="{title}" href="../Introduction/The_Asset_Browser.htm">The Asset Browser</a>.</p>
-  <h3>YY Files</h3>
-  <p>These are resource files; they store information on individual assets in a <span data-keyref="GameMaker 名称">GameMaker</span> project. They describe the data for the resource and any other files belonging to the resource (e.g. scripts, shaders, images and audio files). These data are stored in a JSON-like format.</p>
-  <h2>YYZ Files</h2>
-  <p>This type of file stores a compressed project export, created via the <strong>Export Project</strong> &gt; <strong>YYZ</strong> option in <a data-xref="{title}" href="../IDE_Navigation/Menus/The_File_Menu.htm">The File Menu</a>. Depending on the version of <span data-keyref="GameMaker 名称">GameMaker</span>, the compression method used may vary.</p>
-  <h2>Local Asset Packages</h2>
-  <p>These are created and imported from (part of) a project&#39;s contents using <strong>Create Local Package</strong> and <strong>Import Local Package</strong> respectively in <a data-xref="{title}" href="../IDE_Navigation/Menus/The_Tools_Menu.htm">The Tools Menu</a>.</p>
-  <p>The following is an overview of the file formats used by different <span data-keyref="GameMaker 名称">GameMaker</span> versions: </p>
+  <h1><span data-field="title" data-format="default">项目格式</span></h1>
+  <p>本页包含 <span data-keyref="GameMaker 名称">GameMaker</span> 使用的项目格式的详细信息。</p>
+  <h2>基础格式</h2>
+  <h3>YYP 项目文件</h3>
+  <p>根文件是主项目文件，扩展名为<span class="inline2">*.yyp</span> ，它描述了项目中的资源和其他特定的元数据。</p>
+  <h3>.resource_order 文件</h3>
+  <p>旁边还有一个文件，名称相同，但扩展名为 <span class="inline2">*.resource_order</span>。当过滤器设置为<strong>自定义顺序</strong>时，该文件将存储 <a data-xref="{title}" href="../Introduction/The_Asset_Browser.htm">The Asset Browser</a> 中组和资产的顺序。</p>
+  <p class="note"><span data-conref="../assets/snippets/Tag_tip.hts"> </span> 使用版本控制时，可以将此文件添加到 .gitignore 中，这样项目的每个用户都可以在 <a data-xref="{title}" href="../Introduction/The_Asset_Browser.htm">The Asset Browser</a> 中拥有自己的自定义排序。</p>
+  <h3>YY 文件</h3>
+  <p>这些是资源文件；它们存储 <span data-keyref="GameMaker 名称">GameMaker</span> 项目中单个资产的信息。它们描述了资源的数据以及属于资源的任何其他文件（例如脚本、着色器、图像和音频文件）。这些数据以类似 JSON 的格式存储。</p>
+  <h2>YYZ 文件</h2>
+  <p>这种类型的文件存储的是通过 <a data-xref="{title}" href="../IDE_Navigation/Menus/The_File_Menu.htm">The File Menu</a> 中的 <strong>导出项目 &gt; <strong>YYZ</strong> </strong>选项创建的压缩项目导出。根据 <span data-keyref="GameMaker 名称">GameMaker</span> 版本的不同，使用的压缩方法也可能不同。</p>
+  <h2>本地资产包</h2>
+  <p>在 <a data-xref="{title}" href="../IDE_Navigation/Menus/The_Tools_Menu.htm">The Tools Menu</a> 中分别使用 &quot;<strong>创建本地软件包</strong>&quot; 和 &quot;<strong>导入本地软件包</strong>&quot; 来创建和导入项目内容（部分内容）。</p>
+  <p>以下是不同 <span data-keyref="GameMaker 名称">GameMaker</span> 版本使用的文件格式概览： </p>
   <ul class="Disc">
-    <li>YYMPS - Compressed Marketplace Asset 2.3+; a file containing a marketplace asset stored in a compressed manner.</li>
-    <li>YYMP - Compressed Marketplace Asset &lt; 2.3; older formatted marketplace asset stored in a compressed manner. These will be upgraded on import.</li>
-    <li>GMEZ - Compressed Marketplace Asset 1.x; older again formatted marketplace asset. These will be upgraded on import.</li>
-    <li>GMX - Resource File 1.x; older formatted resource file. project.gmx are project files and will be upgraded on import. Importing GMX resources as standalone is not supported.</li>
+    <li>YYMPS - 压缩市场资产 (&gt; 2.3) - 包含以压缩方式存储的市场资产的文件。</li>
+    <li>YYMP - 压缩市场资产 (&lt; 2.3) - 以压缩方式存储的旧格式市场资产。这些资产将在导入时升级。</li>
+    <li>GMEZ - 压缩市场资产 1.x；再次格式化的旧版市场资产。这些将在导入时升级。</li>
+    <li>GMX - project.gmx 是项目文件，将在导入时升级。不支持将 GMX 资源作为独立文件导入。</li>
   </ul>
   <p> </p>
   <p> </p>
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div>Back: <a data-xref="{title}" href="Additional_Information.htm">Additional Information</a></div>
+        <div>Back: <a data-xref="{title}" href="Additional_Information.htm">附加信息</a></div>
         <div>Next: <a data-xref="{title}" href="Compatibility_Functions.htm">Compatibility Functions</a></div>
       </div>
     </div>
     <h5><span data-keyref="Copyright Notice">© Copyright YoYo Games Ltd. 2023 All Rights Reserved</span></h5>
   </div>
-
-</body></html>
+</body>
+</html>

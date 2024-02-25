@@ -9,6 +9,6 @@
   <link rel="stylesheet" type="text/css" href="../css/default.css" />
 </head>
 <body>
-  <p class="note"><span data-conref="Tag_important.hts"> </span> It is possible to turn off sandboxing on the Desktop targets (Windows, macOS, and Ubuntu) by checking the <strong>Disable file system sandbox</strong> option in the <a data-xref="{title}" href="../../Settings/Game_Options.htm">Game Options</a> for the target platform. You do this at your own risk, and while this will open up file saving and loading and permit you to access files anywhere on the given system, it may still be limited by the OS permissions.</p>
+  <p class="note"><span data-conref="Tag_important.hts"> </span> 在目标平台的 &quot;游戏选项 &quot;中勾选 &quot;<strong>禁用文件系统沙盒</strong>&quot; 选项，可以关闭桌面目标平台（Windows、macOS 和 Ubuntu）上的沙盒功能。虽然这样可以打开文件保存和加载并允许您访问指定系统上的任何文件，但仍可能受到操作系统权限的限制。</p>
 </body>
 </html>

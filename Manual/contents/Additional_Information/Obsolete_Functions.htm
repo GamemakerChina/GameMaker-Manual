@@ -1,94 +1,95 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Obsolete Functions</title>
-  <meta name="generator" content="Adobe RoboHelp 2022"/>
-  <link rel="stylesheet" href="../assets/css/default.css" type="text/css"/>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>过时的函数</title>
+  <meta name="generator" content="Adobe RoboHelp 2022" />
+  <link rel="stylesheet" href="../assets/css/default.css" type="text/css" />
   <script src="../assets/scripts/main_script.js" type="module"></script>
-  <meta name="rh-authors" content="Mark Alexander"/>
-  <meta name="topic-comment" content="Page that explains the various Obsolete Functions"/>
-  <meta name="rh-index-keywords" content="Obsolete Functions"/>
-  <meta name="search-keywords" content="Obsolete Functions"/>
+  <meta name="rh-authors" content="Mark Alexander" />
+  <meta name="topic-comment" content="Page that explains the various Obsolete Functions" />
+  <meta name="rh-index-keywords" content="Obsolete Functions" />
+  <meta name="search-keywords" content="Obsolete Functions" />
 </head>
 <body>
   <!--<div class="body-scroll" style="top: 150px;">-->
-  <h1><span data-field="title" data-format="default">Obsolete Functions</span></h1>
-  <p>Here you can find a list of all the functions that have been made obsolete when you compare <span data-keyref="GameMaker 名称">GameMaker</span> to legacy versions of the product. The functions listed here will be converted into <a href="Compatibility_Scripts.htm">compatibility scripts</a> when you import a <span class="inline">*.yyz</span> made with a legacy version, and you can continue to work on the project as before. However, we recommend that you revise all the compatibility scripts created in a project, and ensure that future projects use the new functions/methods of working rather than depend on these scripts.</p>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#">Backgrounds</a></p>
+  <h1><span data-field="title" data-format="default">过时的函数</span></h1>
+  <p>在这里，您可以找到将 <span data-keyref="GameMaker 名称">GameMaker</span> 与旧版本产品进行比较时被淘汰的所有函数列表。当您导入使用旧版本制作的 *.yyz 时，这里列出的函数将被转换为<a href="Compatibility_Scripts.htm">兼容脚本</a>，您可以像以前一样继续处理项目。不过，我们建议您修改项目中创建的所有兼容脚本，并确保今后的项目使用新的函数/工作方法，而不是依赖这些脚本。</p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#">背景</a></p>
   <div class="droptext" data-targetname="drop-down">
-    <p class="dropspot">In legacy GameMaker you had a separate <strong>background </strong>resource, where you could add images to be used as backgrounds. In <span data-keyref="GameMaker 名称">GameMaker</span> all images are considered sprites, and the use you put them too will depend on the layer they are assigned to in the room. This means that there is no longer a &quot;background&quot; resource, and it also means that the following functions are obsolete:</p>
+    <p class="dropspot">在传统 <span data-keyref="GameMaker 名称">GameMaker</span> 中，您有一个单独的背景资源，可以添加图像作为背景。在 GameMaker 中，所有图片都被视为精灵，您如何使用它们取决于它们在房间中被分配到哪一层。这意味着不再有 &quot;背景 &quot;资源，也意味着以下函数已经过时：</p>
     <table class=" cke_show_border">
       <tbody>
         <tr>
           <td>draw_background</td>
           <td style="">draw_background_ext</td>
-          <td style="">draw_background_<br/>
+          <td style="">draw_background_<br />
             stretched</td>
-          <td>draw_background_<br/>
+          <td>draw_background_<br />
             stretched_ext</td>
         </tr>
         <tr>
-          <td>draw_background_<br/>
+          <td>draw_background_<br />
             part</td>
-          <td style="">draw_background_<br/>
+          <td style="">draw_background_<br />
             part_ext</td>
-          <td style="">draw_background_<br/>
+          <td style="">draw_background_<br />
             general</td>
-          <td>draw_background_<br/>
+          <td>draw_background_<br />
             tiled</td>
         </tr>
         <tr>
-          <td>draw_background_<br/>
+          <td>draw_background_<br />
             tiled_ext</td>
           <td style="">background_name</td>
           <td style="">background_exists</td>
-          <td>background_get_<br/>
+          <td>background_get_<br />
             name</td>
         </tr>
         <tr>
           <td>draw_background</td>
           <td style="">draw_background_ext</td>
-          <td style="">draw_background_<br/>
+          <td style="">draw_background_<br />
             stretched</td>
-          <td>draw_background_<br/>
+          <td>draw_background_<br />
             stretched_ext</td>
         </tr>
         <tr>
-          <td>background_get_<br/>
+          <td>background_get_<br />
             width</td>
-          <td style="">background_get_<br/>
+          <td style="">background_get_<br />
             height</td>
-          <td style="">background_get_<br/>
+          <td style="">background_get_<br />
             transparent</td>
-          <td>background_get_<br/>
+          <td>background_get_<br />
             smooth</td>
         </tr>
         <tr>
-          <td>background_get_<br/>
+          <td>background_get_<br />
             preload</td>
           <td style="">background_get_uvs</td>
-          <td style="">background_get_<br/>
+          <td style="">background_get_<br />
             texture</td>
-          <td>background_set_alpha_<br/>
+          <td>background_set_alpha_<br />
             from_background</td>
         </tr>
         <tr>
-          <td>background_create_<br/>
+          <td>background_create_<br />
             from_surface</td>
-          <td style="">background_create_<br/>
+          <td style="">background_create_<br />
             color</td>
-          <td style="">background_create_<br/>
+          <td style="">background_create_<br />
             colour</td>
-          <td>background_create_<br/>
+          <td>background_create_<br />
             gradient</td>
         </tr>
         <tr>
           <td>background_add</td>
           <td style="">background_replace</td>
-          <td style="">background_add_<br/>
+          <td style="">background_add_<br />
             alpha</td>
-          <td>background_replace_<br/>
+          <td>background_replace_<br />
             alpha</td>
         </tr>
         <tr>
@@ -99,75 +100,75 @@
         </tr>
         <tr>
           <td>background_prefetch</td>
-          <td style="">background_<br/>
+          <td style="">background_<br />
             prefetch_multi</td>
           <td style="">background_flush</td>
-          <td>background_flush_<br/>
+          <td>background_flush_<br />
             multi</td>
         </tr>
         <tr>
           <td>room_set_background</td>
-          <td style="">room_set_<br/>
+          <td style="">room_set_<br />
             background_colour</td>
           <td style=""> </td>
         </tr>
       </tbody>
     </table>
-    <p class="dropspot">Legacy GameMaker lso had a number of different background variables that accessed the global background array. These are no longer required in <span data-keyref="GameMaker 名称">GameMaker</span>:</p>
+    <p class="dropspot">传统的 GameMaker 也有许多不同的背景变量，可以访问全局背景数组。<span data-keyref="GameMaker 名称">GameMaker</span> 中不再需要这些变量：</p>
     <table class=" cke_show_border">
       <tbody>
         <tr>
         </tr>
         <tr>
-          <td>background_<br/>
+          <td>background_<br />
             index[0..7]</td>
-          <td>background_<br/>
+          <td>background_<br />
             visible[0..7]</td>
-          <td>background_<br/>
+          <td>background_<br />
             alpha[0..7]</td>
-          <td>background_<br/>
+          <td>background_<br />
             blend[0..7]</td>
         </tr>
         <tr>
           <td>background_x[0..7]</td>
           <td>background_y[0..7]</td>
-          <td>background_<br/>
+          <td>background_<br />
             colour</td>
-          <td>background_<br/>
+          <td>background_<br />
             showcolour</td>
         </tr>
         <tr>
-          <td>background_<br/>
+          <td>background_<br />
             foreground[0..7]</td>
-          <td>background_<br/>
+          <td>background_<br />
             hspeed[0..7]</td>
-          <td>background_<br/>
+          <td>background_<br />
             vspeed[0..7]</td>
-          <td>background_<br/>
+          <td>background_<br />
             htiled[0..7]</td>
         </tr>
         <tr>
-          <td>background_<br/>
+          <td>background_<br />
             vtiled[0..7]</td>
-          <td>background_<br/>
+          <td>background_<br />
             width[0..7]</td>
-          <td>background_<br/>
+          <td>background_<br />
             height[0..7]</td>
-          <td>background_<br/>
+          <td>background_<br />
             xscale[0..7]</td>
         </tr>
         <tr>
-          <td>background_<br/>
+          <td>background_<br />
             yscale[0..7]</td>
         </tr>
       </tbody>
     </table>
-    <p class="dropspot">You can find out more about <b>Background Layers</b> from the section on the <a href="../The_Asset_Editors/Room_Properties/Layer_Properties.htm">Room Editor</a>, and for more information on the functions that control background layers using code see <a href="../GameMaker_Language/GML_Reference/Asset_Management/Rooms/Background_Layers/Background_Layers.htm">Background Layers</a>.</p>
+    <p class="dropspot">您可以从 <a data-cke-saved-href="../The_Asset_Editors/Room_Properties/Layer_Properties.htm" href="../The_Asset_Editors/Room_Properties/Layer_Properties.htm">房间编辑器</a> 部分了解有关背景图层的更多信息，有关使用代码控制背景图层的函数的更多信息，请参阅 <a data-cke-saved-href="../GameMaker_Language/GML_Reference/Asset_Management/Rooms/Background_Layers/Background_Layers.htm" href="../GameMaker_Language/GML_Reference/Asset_Management/Rooms/Background_Layers/Background_Layers.htm">背景图层</a> 。</p>
     <p> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#">Tiles</a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#">图块</a></p>
   <div class="droptext" data-targetname="drop-down1">
-    <p class="dropspot">As with backgrounds (explained above) the <strong>tile </strong>resource from legacy GameMaker no longer exists, and instead we have <strong>Tile Sets</strong> in <span data-keyref="GameMaker 名称">GameMaker</span>. In legacy <span data-keyref="GameMaker 名称">GameMaker</span>, tiles used a background resource and were placed at different depths in the room editor or through code, however the method used was not terribly flexible and was also not that efficient. To address these issues, in <span data-keyref="GameMaker 名称">GameMaker</span> tilesets are now created from a sprite resource, and can have various different properties (like animation or auto-tiling). They are then placed on a tilemap layer within the room editor or through code. Due to these changes the following functions are now obsolete:</p>
+    <p class="dropspot">与背景一样（如上所述），传统 <span data-keyref="GameMaker 名称">GameMaker</span> 中的图块资源已不复存在，取而代之的是 <span data-keyref="GameMaker 名称">GameMaker</span> 中的图块集。在传统 <span data-keyref="GameMaker 名称">GameMaker</span> 中，图块使用背景资源，并在房间编辑器中或通过代码放置在不同的深度，然而这种方法并不是非常灵活，而且效率也不高。为了解决这些问题，现在在 <span data-keyref="GameMaker 名称">GameMaker</span> 中，图块是通过精灵资源创建的，可以具有各种不同的属性（如动画或自动平铺）。然后，它们会被放置在房间编辑器或代码中的图块贴图层上。由于这些变化，以下函数现已过时：</p>
     <table class=" cke_show_border">
       <tbody>
         <tr>
@@ -229,12 +230,12 @@
         </tr>
       </tbody>
     </table>
-    <p class="dropspot">You can find out more about Tile Sets from the manual section on the <a href="../The_Asset_Editors/Tile_Sets.htm">Tile Set Editor</a> and about how to use them in the room editor from the section on <a href="../The_Asset_Editors/Room_Properties/Layer_Properties.htm">Tile Layers</a>. For more information on the functions that control background layers using code see <a href="../GameMaker_Language/GML_Reference/Asset_Management/Rooms/Tile_Map_Layers/Tile_Map_Layers.htm">Tilemap Layers</a>. It is also worth noting that the GameMaker Language has some specific funtions related to using legacy tiles in imported projects, and you can find information on those <a href="Compatibility_Functions.htm">here</a>.</p>
+    <p class="dropspot">有关图块集的更多信息，请参阅手册中的<a data-cke-saved-href="../The_Asset_Editors/Tile_Sets.htm" href="../The_Asset_Editors/Tile_Sets.htm">图块集编辑器</a>部分；有关如何在房间编辑器中使用图块集的更多信息，请参阅<a data-cke-saved-href="../The_Asset_Editors/Room_Properties/Layer_Properties.htm" href="../The_Asset_Editors/Room_Properties/Layer_Properties.htm">图块层</a>部分。有关使用代码控制背景图层的函数的更多信息，请参阅<a data-cke-saved-href="../GameMaker_Language/GML_Reference/Asset_Management/Rooms/Tile_Map_Layers/Tile_Map_Layers.htm" href="../GameMaker_Language/GML_Reference/Asset_Management/Rooms/Tile_Map_Layers/Tile_Map_Layers.htm">图块地图图层</a>。值得注意的是，GameMaker 语言还有一些与在导入项目中使用传统图块相关的特定功能，您可以在<a data-cke-saved-href="Compatibility_Functions.htm" href="Compatibility_Functions.htm">这里</a>找到相关信息。</p>
     <p class="dropspot"> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#">Objects</a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#">物体</a></p>
   <div class="droptext" data-targetname="drop-down2">
-    <p class="dropspot">The way objects are treated in <span data-keyref="GameMaker 名称">GameMaker</span> has changed slightly due to the introduction of layers in the room editor. There still exists the &quot;depth&quot; variable, but it is now only really used for compatibility and you can no longer get or set the depth for objects, only instances. This makes the following functions obsolete:</p>
+    <p class="dropspot">由于在房间编辑器中引入了图层，<span data-keyref="GameMaker 名称">GameMaker</span> 处理对象的方式略有改变。深度变量仍然存在，但它现在只用于兼容，你不能再获取或设置对象的深度，只能获取或设置实例的深度。这使得以下函数过时：</p>
     <table class=" cke_show_border">
       <tbody>
         <tr>
@@ -245,12 +246,12 @@
         </tr>
       </tbody>
     </table>
-    <p class="dropspot">You can find out more about object resources from the manual section on the <a href="../The_Asset_Editors/Objects.htm">Object Editor</a> and on the functions that control objects using code from the section <a href="../GameMaker_Language/GML_Reference/Asset_Management/Objects/Objects.htm">Objects</a>.</p>
+    <p class="dropspot">有关对象资源的更多信息，请参阅手册中的 <a data-cke-saved-href="../The_Asset_Editors/Objects.htm" href="../The_Asset_Editors/Objects.htm">物体编辑器</a> 部分，以及 <a data-cke-saved-href="../GameMaker_Language/GML_Reference/Asset_Management/Objects/Objects.htm" href="../GameMaker_Language/GML_Reference/Asset_Management/Objects/Objects.htm">物体</a> 部分中使用代码控制对象的函数。</p>
     <p class="dropspot"> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#">Sounds</a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#">声音</a></p>
   <div class="droptext" data-targetname="drop-down3">
-    <p class="dropspot">Legacy GameMaker had two different sound API&#39;s, one which used the deprecated <span class="inline">sound_</span> functions (that was only really valid for the HTML5 target platform), and the other which used the <span class="inline">audio_</span> functions. The audio API has been improved and expanded in <span data-keyref="GameMaker 名称">GameMaker</span>, making the legacy functions listed below obsolete:</p>
+    <p class="dropspot">旧版 GameMaker 有两个不同的声音 API，一个使用已废弃的 <span class="inline">sound_</span> 函数（仅对 HTML5 目标平台有效），另一个使用 <span class="inline">audio_ </span>函数。<span data-keyref="GameMaker 名称">GameMaker</span> 对音频 API 进行了改进和扩展，因此下面列出的传统函数已经过时：</p>
     <table class=" cke_show_border">
       <tbody>
         <tr>
@@ -294,12 +295,12 @@
         </tr>
       </tbody>
     </table>
-    <p class="dropspot">You can find out more about audio resources from the manual section on the <a href="../The_Asset_Editors/Sounds.htm">Sound Editor</a> and on the functions that control audio using code from the section on <a href="../GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio.htm">Audio</a>. </p>
+    <p class="dropspot">您可以从手册中的<a data-cke-saved-href="../The_Asset_Editors/Sounds.htm" href="../The_Asset_Editors/Sounds.htm">声音编辑器</a>部分了解更多有关音频资源的信息，也可以从<a data-cke-saved-href="../GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio.htm" href="../GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio.htm">音频</a>部分了解使用代码控制音频的函数。</p>
     <p class="dropspot"> </p>
   </div>
   <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down4" href="#">D3D</a></p>
   <div class="droptext" data-targetname="drop-down4">
-    <p class="dropspot">When using 3D models or primitives in legacy GameMaker, you had to use the <span class="inline">d3d_</span> functions. These used an obsolete API for drawing and in many cases were not related strictly to Direct 3D API, or even to using 3D itself. With the advent of vertex buffers, matrices and cameras in <span data-keyref="GameMaker 名称">GameMaker</span>, the following functions have been made obsolete:</p>
+    <p class="dropspot">在传统 GameMaker 中使用 3D 模型或基元时，必须使用 <span class="inline">d3d_</span> 函数。这些函数使用的是过时的绘制 API，而且在很多情况下与直接 3D API 甚至与使用 3D 本身都没有严格的关系。随着顶点缓冲区、矩阵和摄像头在 <span data-keyref="GameMaker 名称">GameMaker</span> 中的出现，以下函数已经过时：</p>
     <table class=" cke_show_border">
       <tbody>
         <tr>
@@ -323,69 +324,69 @@
           <td>d3d_set_projection_ext</td>
         </tr>
         <tr>
-          <td>d3d_set_projection_<br/>
+          <td>d3d_set_projection_<br />
             ortho</td>
-          <td>d3d_set_projection_<br/>
+          <td>d3d_set_projection_<br />
             perspective</td>
-          <td>d3d_transform_set_<br/>
+          <td>d3d_transform_set_<br />
             identity</td>
-          <td>d3d_transform_<br/>
+          <td>d3d_transform_<br />
             set_translation</td>
         </tr>
         <tr>
-          <td>d3d_transform_set_<br/>
+          <td>d3d_transform_set_<br />
             scaling</td>
-          <td>d3d_transform_<br/>
+          <td>d3d_transform_<br />
             set_rotation_x</td>
-          <td>d3d_transform_set_<br/>
+          <td>d3d_transform_set_<br />
             rotation_y</td>
-          <td>d3d_transform_<br/>
+          <td>d3d_transform_<br />
             set_rotation_z</td>
         </tr>
         <tr>
-          <td>d3d_transform_set_<br/>
+          <td>d3d_transform_set_<br />
             rotation_axis</td>
-          <td>d3d_transform_<br/>
+          <td>d3d_transform_<br />
             add_translation</td>
-          <td>d3d_transform_add_<br/>
+          <td>d3d_transform_add_<br />
             scaling</td>
-          <td>d3d_transform_<br/>
+          <td>d3d_transform_<br />
             add_rotation_x</td>
         </tr>
         <tr>
-          <td>d3d_transform_add_<br/>
+          <td>d3d_transform_add_<br />
             rotation_y</td>
-          <td>d3d_transform_<br/>
+          <td>d3d_transform_<br />
             add_rotation_z</td>
-          <td>d3d_transform_add_<br/>
+          <td>d3d_transform_add_<br />
             rotation_axis</td>
-          <td>d3d_transform_<br/>
+          <td>d3d_transform_<br />
             stack_clear</td>
         </tr>
         <tr>
-          <td>d3d_transform_stack_<br/>
+          <td>d3d_transform_stack_<br />
             empty</td>
-          <td>d3d_transform_<br/>
+          <td>d3d_transform_<br />
             stack_push</td>
-          <td>d3d_transform_stack_<br/>
+          <td>d3d_transform_stack_<br />
             pop</td>
-          <td>d3d_transform_<br/>
+          <td>d3d_transform_<br />
             stack_top</td>
         </tr>
         <tr>
-          <td>d3d_transform_stack_<br/>
+          <td>d3d_transform_stack_<br />
             discard</td>
           <td>d3d_transform_vertex</td>
-          <td>d3d_light_define_<br/>
+          <td>d3d_light_define_<br />
             ambient</td>
-          <td>d3d_light_define_<br/>
+          <td>d3d_light_define_<br />
             direction</td>
         </tr>
         <tr>
           <td>d3d_light_define_point</td>
           <td>d3d_light_enable</td>
           <td>d3d_primitive_begin</td>
-          <td>d3d_primitive_<br/>
+          <td>d3d_primitive_<br />
             begin_texture</td>
         </tr>
         <tr>
@@ -396,24 +397,24 @@
         </tr>
         <tr>
           <td>d3d_vertex_texture</td>
-          <td>d3d_vertex_texture_<br/>
+          <td>d3d_vertex_texture_<br />
             color</td>
-          <td>d3d_vertex_texture_<br/>
+          <td>d3d_vertex_texture_<br />
             colour</td>
           <td>d3d_vertex_normal</td>
         </tr>
         <tr>
-          <td>d3d_vertex_normal_<br/>
+          <td>d3d_vertex_normal_<br />
             color</td>
-          <td>d3d_vertex_normal_<br/>
+          <td>d3d_vertex_normal_<br />
             colour</td>
-          <td>d3d_vertex_normal_<br/>
+          <td>d3d_vertex_normal_<br />
             texture</td>
-          <td>d3d_vertex_normal_<br/>
+          <td>d3d_vertex_normal_<br />
             texture_color</td>
         </tr>
         <tr>
-          <td>d3d_vertex_normal_<br/>
+          <td>d3d_vertex_normal_<br />
             texture_colour</td>
           <td>d3d_draw_block</td>
           <td>d3d_draw_cylinder</td>
@@ -433,38 +434,38 @@
         </tr>
         <tr>
           <td>d3d_model_draw</td>
-          <td>d3d_model_primitive_<br/>
+          <td>d3d_model_primitive_<br />
             begin</td>
-          <td>d3d_model_<br/>
+          <td>d3d_model_<br />
             primitive_end</td>
           <td>d3d_model_vertex</td>
         </tr>
         <tr>
-          <td>d3d_model_vertex_<br/>
+          <td>d3d_model_vertex_<br />
             color</td>
-          <td>d3d_model_vertex_<br/>
+          <td>d3d_model_vertex_<br />
             colour</td>
-          <td>d3d_model_<br/>
+          <td>d3d_model_<br />
             vertex_texture</td>
-          <td>d3d_model_vertex_<br/>
+          <td>d3d_model_vertex_<br />
             texture_color</td>
         </tr>
         <tr>
-          <td>d3d_model_vertex_<br/>
+          <td>d3d_model_vertex_<br />
             texture_colour</td>
-          <td>d3d_model_vertex_<br/>
+          <td>d3d_model_vertex_<br />
             normal</td>
-          <td>d3d_model_<br/>
+          <td>d3d_model_<br />
             vertex_normal_color</td>
-          <td>d3d_model_vertex_<br/>
+          <td>d3d_model_vertex_<br />
             normal_colour</td>
         </tr>
         <tr>
-          <td>d3d_model_vertex_<br/>
+          <td>d3d_model_vertex_<br />
             normal_texture</td>
-          <td>d3d_model_vertex_<br/>
+          <td>d3d_model_vertex_<br />
             normal_texture_color</td>
-          <td>d3d_model_vertex_<br/>
+          <td>d3d_model_vertex_<br />
             normal_texture_colour</td>
           <td>d3d_model_block</td>
         </tr>
@@ -479,12 +480,12 @@
         </tr>
       </tbody>
     </table>
-    <p class="dropspot">You can find out more about vertex buffers <a href="../GameMaker_Language/GML_Reference/Drawing/Primitives/Primitives_And_Vertex_Formats.htm">here</a>, more about matrices <a href="../GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions/Matrix_Functions.htm">here</a>, more about cameras <a href="../GameMaker_Language/GML_Reference/Cameras_And_Display/Cameras_And_Viewports/Cameras_And_View_Ports.htm">here</a>, and more about the GPU functions <a href="../GameMaker_Language/GML_Reference/Drawing/GPU_Control/GPU_Control.htm">here</a>.</p>
+    <p class="dropspot">您可以在<a data-cke-saved-href="../GameMaker_Language/GML_Reference/Drawing/Primitives/Primitives_And_Vertex_Formats.htm" href="../GameMaker_Language/GML_Reference/Drawing/Primitives/Primitives_And_Vertex_Formats.htm">这里</a>了解有关顶点缓冲区的更多信息，在<a data-cke-saved-href="../GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions/Matrix_Functions.htm" href="../GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions/Matrix_Functions.htm">这里</a>了解有关矩阵的更多信息，在<a data-cke-saved-href="../GameMaker_Language/GML_Reference/Cameras_And_Display/Cameras_And_Viewports/Cameras_And_View_Ports.htm" href="../GameMaker_Language/GML_Reference/Cameras_And_Display/Cameras_And_Viewports/Cameras_And_View_Ports.htm">这里</a>了解有关摄像机的更多信息，在<a data-cke-saved-href="../GameMaker_Language/GML_Reference/Drawing/GPU_Control/GPU_Control.htm" href="../GameMaker_Language/GML_Reference/Drawing/GPU_Control/GPU_Control.htm">这里</a>了解有关 GPU 函数的更多信息。</p>
     <p class="dropspot"> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down5" href="#">View Variables And Window Functions</a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down5" href="#">视图变量和窗口函数</a></p>
   <div class="droptext" data-targetname="drop-down5">
-    <p class="dropspot">With the advent of the camera functions in <span data-keyref="GameMaker 名称">GameMaker</span>, it means that a number of view variables are no longer required, specifically those referring to the view into the room rather than the view_port (which is still used). There are also a few functions for controlling how things are displayed that were available in legacy versions of GameMaker Studio which are also no longer appropriate. These variables and functions are listed below:</p>
+    <p class="dropspot">随着 <span data-keyref="GameMaker 名称">GameMaker</span> 中相机函数的出现，这意味着一些视图变量不再需要，特别是那些指进入房间的视图而不是 view_port（仍在使用）的变量。此外，GameMaker Studio 旧版本中还有一些用于控制事物显示方式的函数，现在也不再适用。下面列出了这些变量和函数：</p>
     <table class=" cke_show_border">
       <tbody>
         <tr>
@@ -502,70 +503,70 @@
         <tr>
           <td>view_hspeed</td>
           <td>view_vspeed</td>
-          <td>display_set_windows_<br/>
+          <td>display_set_windows_<br />
             vertex_buffer_method</td>
-          <td>display_get_windows_<br/>
+          <td>display_get_windows_<br />
             vertex_buffer_method</td>
         </tr>
         <tr>
-          <td>display_set_windows_<br/>
+          <td>display_set_windows_<br />
             alternate_sync</td>
-          <td>display_get_windows_<br/>
+          <td>display_get_windows_<br />
             alternate_sync</td>
           <td>room_set_view</td>
         </tr>
       </tbody>
     </table>
-    <p class="dropspot">You can find out more about cameras from the manual section on <a href="../GameMaker_Language/GML_Reference/Cameras_And_Display/Cameras_And_Display.htm">Cameras And The Display</a>.</p>
+    <p class="dropspot">您可以从手册的 <a data-cke-saved-href="../GameMaker_Language/GML_Reference/Cameras_And_Display/Cameras_And_Display.htm" href="../GameMaker_Language/GML_Reference/Cameras_And_Display/Cameras_And_Display.htm">摄像机和显示</a> 部分了解有关摄像头的更多信息。</p>
     <p> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#">3rd Party Support</a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down6" href="#">第三方支持</a></p>
   <div class="droptext" data-targetname="drop-down6">
-    <p class="dropspot"><span data-keyref="GameMaker 名称">GameMaker</span> moves a lot of built in functionality from previous versions into <a href="../The_Asset_Editors/Extensions.htm">extensions</a>, meaning that the following 3rd party support functions are considered obsolete:</p>
+    <p class="dropspot"><span data-keyref="GameMaker 名称">GameMaker</span> 将以前版本中的大量内置函数移入<a data-cke-saved-href="../The_Asset_Editors/Extensions.htm" href="../The_Asset_Editors/Extensions.htm">扩展</a>中，这意味着以下第三方支持函数将被视为过时：</p>
     <table class=" cke_show_border">
       <tbody>
         <tr>
           <td>ads_enable</td>
           <td>ads_disable</td>
           <td>ads_move</td>
-          <td>ads_get_display_<br/>
+          <td>ads_get_display_<br />
             width</td>
         </tr>
         <tr>
-          <td>ads_get_display_<br/>
+          <td>ads_get_display_<br />
             height</td>
-          <td>ads_interstitial_<br/>
+          <td>ads_interstitial_<br />
             available</td>
-          <td>ads_interstitial_<br/>
+          <td>ads_interstitial_<br />
             display</td>
           <td>ads_setup</td>
         </tr>
         <tr>
-          <td>ads_engagement_<br/>
+          <td>ads_engagement_<br />
             available</td>
-          <td>ads_engagement_<br/>
+          <td>ads_engagement_<br />
             launch</td>
-          <td>ads_engagement_<br/>
+          <td>ads_engagement_<br />
             active</td>
           <td>ads_event</td>
         </tr>
         <tr>
           <td>ads_event_preload</td>
-          <td>ads_set_reward_<br/>
+          <td>ads_set_reward_<br />
             callback</td>
-          <td>playhaven_add_<br/>
+          <td>playhaven_add_<br />
             notification_badge</td>
-          <td>playhaven_hide_<br/>
+          <td>playhaven_hide_<br />
             notification_badge</td>
         </tr>
         <tr>
-          <td>playhaven_position_<br/>
+          <td>playhaven_position_<br />
             notification_badge</td>
-          <td>playhaven_update_<br/>
+          <td>playhaven_update_<br />
             notification_badge</td>
-          <td>pocketchange_display_<br/>
+          <td>pocketchange_display_<br />
             reward</td>
-          <td>pocketchange_display_<br/>
+          <td>pocketchange_display_<br />
             shop</td>
         </tr>
         <tr>
@@ -575,27 +576,27 @@
           <td>facebook_login</td>
         </tr>
         <tr>
-          <td>facebook_request_<br/>
+          <td>facebook_request_<br />
             publish_permissions</td>
-          <td>facebook_request_<br/>
+          <td>facebook_request_<br />
             read_permissions</td>
-          <td>facebook_check_<br/>
+          <td>facebook_check_<br />
             permission</td>
           <td>facebook_status</td>
         </tr>
         <tr>
           <td>facebook_accesstoken</td>
           <td>facebook_user_id</td>
-          <td>facebook_graph_<br/>
+          <td>facebook_graph_<br />
             request</td>
           <td>facebook_dialog</td>
         </tr>
         <tr>
           <td>facebook_send_invite<span style="display: none;"> </span><span style="display: none;"> </span></td>
-          <td>facebook_post_<br/>
+          <td>facebook_post_<br />
             message <span style="display: none;"> </span><span style="display: none;"> </span></td>
           <td>facebook_logout<span style="display: none;"> </span></td>
-          <td>facebook_launch_<br/>
+          <td>facebook_launch_<br />
             offerwall <span style="display: none;"> </span></td>
         </tr>
         <tr>
@@ -633,12 +634,12 @@
         </tr>
       </tbody>
     </table>
-    <p class="dropspot">You can get our official extensions for advertising and other APIs from the <a href="https://marketplace.yoyogames.com/publishers/23/yoyo-games">Marketplace Page</a>.</p>
+    <p class="dropspot">您可以从 <a data-cke-saved-href="https://marketplace.yoyogames.com/publishers/23/yoyo-games" href="https://marketplace.yoyogames.com/publishers/23/yoyo-games">市场页面</a> 获取我们的广告官方扩展和其他 API。</p>
     <p class="dropspot"> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down7" href="#"><span data-keyref="GML_Visual">GML Visual</span> Actions</a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down7" href="#">GML 可视化操作</a></p>
   <div class="droptext" data-targetname="drop-down7">
-    <p class="dropspot">Both legacy GameMaker and <span data-keyref="GameMaker 名称">GameMaker</span> have a visual scripting <strong>GML Visual</strong> interface for creating your games, however the way it is handled in <span data-keyref="GameMaker 名称">GameMaker</span> is quite different to the previous methods used. Previously, all GML Visual actions had their own corresponding function which worked &quot;behind the scenes&quot; to get the desired results, however this was not very transparent and added in extra overheads to the function calls, resulting in poorer performance. In <span data-keyref="GameMaker 名称">GameMaker</span> this has been changed, and now all actions compile to pure code (and can be shown as such if required), meaning that the following action functions are obsolete:</p>
+    <p class="dropspot">传统 GameMaker 和 <span data-keyref="GameMaker 名称">GameMaker</span> 都有一个可视化脚本 <strong>GML Visual</strong> 界面来创建游戏，但 <span data-keyref="GameMaker 名称">GameMaker</span> 中的处理方式与以前使用的方法大不相同。以前，所有 GML Visual 操作都有自己对应的函数，这些函数在 &quot;幕后 &quot;工作，以获得所需的结果，但这并不是很透明，而且会给函数调用增加额外的开销，导致性能较差。在 <span data-keyref="GameMaker 名称">GameMaker</span> 中，这种情况已经改变，现在所有动作都编译为纯代码（如果需要，也可以显示为纯代码），这意味着以下动作函数已经过时：</p>
     <table class=" cke_show_border">
       <tbody>
         <tr>
@@ -745,7 +746,7 @@
         </tr>
         <tr>
           <td>action_replace_sound</td>
-          <td>action_replace_<br/>
+          <td>action_replace_<br />
             background</td>
           <td>action_if_empty</td>
           <td>action_if_collision</td>
@@ -835,7 +836,7 @@
           <td>action_draw_ellipse</td>
         </tr>
         <tr>
-          <td>action_draw_<br/>
+          <td>action_draw_<br />
             ellipse_gradient</td>
           <td>action_draw_line</td>
           <td>action_draw_arrow</td>
@@ -852,32 +853,32 @@
         </tr>
       </tbody>
     </table>
-    <p class="dropspot">You can find out more about the new GML Visual from the manual section on <a href="../Drag_And_Drop/Drag_And_Drop_Index.htm">GML Visual</a>.</p>
+    <p class="dropspot">您可以从 <a data-cke-saved-href="../Drag_And_Drop/Drag_And_Drop_Index.htm" href="../Drag_And_Drop/Drag_And_Drop_Index.htm">GML Visual</a> 手册部分了解有关新 GML Visual 的更多信息。</p>
     <p class="dropspot"> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down9" href="#">Vectors and Matrices</a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down9" href="#">向量和矩阵</a></p>
   <div class="droptext" data-targetname="drop-down9">
-    <p class="dropspot">The data type used to store vectors and matrices in <span data-keyref="GameMaker 名称">GameMaker</span> are <a data-xref="{title}" href="../GameMaker_Language/GML_Overview/Arrays.htm">Arrays</a>. Therefore, the following functions relating to working with vectors and matrices were removed: </p>
+    <p class="dropspot"><span data-keyref="GameMaker 名称">GameMaker</span> 中用于存储向量和矩阵的数据类型是<a data-xref="{title}" data-cke-saved-href="../GameMaker_Language/GML_Overview/Arrays.htm" href="../GameMaker_Language/GML_Overview/Arrays.htm">Arrays</a>。因此，删除了以下与处理矢量和矩阵有关的函数： </p>
     <table class=" cke_show_border">
       <tbody>
-        <tr class="rh-cursor-column">
+        <tr>
           <td>is_vec3</td>
           <td>is_vec4</td>
           <td>is_matrix</td>
         </tr>
       </tbody>
     </table>
-    <p class="dropspot">These functions appeared to check for a specific type, while the underlying type is always an array or a range of an array (of respectively length 3, 4 and 16). E.g. the functions <span class="inline3_func"><a data-xref="{title}" href="../GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions/matrix_build.htm">matrix_build</a></span> and <span class="inline3_func"><a data-xref="{title}" href="../GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions/matrix_build_identity.htm">matrix_build_identity</a></span> return a <em>matrix</em>, of which the 16 elements are stored in an <em>array</em> datatype. To check the datatype you should use <span class="inline3_func"><a data-xref="{title}" href="../GameMaker_Language/GML_Reference/Variable_Functions/is_array.htm">is_array</a></span> instead and combine this with the length of the array given by <span class="inline3_func"><a data-xref="{title}" href="../GameMaker_Language/GML_Reference/Variable_Functions/array_length.htm">array_length</a></span> to work out the datatype.</p>
-    <p class="note"><span data-conref="../assets/snippets/Tag_note.hts"> </span> Checking for an array datatype and its length doesn&#39;t mean the actual contents represent a valid vector or matrix.</p>
-    <p class="dropspot">Alternatively, to store vectors and matrices you can use other data structures provided by <span data-keyref="GameMaker 名称">GameMaker</span>, such as <a data-xref="{title}" href="../GameMaker_Language/GML_Reference/Buffers/Buffers.htm">Buffers</a>, <a data-xref="{title}" href="../GameMaker_Language/GML_Reference/Data_Structures/DS_Grids/DS_Grids.htm">DS Grids</a> a <a data-xref="{bookmarkText}" href="../GameMaker_Language/GML_Overview/Structs.htm#struct">struct</a> or even a <a href="../GameMaker_Language/GML_Reference/Drawing/Surfaces/Surfaces.htm">surface</a> to store the same information, instead of a dedicated data type.</p>
+    <p class="dropspot">这些函数似乎在检查特定类型，而底层类型始终是数组或数组范围（长度分别为 3、4 和 16）。例如，函数 <span class="inline3_func"><a data-xref="{title}" data-cke-saved-href="../GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions/matrix_build.htm" href="../GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions/matrix_build.htm">matrix_build</a></span>和<span class="inline3_func"><a data-xref="{title}" data-cke-saved-href="../GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions/matrix_build_identity.htm" href="../GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions/matrix_build_identity.htm">matrix_build_identity</a></span>返回一个矩阵，其中 16 个元素存储在数组数据类型中。要检查数据类型，应使用<span class="inline3_func"><a data-xref="{title}" data-cke-saved-href="../GameMaker_Language/GML_Reference/Variable_Functions/is_array.htm" href="../GameMaker_Language/GML_Reference/Variable_Functions/is_array.htm">is_array</a></span>，并结合<span class="inline3_func"><a data-xref="{title}" data-cke-saved-href="../GameMaker_Language/GML_Reference/Variable_Functions/array_length.htm" href="../GameMaker_Language/GML_Reference/Variable_Functions/array_length.htm">array_length</a></span>给出的数组长度计算出数据类型。</p>
+    <p class="note"><span data-conref="../assets/snippets/Tag_note.hts"> </span> 检查数组数据类型及其长度并不意味着实际内容代表有效的向量或矩阵。</p>
+    <p class="dropspot">另外，您也可以使用 <span data-keyref="GameMaker 名称">GameMaker</span> 提供的其他数据结构（如 <a data-xref="{title}" data-cke-saved-href="../GameMaker_Language/GML_Reference/Buffers/Buffers.htm" href="../GameMaker_Language/GML_Reference/Buffers/Buffers.htm">Buffers</a>、<a data-xref="{title}" data-cke-saved-href="../GameMaker_Language/GML_Reference/Data_Structures/DS_Grids/DS_Grids.htm" href="../GameMaker_Language/GML_Reference/Data_Structures/DS_Grids/DS_Grids.htm">DS Grids</a>、<a data-xref="{bookmarkText}" data-cke-saved-href="../GameMaker_Language/GML_Overview/Structs.htm#struct" href="../GameMaker_Language/GML_Overview/Structs.htm#struct">struct</a> 或 <a href="../GameMaker_Language/GML_Reference/Drawing/Surfaces/Surfaces.htm">表面</a>）来存储向量和矩阵，而不用专门的数据类型。</p>
   </div>
   <p> </p>
-  <p>The following built-in global variables are also obsolete, although they are still considered reserved variables in GML so that the IDE can recognise them and flag them for updating/removing when a legacy project that uses them is imported (as are the variables listed under the Views and the Backgrounds sections, above):</p>
+  <p>以下内置全局变量也已过时，不过它们在 GML 中仍被视为保留变量，以便集成开发环境能识别它们，并在导入使用它们的旧项目时标记它们以进行更新/删除（如上文视图和背景部分所列的变量）：</p>
   <table>
     <tbody>
       <tr>
         <td>gamemaker_registered</td>
-        <td style="">gamemaker_progamemaker_<br/>
+        <td style="">gamemaker_progamemaker_<br />
           version</td>
         <td style="">secure_mode</td>
       </tr>
@@ -926,5 +927,5 @@ Obsolete Functions
   <!-- TAGS
 obsolete_functions
 -->
-
-</body></html>
+</body>
+</html>
