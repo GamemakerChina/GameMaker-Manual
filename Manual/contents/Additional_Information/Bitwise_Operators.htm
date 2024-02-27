@@ -1,191 +1,192 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Bitwise Operators</title>
-  <meta name="generator" content="Adobe RoboHelp 2022"/>
-  <link rel="stylesheet" href="../assets/css/default.css" type="text/css"/>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>位运算符</title>
+  <meta name="generator" content="Adobe RoboHelp 2022" />
+  <link rel="stylesheet" href="../assets/css/default.css" type="text/css" />
   <script src="../assets/scripts/main_script.js" type="module"></script>
-  <meta name="rh-authors" content="Mark Alexander"/>
-  <meta name="topic-comment" content="Page that explains how bitwise operators work"/>
-  <meta name="rh-index-keywords" content="Bitwise Operators"/>
-  <meta name="search-keywords" content="bitwise,bitwise operators"/>
+  <meta name="rh-authors" content="Mark Alexander" />
+  <meta name="topic-comment" content="Page that explains how bitwise operators work" />
+  <meta name="rh-index-keywords" content="Bitwise Operators" />
+  <meta name="search-keywords" content="bitwise,bitwise operators" />
 </head>
 <body>
   <!--<div class="body-scroll" style="top: 150px;">-->
-  <h1>Bitwise Operators And Binary</h1>
-  <p>At the beginning of the computer era, <strong>binary</strong> and <strong>hex</strong> (hexadecimal) were a way of life, probably because high level languages (such as BASIC) were simply too slow to run. For example, multiplying 32 x 32 might have taken various CPU cycles to achieve using BASIC, but with binary it is done as a single operation in a single CPU cycle.</p>
-  <p>These days however, with the power of even a basic PC, you no longer have to worry about this and you can do things the &quot;long way&quot;, since the speed of the machine and its more complex CPU construction will make up for any short comings this approach has. This is great news of course, since it means that you no longer have to optimise every line of code you write, but if this is the case - should you really care about binary at all?</p>
-  <p>The answer is definitely &quot;yes, you should&quot;. While it&#39;s true you can still get some speed ups - and sometimes these can be significant - using binary and hex leads to a better understanding of how the CPU operates and can also lead to writing better code, being able to pack data better, and making some tasks a lot simpler. This page is going to explain a bit about what binary is as well as how it can be used when making your games.</p>
-  <p class="note"><span data-conref="../assets/snippets/Tag_note.hts"> </span> To write binary literals in GML, prefix them with <span class="inline2">0b</span> (e.g. <span class="inline2">0b0010</span>). See <a data-xref="{title}" href="../GameMaker_Language/GML_Overview/Data_Types.htm">Data Types</a> for more information.</p>
-  <p>Let&#39;s look at the most basic binary theory first - how numbers are created. Take a look at this table:</p>
-  <p class="code">000 = 0<br/>
-    001 = 1<br/>
-    010 = 2<br/>
+  <h1>位运算符</h1>
+  <p>在计算机时代的初期，二进制和十六进制是一种执行方式，这可能是因为高级语言（如 BASIC）的运行速度太慢。例如，如果使用 BASIC，32 x 32 的乘法运算可能需要多个 CPU 周期才能完成，但二进制运算只需一个 CPU 周期即可完成。</p>
+  <p>但如今，即使是一台最基本的 PC，也有了强大的功能，您不必再担心这个问题，您可以 &quot;长驱直入&quot;，因为机器的速度和更复杂的 CPU 结构可以弥补这种方法的不足。这当然是个好消息，因为这意味着您不必再优化您编写的每一行代码，但如果是这样的话，您真的应该关心二进制代码吗？</p>
+  <p>答案肯定是 &quot;是的，你应该这样做&quot;。使用二进制和十六进制可以让您更好地了解 CPU 的运行方式，还能让您写出更好的代码，更好地打包数据，并让某些任务变得更加简单。本页将简要介绍什么是二进制以及在制作游戏时如何使用二进制。</p>
+  <p class="note"><span data-conref="../assets/snippets/Tag_note.hts"> </span> 要在 GML 中写入二进制字面量，前缀为<span class="inline2">0b</span>（如<span class="inline2">0b0010</span>）。更多信息请参阅 <a data-xref="{title}" href="../GameMaker_Language/GML_Overview/Data_Types.htm">Data Types</a>。</p>
+  <p>让我们先看看最基本的二进制理论--数字是如何产生的。请看这个表格：</p>
+  <p class="code">000 = 0<br />
+    001 = 1<br />
+    010 = 2<br />
     100 = 4</p>
-  <p>Each 1 or 0 represents a single <a class="glossterm" data-glossterm="比特" href="#">比特</a> of data, and as you can see this means that in binary, 10 equals 2! Each bit is 2 times the previous value with the first bit being equal to 1. So bit 2 = 2, bit 3 = 4, bit 4 = 8 and so on (as shown below in this <a class="glossterm" data-glossterm="字节" href="#">字节</a> table):</p>
-  <p class="code">00000001 = 1<br/>
-    00000010 = 2<br/>
-    00000100 = 4<br/>
-    00001000 = 8<br/>
-    00010000 = 16<br/>
-    00100000 = 32<br/>
-    01000000 = 64<br/>
+  <p>每个 1 或 0 代表一个<a class="glossterm" data-glossterm="比特" href="#">比特</a>的数据，如你所见，这意味着在二进制中，10 等于 2！因此，第 2 位 = 2，第 3 位 = 4，第 4 位 = 8，依此类推（如下<a class="glossterm" data-glossterm="字节" href="#">字节</a>表所示）：</p>
+  <p class="code">00000001 = 1<br />
+    00000010 = 2<br />
+    00000100 = 4<br />
+    00001000 = 8<br />
+    00010000 = 16<br />
+    00100000 = 32<br />
+    01000000 = 64<br />
     10000000 = 128</p>
-  <p>That&#39;s fine if you want numbers that are a power of 2, but how do we create more complex numbers? Well a single binary number can only store a 0 or 1, and that&#39;s it, so for more complex numbers we need to add bits together. If for example we wanted to make 6, we would add 4 and 2 together like so.</p>
-  <p class="code">00000010 = 2<br/>
-    00000100 = 4<br/>
+  <p>如果你想要的数字是 2 的幂，那就没问题，但我们如何创建更复杂的数字呢？单个二进制数只能存储 0 或 1，仅此而已，因此我们需要将比特相加才能得到更复杂的数字。举例来说，如果我们想组成 6，我们可以这样把 4 和 2 相加。</p>
+  <p class="code">00000010 = 2<br />
+    00000100 = 4<br />
     00000110 = 6</p>
-  <p>This is true of <strong>all </strong>binary numbers, and how the computer makes up any number internally. Let&#39;s take a slightly more complicated number as a further example: 23. The number 23 is actually made up of <span class="inline">1+2+4+16</span> or <span class="inline">00010111</span>. How about a much more complex example: 196? Well, that&#39;s made from <span class="inline">128+64+4</span> or <span class="inline">11000100</span>. So actually it&#39;s not that complex really!</p>
-  <p>If we start doing values outside of the range of a byte (which can store numbers from 0 to 255), it does start to get a little harder to track, however. For example, 217,361 is <span class="inline">110101000100010001</span> in binary. Or, <span class="inline">1+16+256+etc...</span> The rules are the same no matter what the value being expressed is - each number is created from adding multiple bits together.</p>
-  <p>Now, how do we perform mathematical operations on these values? Let&#39;s say you want to store <span class="inline">true</span> or <span class="inline">false</span> as a value. Usually compilers will use an <span class="inline">INT</span> (an <span class="inline">INT</span> is usually defined as a signed 32bit number - signed just means it can a positive or negative value, while unsigned means it can only be positive) and then simply assign it to <span class="inline">0</span> or <span class="inline">1</span>. Having only 2 states, a <span class="inline">true</span> / <span class="inline">false</span> value is ideal to store in a bit, and if we did this we could store 32 <span class="inline">true</span> / <span class="inline">false</span> bits for each <span class="inline">INT</span> rather than just one, since an <span class="inline">INT</span> is made up of 32 bits.</p>
-  <p>How would we do this? Well pretty easily it turns out:</p>
+  <p>所有二进制数都是如此，计算机内部也是这样组成任何数字的。我们再举一个稍微复杂一点的数字：23。数字 23 实际上是由 1+2+4+16 或 00010111 组成的。再举个更复杂的例子：196？这是由 128+64+4 或 11000100 组成的。所以其实也没那么复杂！</p>
+  <p>如果我们开始使用字节（可存储 0 到 255 之间的数字）范围之外的值，就会变得有点难以追踪。例如，217,361 在二进制中是 11010100010001。或者，1+16+256+等等... 无论表达的数值是多少，规则都是一样的--每个数字都是由多个比特相加而成的。</p>
+  <p>现在，我们如何对这些值进行数学运算呢？比方说，你想把 &quot;真 &quot;或 &quot;假 &quot;存储为一个值。通常编译器会使用 INT（INT 通常被定义为带符号的 32 位数字--带符号只是表示它可以是正值或负值，而无符号则表示它只能是正值），然后简单地将其赋值为 0 或 1。如果我们这样做，每个 INT 就可以存储 32 个真/假位，而不是只有一个，因为 INT 是由 32 位组成的。</p>
+  <p>我们该怎么做呢？事实证明，这非常容易：</p>
   <p class="code">flags = flags | 1;</p>
-  <p>The &quot;<span class="inline">|</span>&quot; operator is a bitwise <span class="inline">OR</span>, and this means the above instruction <span class="inline">ORs</span> 1 into the value held in the variable <span class="inline">flags</span>. If you remember from earlier, using a 1 will set the first bit. If we wanted to set the second bit, we would do this:</p>
+  <p>操作符 &quot;<span class="inline">|</span>&quot; 是位操作 <span class="inline">OR</span>，这意味着上述指令将 1 <span class="inline">OR </span>到变量 <span class="inline">flags </span>中的值中。如果你还记得，使用 1 将设置第一位。如果我们想设置第二位，可以这样做：</p>
   <p class="code">flags = flags | 2;</p>
-  <p>We <span class="inline">OR</span> in 2, because the bit pattern <span class="inline">00000010</span> is equal to 2. So what exactly does the binary <span class="inline">OR</span> operator do? Well, it merges all the bits together into a single value, like this:</p>
-  <p class="code">010110100 // Value 1<br/>
-    110011001 // value 2<br/>
+  <p>我们 <span class="inline">OR</span> 了 2, 因为比特数值 <span class="inline">00000010</span> 等于 2。那么，二进制 <span class="inline">OR</span> 运算符到底有什么作用呢？它将所有比特合并成一个值，就像这样:</p>
+  <p class="code">010110100 // Value 1<br />
+    110011001 // value 2<br />
     110111101 // Value 1 OR Value 2</p>
-  <p>Here&#39;s what&#39;s known as a <a class="glossterm" data-glossterm="真值表" href="#">真值表</a> for the OR operator:</p>
-  <p class="code">00 | 00 = 00<br/>
-    00 | 01 = 01<br/>
-    01 | 01 = 01<br/>
+  <p>这就是所谓的 <span class="inline">OR</span> 运算符的<a class="glossterm" data-glossterm="真值表" href="#">真值表</a>：</p>
+  <p class="code">00 | 00 = 00<br />
+    00 | 01 = 01<br />
+    01 | 01 = 01<br />
     01 | 00 = 01</p>
-  <p>So where there is a value with 2 zeros, it&#39;ll stay zero. The advantage of using bits like this as a <span class="inline">true</span>/<span class="inline">false</span> state, is they you can set several bits as &quot;flags&quot; in one operation, something you simply couldn&#39;t do with a normal boolean value. For example, let&#39;s say bit 1 is an &quot;active&quot; flag, and bit 3 is a &quot;visible&quot; flag. We could set both by doing this:</p>
+  <p>因此，如果数值中有 2 个 0，它就会保持为 0。使用这样的比特作为真/假状态的好处是，你可以在一次操作中设置多个比特作为 &quot;标志&quot;，这是普通布尔值无法做到的。例如，假设第 1 位是 &quot;激活 &quot;标志，第 3 位是 &quot;可见 &quot;标志。我们可以这样设置这两个标志：</p>
   <p class="code">flags = flags | 5<span class="inline"></span>;</p>
-  <p>This is because 5 is <span class="inline">00000101</span> in binary, and following the rule above, the variable &quot;flags&quot; will get both these 2 bits merged with its own. So even if bit 1 was already set, the operation still works and bit 3 will now also be set.</p>
-  <p>What about clearing flags? Well this is where the bitwise &quot;<span class="inline">&amp;</span>&quot; <span class="inline">AND</span> operation comes in. When you <span class="inline">AND</span> something, the bits that are set in the mask are kept, while the bits that are clear in the mask, are removed - like this:</p>
-  <p class="code">01110010101 // Value 1<br/>
-    00110000100 // Value 2<br/>
+  <p>这是因为 5 在二进制中的值是 00000101，根据上面的规则，变量 &quot;flags &quot;会将这两个位与自己的位合并。因此，即使第 1 位已经被设置，操作仍然有效，第 3 位也将被设置。</p>
+  <p>怎么清除标志？这就是比特 &quot;<span class="inline">&amp;</span>&quot; <span class="inline">AND</span> 运算的用武之地。与运算时，掩码中被设置的位将被保留，而掩码中被清除的位将被移除--就像这样：</p>
+  <p class="code">01110010101 // Value 1<br />
+    00110000100 // Value 2<br />
     00110000100 // Value 1 AND value 2</p>
-  <p>As you can see, where there is a 1 in each value, the 1 is kept, and where there is a mix or 0&#39;s and 1&#39;s these are reset to 0. Here&#39;s the truth table for <span class="inline">AND</span>ing:</p>
-  <p class="code">00 &amp; 00 = 00<br/>
-    01 &amp; 00 = 00<br/>
-    00 &amp; 01 = 00<br/>
+  <p>正如您所看到的，在每个值中都有 1 的地方，1 会被保留，而在 0 和 1 混合的地方，这些值会被重置为 0。 下面是 <span class="inline">AND</span> 运算的真值表：</p>
+  <p class="code">00 &amp; 00 = 00<br />
+    01 &amp; 00 = 00<br />
+    00 &amp; 01 = 00<br />
     01 &amp; 01 = 01</p>
-  <p>So, only when there is a bit in each place will it be kept. What this means, is that just as you are able to set multiple flags at once, you can also clear multiple flags at once. For example, let&#39;s take the case above, but this time clear them. We want to clear bits 1 and 3 (giving us the value 5), but in remembering the truth table above, what we want to do is keep all the other bits, and clear bits 1 and 3. This would be a binary &quot;mask&quot; of 11111111111111111111111111111010 (32bits). This mask keeps all bits currently set, but clears the two bits we actually want cleared. So if had a value of 1000111011 and I wanted to clear bits 1 and 3 using the mask above, it would end up as this...</p>
-  <p class="code">00000000000000000000001000111011 // Value<br/>
-    11111111111111111111111111111010 // Mask<br/>
+  <p>因此，只有当每个位置都有一个比特时，才会保留它。这意味着，正如可以同时设置多个标志位一样，也可以同时清除多个标志位。例如，让我们以上面的情况为例，但这次要清除它们。我们要清除第 1 位和第 3 位（得到值 5），但根据上面的真值表，我们要做的是保留所有其他位，并清除第 1 位和第 3 位。这就是二进制 &quot;掩码 &quot;11111111111111111111111111111111111010（32 位）。这个掩码保留了当前设置的所有位，但清除了我们实际想要清除的两个位。因此，如果数值为 1000111011，我想使用上述掩码清除第 1 位和第 3 位，最终结果将是这样的。</p>
+  <p class="code">00000000000000000000001000111011 // Value<br />
+    11111111111111111111111111111010 // Mask<br />
     00000000000000000000001000111010 // Value AND Mask</p>
-  <p>This is great, but if we had to work this out every time we needed to clear flags, it would become tiresome. What we need is a way to flip bits easily (and preferably without CPU cost). Fortunately there is an easy way of doing this by using the &quot; <span class="inline">~</span>&quot; <span class="inline">NOT</span> operator.</p>
-  <p>The <span class="inline">NOT</span> operator is just what it says - <em>not</em> those bits. Here&#39;s a truth table for <span class="inline">NOT</span>.</p>
-  <p class="code">~00 = 11<br/>
-    ~01 = 10<br/>
-    ~10 = 01<br/>
+  <p>这很好，但如果每次需要清除标记时都要这样做，就会让人厌烦。我们需要的是一种轻松翻转比特的方法（最好是不占用 CPU 资源）。幸运的是，有一种简单的方法可以做到这一点，那就是使用 &quot;<span class="inline">~</span>&quot; <span class="inline">NOT</span> 运算符。</p>
+  <p><span class="inline">NOT</span> 运算符就像它说的那样--&quot;不是(not)那些比特&quot;。下面是 <span class="inline">NOT</span> 的真值表。</p>
+  <p class="code">~00 = 11<br />
+    ~01 = 10<br />
+    ~10 = 01<br />
     ~11 = 00</p>
-  <p>This operator makes removing flags very simple, and better yet, it&#39;s usually a compile time optimisation meaning if you&#39;re using a constant number (i.e. not a variable) then the compiler will flip the bits automatically for you. Take this statement where we want to clear bits 1 and 3 again:</p>
+  <p>这个运算符使得移除标志变得非常简单，而且更妙的是，它通常会在编译时进行优化，也就是说，如果您使用的是常量（即不是变量），编译器会自动为您翻转位。就拿这条语句来说，我们要再次清除第 1 位和第 3 位：</p>
   <p class="code">a = a &amp; ~5;</p>
-  <p>This will actually compile down to just &quot;<span class="inline">a &amp; 11111111111111111111111111111010</span>&quot;. This makes life pretty simple in terms of clearing flags.</p>
-  <p>The last operator we want to look at is &quot;<span class="inline">^</span>&quot; <span class="inline">EOR</span> (<span class="inline">Exclusive OR</span>, sometimes called <span class="inline">XOR</span>), this operator flips the bits set in both values. Here&#39;s the <span class="inline">EOR</span> truth table:</p>
-  <p class="code">0 ^ 0 = 0<br/>
-    0 ^ 1 = 1<br/>
-    1 ^ 0 = 1<br/>
+  <p>实际上，这将编译为 &quot;a &amp; 111111111111111111111111111111111010&quot;。这样，清除标记就变得非常简单了。</p>
+  <p>我们要看的最后一个运算符是 &quot;<span class="inline">^</span>&quot; <span class="inline">EOR</span>（Exclusive OR，有时也称为 XOR），这个运算符会翻转两个值中设置的位。下面是 <span class="inline">EOR </span>的真值表：</p>
+  <p class="code">0 ^ 0 = 0<br />
+    0 ^ 1 = 1<br />
+    1 ^ 0 = 1<br />
     1 ^ 1 = 0</p>
-  <p>This is a curious one, but incredibly useful. For example, let&#39;s say we want a counter that simply counts from 0 to 1 and back to 0 (toggling between 0 and 1), we could add one and do an <span class="inline">IF</span> to see if it&#39;s gotten to 2, and then reset it back to 1. Or...we could add 1 and then <span class="inline">AND</span> it with 1 (since <span class="inline">01+01 = 10</span>, and <span class="inline">10 &amp; 01 = 0</span>) or we can do this:</p>
+  <p>这是一个奇怪的问题，但却非常有用。例如，假设我们想要一个从 0 数到 1 再回到 0（在 0 和 1 之间切换）的计数器，我们可以添加 1，然后做一个 IF 运算，看看它是否数到 2，然后重置回 1。或者......我们可以添加 1，然后与 1 AND（因为 01+01 = 10，而 10 &amp; 01 = 0），或者我们可以这样做：</p>
   <p class="code">a = a ^ 1;</p>
-  <p>What this does the first time it&#39;s run is <span class="inline">0 ^ 1 = 1</span>, then the second time <span class="inline">1 ^ 1 = 0</span>, thereby toggling things back and forth from 0 to 1.</p>
-  <p>So - <span class="inline">OR</span> (<span class="inline">|</span>), <span class="inline">AND</span>(<span class="inline">&amp;</span>), <span class="inline">NOT</span>(<span class="inline">~</span>) and <span class="inline">EOR</span>(<span class="inline">^</span>) let us manipulate bits with relative ease, allowing us, at the simplest level, to control multiple bits at once. We can obviously use these operations for other things when developing our games, like masking sprites, doing integer <span class="inline">MOD</span> operations (using <span class="inline">AND</span>) or doing nice looping counters.</p>
-  <p>So, we can do simply bitwise operations, but let&#39;s look at the more complex stuff, starting with the question, how does a computer add? Let&#39;s look at a very simple example: <span class="inline">1+1</span>.</p>
-  <p class="code">00000001<br/>
-    00000001<br/>
+  <p>第一次运行的结果是 0 ^ 1 = 1，第二次运行的结果是 1 ^ 1 = 0，从而在 0 和 1 之间来回切换。</p>
+  <p>因此，<span class="inline">OR</span> (<span class="inline">|</span>), <span class="inline">AND</span>(<span class="inline">&amp;</span>), <span class="inline">NOT</span>(<span class="inline">~</span>) 和 <span class="inline">EOR</span>(<span class="inline">^</span>) 可以让我们相对轻松地操作比特，在最简单的层面上，允许我们同时控制多个比特。显然，在开发游戏时，我们还可以使用这些操作来做其他事情，比如屏蔽精灵、进行整数 MOD 操作（使用 <span class="inline">AND</span>）或进行漂亮的循环计数。</p>
+  <p>因此，我们可以进行简单的位运算，但让我们从计算机如何进行加法运算这个问题开始，看看更复杂的东西。我们来看一个非常简单的例子：1+1。</p>
+  <p class="code">00000001<br />
+    00000001<br />
     00000010</p>
-  <p>Just like normal additions, we add numbers together and then we overflow into the next column, but unlike a normal decimal addition, we can only go from 0 to 1, not 0 to 9. So adding a <span class="inline">1+1</span> means we overflow into <span class="inline">10</span>. So let&#39;s look at a more complex example.</p>
-  <p class="code">01011011 = 91<br/>
-    00101101 = 45<br/>
+  <p>就像普通加法一样，我们将数字相加，然后溢出到下一列，但与普通十进制加法不同的是，我们只能从 0 加到 1，而不能从 0 加到 9。因此，加 1+1 意味着我们溢出到 10。让我们来看一个更复杂的例子。</p>
+  <p class="code">01011011 = 91<br />
+    00101101 = 45<br />
     10001000 = 136</p>
-  <p>It&#39;s obviously harder to see here, but the overflows ripple along until there are no ones in a column. It&#39;s worth noting, that computers can only add (or subtract, multiply or divide) 2 numbers at once. Take <span class="inline">19 + 19 + 19</span>. Being human, we can add all the 9&#39;s together, carry the 2 and then on we go! But computers can&#39;t do that - what they can do is this:<span class="inline"> (19 + 19) + 19</span>. So they&#39;ll do each calculation in blocks of 2.</p>
-  <p>The binary calculations that are of most interest to us as programmers are multiplication and division. Computers only multiply in 2s, and to do more it&#39;ll break a number apart, and then add all the results together. Let&#39;s take some very simple examples first. <span class="inline">4 * 2 = 8</span>. Now to multiply by 2 in binary, we <em>shift </em>all the bits to the LEFT by one. Like this:</p>
+  <p>这里显然比较难看，但溢出会一直波及到一列中没有 1。值得注意的是，计算机只能同时进行两个数的加法（或减法、乘法或除法）运算。以 19 + 19 + 19 为例。作为人类，我们可以用竖式计算，但计算机做不到这一点（除非使用高精度算法），它们能做到的是：(19 + 19) + 19。因此，它们会以 2 为单位进行计算。</p>
+  <p>作为程序员，我们最感兴趣的二进制计算是乘法和除法。计算机只能进行 2 的乘法运算，如果要进行更多的运算，计算机会将一个数字拆开，然后将所有结果相加。让我们先举几个非常简单的例子。4 * 2 = 8。现在要以二进制乘以 2，我们要将所有位向左移动一位。就像这样</p>
   <p class="code">00000100 * 2 = 00001000 = 8</p>
-  <p>All the bits in this case have moved to the left by one, making it move from the 3rd bit, to the 4th, and changing the value from 4 to 8. How about a larger number?</p>
+  <p>在这种情况下，所有位都向左移动了一位，使其从第 3 位移动到第 4 位，数值也从 4 变为 8。更大的数字呢？</p>
   <p class="code">101 = 01100101 * 2 = 11001010 = 202</p>
-  <p>Again, all the bits move on one, and that multiples by 2. So, how about a multiple by 4? Easy, we shift everything left by 2, rather than one. So how about 16, or 128? This would require a left shift of 4 bits, or 7 bits respectively. This is incredibly useful; it means we can do simple multiplications by simply moving bits around. To do this, we use the <strong>left shift</strong> operator <span class="inline">&lt;&lt;</span>. Here are some examples:</p>
-  <p class="code">00000001 &lt;&lt; 1 = 000000010 = 2<br/>
-    00000001 &lt;&lt; 2 = 000000100 = 4<br/>
-    00000001 &lt;&lt; 3 = 000001000 = 8<br/>
-    00000001 &lt;&lt; 4 = 000010000 = 16<br/>
-    00000001 &lt;&lt; 5 = 000100000 = 32<br/>
-    00000001 &lt;&lt; 6 = 001000000 = 64<br/>
-    00000001 &lt;&lt; 7 = 010000000 = 128<br/>
+  <p>那么，4 的倍数呢？很简单，我们将所有位向左移动 2，而不是 1。那么 16 或 128 呢？这需要分别左移 4 位或 7 位。这非常有用；它意味着我们只需移动比特就能进行简单的乘法运算。下面是一些例子：</p>
+  <p class="code">00000001 &lt;&lt; 1 = 000000010 = 2<br />
+    00000001 &lt;&lt; 2 = 000000100 = 4<br />
+    00000001 &lt;&lt; 3 = 000001000 = 8<br />
+    00000001 &lt;&lt; 4 = 000010000 = 16<br />
+    00000001 &lt;&lt; 5 = 000100000 = 32<br />
+    00000001 &lt;&lt; 6 = 001000000 = 64<br />
+    00000001 &lt;&lt; 7 = 010000000 = 128<br />
     00000001 &lt;&lt; 8 = 100000000 = 256</p>
-  <p>Now, aside from being very useful for fast/simple multiplications, it&#39;s also very useful for setting specific bits, without having to figure out the bit value. Let&#39;s say we wanted to set bit 27, what number is that? (67108864 by the way!), well we can use the syntax above to easily set flags like this:</p>
+  <p>现在，除了对快速/简单乘法非常有用外，它对设置特定位也非常有用，而无需计算位值。比方说，我们想设置第 27 位，这是什么数字？(对了，是 67108864！），那么我们可以使用上述语法轻松设置这样的标志：</p>
   <p class="code">a = a | (1 &lt;&lt; 27)</p>
-  <p>Okay... so actually this would be bit 26 the way we&#39;ve been describing things so far (as bits have been starting at one), but actually... bits start at bit 0, and go upwards, not at bit 1. So while there are 32 bits in an INTEGER, the bits range from 0 to 31, not 1 to 32. This is actually pretty useful, as we can now set up constants for bit numbers.</p>
-  <p>So let&#39;s say Bit 27 is an active flag, and bit 0 is an exploding flag. How can we set both?</p>
-  <p class="code">ACTIVE = 27;<br/>
-    BOOM = 0;<br/>
+  <p>好吧......按照我们目前的描述方式，这应该是第 26 位（因为位都是从 1 开始的），但实际上......位是从第 0 位开始向上移动的，而不是从第 1 位开始。因此，虽然一个 INTEGER 有 32 位，但位的范围是从 0 到 31，而不是 1 到 32。这实际上非常有用，因为我们现在可以为位数字设置常量。</p>
+  <p>因此，假设第 27 位是活动标志，而第 0 位是爆炸标志。我们怎样才能同时设置这两个位呢？</p>
+  <p class="code">ACTIVE = 27;<br />
+    BOOM = 0;<br />
     A = A | (1 &lt;&lt; ACTIVE) | (1 &lt;&lt; BOOM);</p>
-  <p>This may look like a lot of code, but if these numbers are constants, the compiler will pre-compile these operations into a single value so that we end up with this as actual code.</p>
+  <p>这看起来像是很多代码，但如果这些数字是常量，编译器就会将这些操作预先编译成一个值，这样我们最终得到的就是这样的实际代码。</p>
   <p class="code">A = A | 13421772;</p>
-  <p>Clearing these bits (as we saw above) is simply a matter of using the NOT modifier, like this:</p>
+  <p>清除这些位（如上所述）只需使用 NOT 修饰符，就像这样：</p>
   <p class="code">A = A &amp; ~((1 &lt;&lt; ACTIVE) | (1 &lt;&lt; BOOM));</p>
-  <p>So this happily lets us set and clear any bits we&#39;d like, and it also lets us compress out data structures massively. Compressing data structures is a good thing, because if you use less memory, you get less cache misses, and your code just runs faster. Put it this way, what&#39;s quicker, copying 32Mb or data, or 4Mb? Well, quite clearly 4 is. So if you can pack all yours flags down into a single memory access, this is good!</p>
-  <p>Now, let&#39;s take a quick look at how you do division, and why it&#39;s going to be so useful. Division is done by shifting the bits <em>right</em> using the <strong>right shift</strong> operator <span class="inline">&gt;&gt;</span>. Let&#39;s take a simple number - 64 - and divide it by 32:</p>
+  <p>这样，我们就能随心所欲地设置和清除任何位，还能大量压缩数据结构。压缩数据结构是件好事，因为如果使用的内存越少，缓存丢失的次数就越少，代码的运行速度也就越快。这么说吧，复制 32Mb 的数据和 4Mb 的数据哪个更快？很明显，4MB 更快。因此，如果能将所有标记都打包到单个内存访问中，那就再好不过了！</p>
+  <p>现在，让我们快速了解一下如何进行除法运算，以及为什么除法运算如此有用。除法是通过使用右移运算符 &gt;&gt; 右移位来完成的。让我们用一个简单的数字 64 除以 32：</p>
   <p class="code">64 / 32 = 01000000 &gt;&gt; 5 = 00000010</p>
-  <p>So there you shift the single bit down by 5 (which is the number of shifts required for 32 – look above), which gives us 2. But what happens if here are other bits in there? Well let&#39;s take a look:</p>
+  <p>因此，我们将单个比特向下移动 5 位（这是 32 位所需的移动次数，请看上文），得到 2 位。但是，如果还有其他比特，会发生什么情况呢？让我们来看看：</p>
   <p class="code">68 / 32 = 01000100 &gt;&gt; 5 = 00000010</p>
-  <p>So there you go…. It&#39;s exactly the same. The bits we shift down are simply lost. This is actually really useful, because when dividing down if we need the remainder, there&#39;s an even easier way to get it, which we&#39;ll get to in a moment. But first, let&#39;s take a practical example. I have an X and Y position, and I want to get the grid cell this falls in, where the grid is 32x32 in size. This method allows is to store objects, collisions, flags – all manner of things, and access them very quickly. So here we go:</p>
-  <p class="code">var X_index = x &gt;&gt; 5;<br/>
-    var Y_index = y &gt;&gt; 5;<br/>
+  <p>就是这样...... 完全一样。我们向下移动的位数只是丢失了。这实际上非常有用，因为在向下除时，如果我们需要余数，有一个更简单的方法可以得到，我们稍后会讲到。首先，让我们举一个实际的例子。我有一个 X 和 Y 的位置，我想得到这个位置所在的网格单元格，网格的大小为 32x32。这种方法可以存储对象、碰撞、标志等各种信息，并能快速访问它们。我们开始吧：</p>
+  <p class="code">var X_index = x &gt;&gt; 5;<br />
+    var Y_index = y &gt;&gt; 5;<br />
     cell_data = mygrid[# X_index,Y_index];</p>
-  <p>So, what if we wanted the remainder? Perhaps this remainder is used as some kind of order flag or something. Whatever the reason, getting a remainder is as simple as doing an <span class="inline">AND</span>:</p>
-  <p class="code">var remainder = x &amp; 31<br/>
+  <p>那么，如果我们想要余数呢？也许这个余数会被用作某种阶次标志之类的东西。不管是什么原因，获取余数就像做 AND 一样简单：</p>
+  <p class="code">var remainder = x &amp; 31<br />
     var X_Index = x &gt;&gt; 5;</p>
-  <p>Now, you might have noticed we&#39;ve used multiple lines of code here (as is so often the case), but this is still only a couple of very fast instructions. But why the 31? Well, as bit 5 is 32, then all the bits below would be 31, and that&#39;s the maximum remainder so that&#39;s what we <span class="inline">AND</span> with (we could also use <span class="inline">(1 &lt;&lt; 5) - 1</span> which would make <span class="inline">32 - 1 = 31</span>). Now, if I were to do this without understanding binary, it would look like this:</p>
-  <p class="code">var r = x mod 32;<br/>
+  <p>现在，你可能已经注意到，我们在这里使用了多行代码（这种情况很常见），但这仍然只是几个非常快速的指令。但为什么是 31 位呢？因为第 5 位是 32，那么下面所有的位都是 31，这是最大余数，所以我们就用了 31（我们也可以用 (1 &lt;&lt; 5) - 1，这样 32 - 1 = 31）。现在，如果我在不理解二进制的情况下进行运算，结果会是这样的：</p>
+  <p class="code">var r = x mod 32;<br />
     var X_Index = floor(x / 32);</p>
-  <p>So why is this much worse? Well, in order to divide by 32, we have to execute a floating point divide - which obviously takes time, but in order to do the <span class="inline">mod 32</span>, you actually have to do another one! If we were doing this in assembler, we actually get BOTH values in one divide, but you don&#39;t get this in high level languages (well… not very often), and so you have to do all the work twice. This adds up, especially if you&#39;re doing a tight loop with lots of calculations like this. Integer divides using bit shifting as shown above really help optimising your game.</p>
-  <p>Since this can be quite a complex concept to grasp and then apply to real-world programming situations, you can find below a series of short examples that could be applied to any game made with <span data-keyref="GameMaker 名称">GameMaker</span>.</p>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#">Tile Alignment</a></p>
+  <p>那么，为什么会更糟呢？为了除以 32，我们必须执行浮点除法--这显然需要时间，但为了执行模 32，你实际上必须执行另一个除法！如果我们用汇编程序来做，实际上一次除法就能得到两个值，但在高级语言中却不能这样做（嗯......不是很常见），所以你必须做两次所有的工作。这就增加了工作量，尤其是在进行大量类似计算的紧凑循环时。如上图所示，使用位移进行整除确实有助于优化游戏。</p>
+  <p>由于这可能是一个相当复杂的概念，要掌握它并将其应用到实际编程环境中，下面是一系列简短的示例，可以应用到任何使用 <span data-keyref="GameMaker 名称">GameMaker</span>制作的游戏中。</p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down" href="#">图块对齐</a></p>
   <div class="droptext" data-targetname="drop-down">
-    <p class="dropspot"><span data-keyref="GameMaker 名称">GameMaker</span> developers often use the function <span class="inline">place_free()</span>, and then when a collision is found, try to slowly move the object out by either looping around an <span class="inline">x</span> or <span class="inline">y</span> position while continuing to execute that function, or by using the <span class="inline">move_outside_all()</span> function.</p>
-    <p class="dropspot">So, what&#39;s the faster way to do this? Well, if we use proper power-of-2 tiles, then we have a very simple method that&#39;s also lightning fast. If we are moving right, and we&#39;ve moved into a collision block, then as we know everything is aligned to 32, so we need to also align the sprite to a 32 pixel boundary - preferably the one to the left - so the sprite is moved OUT of the collision. This is really easy, knowing the rules we&#39;ve used above to get the remainder, and knowing how to get the inverse of bits, we can simply do this:</p>
+    <p class="dropspot"><span data-keyref="GameMaker 名称">GameMaker</span> 开发人员通常会使用 <span class="inline">place_free() </span>函数，然后在发现碰撞时，尝试在继续执行该函数的同时，围绕一个 x 或 y 位置循环，或者使用 <span class="inline">move_outside_all() </span>函数，慢慢将对象移出。</p>
+    <p class="dropspot">那么，怎样才能更快地做到这一点呢？好吧，如果我们使用适当的 2 次幂图块，那么我们就有了一个非常简单的方法，而且还快如闪电。如果我们正在向右移动，并且移动到了一个碰撞块中，那么正如我们所知，一切都对齐到了 32，因此我们还需要将精灵对齐到 32 像素边界 - 偏好设置为左侧 - 这样精灵就会从碰撞中移出。这其实很简单，只要掌握了上面的余数取值规则，并知道如何获取位的倒数，我们就能简单地做到这一点：</p>
     <p class="code">x = x &amp; ~31;</p>
-    <p class="dropspot">That&#39;s right, that&#39;s ALL that it takes to align to a 32 pixel boundary. By changing the 31 we can align to anything we like – as long as it&#39;s a power of 2. (This is the equivalent of dividing by 32, then multiplying by 32, thereby removing the lower bits.)</p>
-    <p class="dropspot">If we wanted to align to the right, then we&#39;d do the above, but then add 32 to move it into the next tile. Simple. All this makes the whole collision code monumentally faster, and lets you spend the CPU time where you really need it.</p>
+    <p class="dropspot">没错，这就是对齐 32 像素边界所需的全部条件。只要是 2 的幂次，我们就可以通过改变 31 来对齐任何像素（这相当于除以 32，然后再乘以 32，从而去掉低位）。</p>
+    <p class="dropspot">如果我们想向右对齐，那就按上面的方法做，但要加上 32，把它移到下一个图块。很简单。所有这一切都使得整个碰撞代码的运行速度大大加快，并能将 CPU 时间用在真正需要的地方。</p>
     <p class="dropspot"> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#">Keys And Doors</a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down1" href="#">钥匙与门</a></p>
   <div class="droptext" data-targetname="drop-down1">
-    <p class="dropspot">Say you have a level with a few doors, and a key for each. How can you easily mark a key for a specific door? Well, normally you&#39;d just assign an ID to the key and the door. So what if you wanted a key to open 2 or 3 doors? Easy. You use a MASK. The door would have a single bit assigned like so:<br/>
+    <p class="dropspot">假设您有一个有几扇门的关卡，每扇门都有一把钥匙。如何方便地为特定的门标记钥匙呢？通常情况下，您只需给钥匙和门分配一个 ID。那么，如果你想让一把钥匙打开 2 扇或 3 扇门呢？很简单。你可以使用 MASK。这扇门会有一个这样的位：<br />
        </p>
     <p class="code">door_id = 1; // 0001</p>
-    <p class="dropspot">The others would be something like:<br/>
+    <p class="dropspot">其他的则类似于<br />
        </p>
-    <p class="code">door_id=2; // 0010<br/>
-      door_id=4; // 0100<br/>
-      door_id=8; // 1000<br/>
+    <p class="code">door_id=2; // 0010<br />
+      door_id=4; // 0100<br />
+      door_id=8; // 1000<br />
       etc...</p>
-    <p class="dropspot">If we wanted the key to open door 1 and 3, then the key would have the MASK value of 5 (which is 101 in binary). If we perform an <span class="inline">AND</span> of this, and it comes out &quot;not zero&quot;, then we know that the key can open the door. You could also have keys that opened nothing by having a MASK of 0. See the code below for the actual check:</p>
-    <p class="code">if ((key_id &amp; door_id) ! = 0)<br/>
-      {<br/>
-          opendoor();<br/>
+    <p class="dropspot">如果我们想让钥匙打开 1 号门和 3 号门，那么钥匙的 MASK 值就是 5（二进制为 101）。如果我们对其进行 AND 运算，得出的结果是 &quot;非零&quot;，那么我们就知道这把钥匙可以打开门。你也可以让钥匙的 MASK 值为 0，这样钥匙就什么也打不开了：</p>
+    <p class="code">if ((key_id &amp; door_id) ! = 0)<br />
+      {<br />
+          opendoor();<br />
       }</p>
     <p class="dropspot"> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#">Looping Counters</a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down2" href="#">循环计数器</a></p>
   <div class="droptext" data-targetname="drop-down2">
-    <p class="dropspot">Let&#39;s say we want a simple animation counter, going from 0 to to 15 (as we have 16 frames of animation). Normally you would do an increment, and then do an <span class="inline">if</span> check to wrap the number, but for this example let&#39;s use the <span class="inline">AND(&amp;)</span> operator:</p>
+    <p class="dropspot">比方说，我们需要一个简单的动画计数器，从 0 到 15（因为我们有 16 帧动画）。通常情况下，我们会做一个递增，然后做一个 if 检查来包络数字，但在本例中，我们使用 AND(&amp;) 运算符：</p>
     <p class="code">counter = (counter + 1) &amp; 15;</p>
-    <p class="dropspot">Since 16 is a power of 2, we can reduce that number by 1 and use it as a mask, which we can then use to wrap our counter value. If the counter moves up from 15 to 16, we end up with bit pattern <span class="inline">10000</span>, and if we <span class="inline">AND</span> that with 15 (bit pattern <span class="inline">01111</span>) we end up with <span class="inline">00000</span> (simply zero). This means that the above code is useful for wrapping values within the range of a power of 2.</p>
+    <p class="dropspot">由于 16 是 2 的幂次，我们可以将该数字减 1 并将其用作掩码，然后用它来包装我们的计数器值。如果计数器从 15 上移到 16，我们将得到位模式 10000，而如果我们将其与 15（位模式 01111）相加，我们将得到 00000（简单的 0）。这意味着，上述代码适用于对 2 的幂范围内的数值进行包装。</p>
     <p class="dropspot"> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#">Power Of 2 Check</a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down3" href="#">2 的幂次检查</a></p>
   <div class="droptext" data-targetname="drop-down3">
-    <p class="dropspot">What if you wanted to check to see if something was a power of 2? Well, here&#39;s a neat little trick.. This will return <span class="inline">true</span> if the given value is a power of 2:</p>
-    <p class="code">function is_pow2(_val)<br/>
-      {<br/>
-          return _val &amp; (_val - 1)) == 0;<br/>
+    <p class="dropspot">如果你想检查某个东西是否是 2 的幂次，该怎么办？这里有一个巧妙的小窍门。如果给定值是 2 的幂，则返回 true：</p>
+    <p class="code">function is_pow2(_val)<br />
+      {<br />
+          return _val &amp; (_val - 1)) == 0;<br />
       }</p>
-    <p class="dropspot">So if we had the number 51 (<span class="inline">110011</span>) what does this do? Well, we get this... <span class="inline">110011 &amp; 110010</span>, which obviously leaves us with <span class="inline">false</span>, as there are lots of bits left after the <span class="inline">AND</span>. If we had 64 (<span class="inline">1000000</span>), then it becomes this... <span class="inline">1000000 &amp; 0111111</span> which <em>does</em> leave us 0, so it&#39;s <span class="inline">true</span>.</p>
+    <p class="dropspot">那么，如果我们有了 51（110011）这个数字，它能做什么呢？嗯，我们会得到这个结果... 110011 &amp; 110010，这显然是假的，因为在 AND 之后还有很多位。如果我们有 64 (1000000)，那么就会变成这样... 1000000 &amp; 0111111，确实是 0，所以是真。</p>
     <p class="dropspot"> </p>
   </div>
-  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down4" href="#">Index Alignment</a></p>
+  <p><a class="dropspot" data-rhwidget="DropSpot" data-target="drop-down4" href="#">索引对齐</a></p>
   <div class="droptext" data-targetname="drop-down4">
-    <p class="dropspot">Here&#39;s a quick bit of code to align to power of 2 numbers. (1,2,4,8,16 and so on). This can be very useful for memory allocation, or making sure you write data to proper boundaries. In this example, <span class="inline">_val1</span> needs to be aligned to <span class="inline">_val2</span> bytes, where <span class="inline">_val2</span> is a power of 2 number. This little function rounds UP to the next boundary of the desired number.</p>
-    <p class="code">function align_pow2(_val1, _val2)<br/>
-      {<br/>
-          return _val1 + (_val2 - 1)) &amp; ~(_val2 - 1);<br/>
+    <p class="dropspot">下面是一段快速代码，用于对齐 2 的幂级数。(1、2、4、8、16 等等) 。这对于内存分配或确保将数据写入适当的边界非常有用。在本例中，_val1 需要对齐到 _val2 字节，其中 _val2 是 2 的幂次。这个小函数会向上舍入到所需数字的下一个边界。</p>
+    <p class="code">function align_pow2(_val1, _val2)<br />
+      {<br />
+          return _val1 + (_val2 - 1)) &amp; ~(_val2 - 1);<br />
       }</p>
     <p class="dropspot"> </p>
     <p class="dropspot"> </p>
@@ -200,7 +201,7 @@
         <div style="float:right">Next: <a href="Type_Tables.htm">Type Tables</a></div>
       </div>
     </div>
-    <h5><span data-keyref="Copyright Notice">© Copyright YoYo Games Ltd. 2022 All Rights Reserved</span></h5>
+    <h5><span data-keyref="Copyright Notice">© Copyright YoYo Games Ltd. 2023 All Rights Reserved</span></h5>
   </div>
   <!-- KEYWORDS
 Bitwise Operators
@@ -208,5 +209,5 @@ Bitwise Operators
   <!-- TAGS
 bitwise_operators
 -->
-
-</body></html>
+</body>
+</html>

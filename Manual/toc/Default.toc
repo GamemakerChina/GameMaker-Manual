@@ -2,7 +2,7 @@
 <map type="toc">
 <title></title>
 <page href="../contents/Content.htm" format="html" processing-role="normal"></page>
-<book href="../contents/Introduction/Introduction_To_GameMaker_Studio_2.htm" format="html" processing-role="normal">
+<book navtitle="GameMaker 简介" href="../contents/Introduction/Introduction_To_GameMaker_Studio_2.htm" format="html" processing-role="normal">
   <page href="../contents/Introduction/The_Start_Page.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Introduction/Workspaces.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Introduction/The_Asset_Browser.htm" format="html" processing-role="normal"></page>
@@ -11,7 +11,7 @@
   <page href="../contents/Introduction/The_Output_Window.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Introduction/Our_Knowledge_Base.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Introduction/Our_Social_Links.htm" format="html" processing-role="normal"></page>
-  <book href="../contents/Introduction/The_Marketplace.htm" format="html" processing-role="normal">
+  <book navtitle="市场" href="../contents/Introduction/The_Marketplace.htm" format="html" processing-role="normal">
     <page href="../contents/Introduction/Marketplace/Your_Marketplace_Library.htm" format="html" processing-role="normal"></page>
     <page href="../contents/Introduction/Marketplace/Purchasing_An_Asset.htm" format="html" processing-role="normal"></page>
     <page href="../contents/Introduction/Marketplace/Creating_A_Publisher_Account.htm" format="html" processing-role="normal"></page>
@@ -24,7 +24,7 @@
     <page href="../contents/Introduction/Marketplace/Rating_And_Flagging_Assets.htm" format="html" processing-role="normal"></page>
   </book>
 </book>
-<book navtitle="Quick Start Guide" href="../contents/Quick_Start_Guide/Quick_Start_Guide.htm" format="html" processing-role="normal">
+<book navtitle="快速入门指南" href="../contents/Quick_Start_Guide/Quick_Start_Guide.htm" format="html" processing-role="normal">
   <page navtitle="What Is Programming" href="../contents/Quick_Start_Guide/What_Is_Programming_.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Quick_Start_Guide/Creating_Sprites.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Quick_Start_Guide/Creating_Tile_Sets.htm" format="html" processing-role="normal"></page>
@@ -36,7 +36,7 @@
   <page href="../contents/Quick_Start_Guide/Movement_And_Controls.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Quick_Start_Guide/Summary.htm" format="html" processing-role="normal"></page>
 </book>
-<book navtitle="Licencing &amp; Versions" href="../contents/Setting_Up_And_Version_Information/GMS2_Version_Information.htm" format="html" processing-role="normal">
+<book navtitle="许可证和版本" href="../contents/Setting_Up_And_Version_Information/GMS2_Version_Information.htm" format="html" processing-role="normal">
   <page href="../contents/Setting_Up_And_Version_Information/Installation_Guide.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Setting_Up_And_Version_Information/Licencing_Information.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Setting_Up_And_Version_Information/Updating_Guide.htm" format="html" processing-role="normal"></page>
@@ -44,9 +44,9 @@
   <page href="../contents/Setting_Up_And_Version_Information/Required_SDKs.htm" format="html" processing-role="normal"></page>
 </book>
 <book href="../contents/The_IDE/The_IDE.htm" format="html" processing-role="normal">
-  <book navtitle="Preferences &amp; Features" href="../contents/The_IDE/Preferences_And_Information/Preferences_And_Features.htm" format="html" processing-role="normal">
-    <book href="../contents/Setting_Up_And_Version_Information/IDE_Preferences.htm" format="html" processing-role="normal">
-      <book href="../contents/Setting_Up_And_Version_Information/IDE_Preferences/General_Preferences.htm" format="html" processing-role="normal">
+  <book navtitle="偏好设置和功能" href="../contents/The_IDE/Preferences_And_Information/Preferences_And_Features.htm" format="html" processing-role="normal">
+    <book navtitle="IDE 偏好设置" href="../contents/Setting_Up_And_Version_Information/IDE_Preferences.htm" format="html" processing-role="normal">
+      <book navtitle="常规偏好设置" href="../contents/Setting_Up_And_Version_Information/IDE_Preferences/General_Preferences.htm" format="html" processing-role="normal">
         <page href="../contents/Setting_Up_And_Version_Information/IDE_Preferences/General/Background.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Setting_Up_And_Version_Information/IDE_Preferences/General/Compiling.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Setting_Up_And_Version_Information/IDE_Preferences/General/Confirm_Dialogs.htm" format="html" processing-role="normal"></page>
@@ -74,7 +74,7 @@
       <page href="../contents/Setting_Up_And_Version_Information/IDE_Preferences/Timeline_Preferences.htm" format="html" processing-role="normal"></page>
       <page href="../contents/Setting_Up_And_Version_Information/IDE_Preferences/Extension_Editor_Preferences.htm" format="html" processing-role="normal"></page>
       <page href="../contents/Setting_Up_And_Version_Information/IDE_Preferences/Text_Editor_Preferences.htm" format="html" processing-role="normal"></page>
-      <book href="../contents/Setting_Up_And_Version_Information/IDE_Preferences/Language_Preferences.htm" format="html" processing-role="normal">
+      <book navtitle="语言偏好设置" href="../contents/Setting_Up_And_Version_Information/IDE_Preferences/Language_Preferences.htm" format="html" processing-role="normal">
         <page href="../contents/Setting_Up_And_Version_Information/IDE_Preferences/GML_Code_Preferences.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Setting_Up_And_Version_Information/IDE_Preferences/GML_Visual_Preferences.htm" format="html" processing-role="normal"></page>
       </book>
@@ -87,7 +87,7 @@
       <page href="../contents/Setting_Up_And_Version_Information/IDE_Preferences/Asset_Browser_Preferences.htm" format="html" processing-role="normal"></page>
       <page href="../contents/Setting_Up_And_Version_Information/IDE_Preferences/Sequences_Preferences.htm" format="html" processing-role="normal"></page>
     </book>
-    <book href="../contents/Setting_Up_And_Version_Information/Platform_Preferences.htm" format="html" processing-role="normal">
+    <book navtitle="平台偏好设置" href="../contents/Setting_Up_And_Version_Information/Platform_Preferences.htm" format="html" processing-role="normal">
       <page href="../contents/Setting_Up_And_Version_Information/Platform_Preferences/Android.htm" format="html" processing-role="normal"></page>
       <page href="../contents/Setting_Up_And_Version_Information/Platform_Preferences/HTML5.htm" format="html" processing-role="normal"></page>
       <page href="../contents/Setting_Up_And_Version_Information/Platform_Preferences/GX_Games_Preferences.htm" format="html" processing-role="normal"></page>
@@ -99,8 +99,8 @@
     <page href="../contents/Setting_Up_And_Version_Information/The_Device_Manager.htm" format="html" processing-role="normal"></page>
     <page href="../contents/Setting_Up_And_Version_Information/Error_Reporting.htm" format="html" processing-role="normal"></page>
   </book>
-  <book href="../contents/IDE_Navigation/IDE_Input.htm" format="html" processing-role="normal">
-    <book href="../contents/IDE_Navigation/Menus.htm" format="html" processing-role="normal">
+  <book navtitle="IDE 输入和导航" href="../contents/IDE_Navigation/IDE_Input.htm" format="html" processing-role="normal">
+    <book navtitle="菜单" href="../contents/IDE_Navigation/Menus.htm" format="html" processing-role="normal">
       <page href="../contents/IDE_Navigation/Menus/The_File_Menu.htm" format="html" processing-role="normal"></page>
       <page href="../contents/IDE_Navigation/Menus/The_Edit_Menu.htm" format="html" processing-role="normal"></page>
       <page href="../contents/IDE_Navigation/Menus/The_Build_Menu.htm" format="html" processing-role="normal"></page>
@@ -116,8 +116,8 @@
     <page href="../contents/IDE_Tools/The_Inspector.htm" format="html" processing-role="normal"></page>
     <page href="../contents/IDE_Navigation/Keyboard_Shortcuts.htm" format="html" processing-role="normal"></page>
   </book>
-  <book href="../contents/IDE_Tools/Additional_IDE_Tools.htm" format="html" processing-role="normal">
-    <book href="../contents/IDE_Tools/The_Debugger.htm" format="html" processing-role="normal">
+  <book navtitle="其他 IDE 工具" href="../contents/IDE_Tools/Additional_IDE_Tools.htm" format="html" processing-role="normal">
+    <book navtitle="调试器" href="../contents/IDE_Tools/The_Debugger.htm" format="html" processing-role="normal">
       <page href="../contents/IDE_Tools/The_Debugger/Watches.htm" format="html" processing-role="normal"></page>
       <page href="../contents/IDE_Tools/The_Debugger/The_Profiler.htm" format="html" processing-role="normal"></page>
     </book>
@@ -125,7 +125,7 @@
     <page href="../contents/IDE_Tools/Local_Asset_Packages.htm" format="html" processing-role="normal"></page>
     <page href="../contents/IDE_Tools/Project_Image_Generator.htm" format="html" processing-role="normal"></page>
     <page href="../contents/IDE_Tools/Sound_Mixer.htm" format="html" processing-role="normal"></page>
-    <book href="../contents/IDE_Tools/Source_Control.htm" format="html" processing-role="normal">
+    <book navtitle="源码控制" href="../contents/IDE_Tools/Source_Control.htm" format="html" processing-role="normal">
       <page href="../contents/IDE_Tools/Source_Control/Setting_Up_Git_Plugin.htm" format="html" processing-role="normal"></page>
       <page href="../contents/IDE_Tools/Source_Control/Repository_Options.htm" format="html" processing-role="normal"></page>
       <page href="../contents/IDE_Tools/Source_Control/Standard_Workflow.htm" format="html" processing-role="normal"></page>
@@ -136,8 +136,8 @@
     </book>
   </book>
 </book>
-<book href="../contents/Settings/Game_Settings.htm" format="html" processing-role="normal">
-  <book href="../contents/Settings/Game_Options.htm" format="html" processing-role="normal">
+<book navtitle="GameMaker 运行器" href="../contents/Settings/Game_Settings.htm" format="html" processing-role="normal">
+  <book navtitle="游戏选项" href="../contents/Settings/Game_Options.htm" format="html" processing-role="normal">
     <page href="../contents/Settings/Game_Options/Template_Info.htm" format="html" processing-role="normal"></page>
     <page href="../contents/Settings/Game_Options/GX_Games.htm" format="html" processing-role="normal"></page>
     <page href="../contents/Settings/Game_Options/Windows.htm" format="html" processing-role="normal"></page>
@@ -153,7 +153,7 @@
   <page href="../contents/Settings/Included_Files.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Additional_Information/The_File_System.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Settings/Audio_Groups.htm" format="html" processing-role="normal"></page>
-  <book href="../contents/Settings/Texture_Groups.htm" format="html" processing-role="normal">
+  <book navtitle="纹理组" href="../contents/Settings/Texture_Groups.htm" format="html" processing-role="normal">
     <page href="../contents/Settings/Texture_Information/Texture_Pages.htm" format="html" processing-role="normal"></page>
     <page href="../contents/Settings/Texture_Information/Dynamic_Textures.htm" format="html" processing-role="normal"></page>
   </book>
@@ -163,18 +163,18 @@
     <page href="../contents/Additional_Information/Errors/Compiler_Errors.htm" format="html" processing-role="normal"></page>
     <page href="../contents/Additional_Information/Errors/Runner_Errors.htm" format="html" processing-role="normal"></page>
   </book>
-  <book navtitle="Runner &amp; Compiler" href="../contents/Settings/Runner_Details/Runner_Details.htm" format="html" processing-role="normal">
+  <book navtitle="运行器和编译器" href="../contents/Settings/Runner_Details/Runner_Details.htm" format="html" processing-role="normal">
     <page href="../contents/Settings/Building_via_Command_Line.htm" format="html" processing-role="normal"></page>
     <page href="../contents/Settings/Runner_Details/Compiler_Batch_Files.htm" format="html" processing-role="normal"></page>
     <page href="../contents/Settings/Command_Line_Parameters.htm" format="html" processing-role="normal"></page>
     <page href="../contents/Settings/YoYo_Compiler.htm" format="html" processing-role="normal"></page>
   </book>
 </book>
-<book href="../contents/The_Asset_Editors/The_Asset_Editors.htm" format="html" processing-role="normal">
-  <book navtitle="Animation Curves" href="../contents/The_Asset_Editors/Animation_Curves.htm" format="html" processing-role="normal">
+<book navtitle="资产编辑器" href="../contents/The_Asset_Editors/The_Asset_Editors.htm" format="html" processing-role="normal">
+  <book navtitle="动画曲线" href="../contents/The_Asset_Editors/Animation_Curves.htm" format="html" processing-role="normal">
     <page navtitle="The Animation Curve Library" href="../contents/The_Asset_Editors/Animation_Curve_Properties/Animation_Curve_Library.htm" format="html" processing-role="normal"></page>
   </book>
-  <book navtitle="Extensions" href="../contents/The_Asset_Editors/Extensions.htm" format="html" processing-role="normal">
+  <book navtitle="扩展" href="../contents/The_Asset_Editors/Extensions.htm" format="html" processing-role="normal">
     <page href="../contents/The_Asset_Editors/Extension_Creation/Disabling_Extensions.htm" format="html" processing-role="normal"></page>
     <page href="../contents/The_Asset_Editors/Extension_Creation/Creating_An_Extension.htm" format="html" processing-role="normal"></page>
     <page href="../contents/The_Asset_Editors/Extension_Creation/Android_Extensions.htm" format="html" processing-role="normal"></page>
@@ -184,14 +184,14 @@
   </book>
   <page navtitle="Fonts" href="../contents/The_Asset_Editors/Fonts.htm" format="html" processing-role="normal"></page>
   <page navtitle="Notes" href="../contents/The_Asset_Editors/Notes.htm" format="html" processing-role="normal"></page>
-  <book navtitle="Objects" href="../contents/The_Asset_Editors/Objects.htm" format="html" processing-role="normal">
-    <book href="../contents/The_Asset_Editors/Object_Properties/Object_Events.htm" format="html" processing-role="normal">
+  <book navtitle="物体" href="../contents/The_Asset_Editors/Objects.htm" format="html" processing-role="normal">
+    <book navtitle="物体事件" href="../contents/The_Asset_Editors/Object_Properties/Object_Events.htm" format="html" processing-role="normal">
       <page href="../contents/The_Asset_Editors/Object_Properties/Event_Order.htm" format="html" processing-role="normal"></page>
-      <book href="../contents/The_Asset_Editors/Object_Properties/Other_Events.htm" format="html" processing-role="normal">
+      <book navtitle="其他事件" href="../contents/The_Asset_Editors/Object_Properties/Other_Events.htm" format="html" processing-role="normal">
         <page href="../contents/The_Asset_Editors/Object_Properties/Wallpaper_Config_Event.htm" format="html" processing-role="normal"></page>
       </book>
       <page href="../contents/The_Asset_Editors/Object_Properties/Draw_Events.htm" format="html" processing-role="normal"></page>
-      <book href="../contents/The_Asset_Editors/Object_Properties/Async_Events.htm" format="html" processing-role="normal">
+      <book navtitle="异步事件" href="../contents/The_Asset_Editors/Object_Properties/Async_Events.htm" format="html" processing-role="normal">
         <page href="../contents/The_Asset_Editors/Object_Properties/Async_Events/Audio_Playback.htm" format="html" processing-role="normal"></page>
         <page href="../contents/The_Asset_Editors/Object_Properties/Async_Events/Audio_Playback_Ended.htm" format="html" processing-role="normal"></page>
         <page href="../contents/The_Asset_Editors/Object_Properties/Async_Events/Audio_Recording.htm" format="html" processing-role="normal"></page>
@@ -213,19 +213,19 @@
     <page href="../contents/The_Asset_Editors/Object_Properties/Physics_Objects.htm" format="html" processing-role="normal"></page>
     <page href="../contents/The_Asset_Editors/Object_Properties/Object_Variables.htm" format="html" processing-role="normal"></page>
   </book>
-  <book navtitle="Particle Systems" href="../contents/The_Asset_Editors/Particle_Systems.htm" format="html" processing-role="normal">
+  <book navtitle="粒子系统" href="../contents/The_Asset_Editors/Particle_Systems.htm" format="html" processing-role="normal">
     <page href="../contents/The_Asset_Editors/Particle_System_Properties/Emitter_Properties.htm" format="html" processing-role="normal"></page>
   </book>
   <page navtitle="Paths" href="../contents/The_Asset_Editors/Paths.htm" format="html" processing-role="normal"></page>
-  <book navtitle="Rooms" href="../contents/The_Asset_Editors/Rooms.htm" format="html" processing-role="normal">
+  <book navtitle="房间" href="../contents/The_Asset_Editors/Rooms.htm" format="html" processing-role="normal">
     <page href="../contents/The_Asset_Editors/Room_Properties/Layer_Properties.htm" format="html" processing-role="normal"></page>
     <page href="../contents/The_Asset_Editors/Room_Properties/Room_Properties.htm" format="html" processing-role="normal"></page>
     <page href="../contents/The_Asset_Editors/Room_Properties/Room_Inheritance.htm" format="html" processing-role="normal"></page>
-    <book href="../contents/The_Asset_Editors/Room_Properties/Filters_and_Effects.htm" format="html" processing-role="normal">
+    <book navtitle="滤镜和特效" href="../contents/The_Asset_Editors/Room_Properties/Filters_and_Effects.htm" format="html" processing-role="normal">
       <page href="../contents/The_Asset_Editors/Room_Properties/FX/All_Filter_Effect_Types.htm" format="html" processing-role="normal"></page>
     </book>
   </book>
-  <book navtitle="Scripts" href="../contents/The_Asset_Editors/Scripts.htm" format="html" processing-role="normal">
+  <book navtitle="脚本" href="../contents/The_Asset_Editors/Scripts.htm" format="html" processing-role="normal">
     <page href="../contents/The_Asset_Editors/Code_Editor_Properties/Editing_Code.htm" format="html" processing-role="normal"></page>
     <page href="../contents/The_Asset_Editors/Code_Editor_Properties/Feather_Features.htm" format="html" processing-role="normal"></page>
     <page href="../contents/The_Asset_Editors/Code_Editor_Properties/JSDoc_Script_Comments.htm" format="html" processing-role="normal"></page>
@@ -233,7 +233,7 @@
     <page href="../contents/The_Asset_Editors/Code_Editor_Properties/Feather_Directives.htm" format="html" processing-role="normal"></page>
     <page href="../contents/The_Asset_Editors/Code_Editor_Properties/Code_Snippets.htm" format="html" processing-role="normal"></page>
   </book>
-  <book navtitle="Sequences" href="../contents/The_Asset_Editors/Sequences.htm" format="html" processing-role="normal">
+  <book navtitle="序列" href="../contents/The_Asset_Editors/Sequences.htm" format="html" processing-role="normal">
     <page href="../contents/The_Asset_Editors/Sequence_Properties/The_Sequence_Canvas.htm" format="html" processing-role="normal"></page>
     <page href="../contents/The_Asset_Editors/Sequence_Properties/The_Track_Panel.htm" format="html" processing-role="normal"></page>
     <page href="../contents/The_Asset_Editors/Sequence_Properties/Text_in_Sequences.htm" format="html" processing-role="normal"></page>
@@ -245,12 +245,12 @@
   </book>
   <page navtitle="Shaders" href="../contents/The_Asset_Editors/Shaders.htm" format="html" processing-role="normal"></page>
   <page navtitle="Sounds" href="../contents/The_Asset_Editors/Sounds.htm" format="html" processing-role="normal"></page>
-  <book navtitle="Sprites" href="../contents/The_Asset_Editors/Sprites.htm" format="html" processing-role="normal">
+  <book navtitle="精灵" href="../contents/The_Asset_Editors/Sprites.htm" format="html" processing-role="normal">
     <page navtitle="Nine Slice" href="../contents/The_Asset_Editors/Sprite_Properties/Nine_Slices.htm" format="html" processing-role="normal"></page>
     <page href="../contents/The_Asset_Editors/Sprite_Properties/Sprite_Strips.htm" format="html" processing-role="normal"></page>
     <page href="../contents/Settings/Texture_Information/Non-Bitmap_Sprites.htm" format="html" processing-role="normal"></page>
   </book>
-  <book navtitle="Tile Sets" href="../contents/The_Asset_Editors/Tile_Sets.htm" format="html" processing-role="normal">
+  <book navtitle="图块集" href="../contents/The_Asset_Editors/Tile_Sets.htm" format="html" processing-role="normal">
     <page href="../contents/The_Asset_Editors/Tile_Set_Editors/Brush_Builder.htm" format="html" processing-role="normal"></page>
     <page href="../contents/The_Asset_Editors/Tile_Set_Editors/Animated_Tiles.htm" format="html" processing-role="normal"></page>
     <page href="../contents/The_Asset_Editors/Tile_Set_Editors/Auto_Tiles.htm" format="html" processing-role="normal"></page>
@@ -258,13 +258,13 @@
   <page navtitle="Timelines" href="../contents/The_Asset_Editors/Timelines.htm" format="html" processing-role="normal"></page>
   <page navtitle="Images" href="../contents/The_Asset_Editors/Image_Editor.htm" format="html" processing-role="normal"></page>
 </book>
-<book navtitle="Additional Information" href="../contents/Additional_Information/Additional_Information.htm" format="html" processing-role="normal">
+<book navtitle="附加信息" href="../contents/Additional_Information/Additional_Information.htm" format="html" processing-role="normal">
   <page href="../contents/Additional_Information/Best_Practices_When_Programming.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Additional_Information/Bitwise_Operators.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Additional_Information/Type_Tables.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Additional_Information/Whitespace_Characters.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Additional_Information/Vectors.htm" format="html" processing-role="normal"></page>
-  <page navtitle="Guide To Using Buffers" href="../contents/Additional_Information/Guide_To_Using_Buffers.htm" format="html" processing-role="normal"></page>
+  <page href="../contents/Additional_Information/Guide_To_Using_Buffers.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Additional_Information/Guide_To_Using_Particles.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Additional_Information/Guide_To_Using_Shaders.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Additional_Information/Guide_To_Primitives_And_Vertex_Building.htm" format="html" processing-role="normal"></page>
@@ -274,17 +274,17 @@
   <page href="../contents/Additional_Information/Compatibility_Scripts.htm" format="html" processing-role="normal"></page>
   <page href="../contents/Additional_Information/Obsolete_Functions.htm" format="html" processing-role="normal"></page>
 </book>
-<book href="../contents/GameMaker_Language.htm" format="html" processing-role="normal">
-  <book navtitle="GML Visual" href="../contents/Drag_And_Drop/Drag_And_Drop_Index.htm" format="html" processing-role="normal">
-    <book navtitle="GML Visual​​​​​​​ Overview" href="../contents/Drag_And_Drop/Drag_And_Drop_Overview/DnD_Overview.htm" format="html" processing-role="normal">
+<book navtitle="GameMaker 语言" href="../contents/GameMaker_Language.htm" format="html" processing-role="normal">
+  <book navtitle="GML 可视化" href="../contents/Drag_And_Drop/Drag_And_Drop_Index.htm" format="html" processing-role="normal">
+    <book navtitle="GML 可视化概述" href="../contents/Drag_And_Drop/Drag_And_Drop_Overview/DnD_Overview.htm" format="html" processing-role="normal">
       <page href="../contents/Drag_And_Drop/Drag_And_Drop_Overview/Constructing_Action_Block_Code.htm" format="html" processing-role="normal"></page>
       <page href="../contents/Drag_And_Drop/Drag_And_Drop_Overview/Applying_Actions_To_Other_Instances.htm" format="html" processing-role="normal"></page>
       <page href="../contents/Drag_And_Drop/Drag_And_Drop_Overview/Action_Block_Functions.htm" format="html" processing-role="normal"></page>
       <page href="../contents/Drag_And_Drop/Drag_And_Drop_Overview/Changing_DnD_To_Code.htm" format="html" processing-role="normal"></page>
       <page href="../contents/Drag_And_Drop/Drag_And_Drop_Overview/Right_Mouse_Button_Menu_Options.htm" format="html" processing-role="normal"></page>
     </book>
-    <book navtitle="GML Visual​​​​​​​ Reference" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/DnD_Reference.htm" format="html" processing-role="normal">
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Common/Common_Actions_Library.htm" format="html" processing-role="normal">
+    <book navtitle="GML 可视化参考" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/DnD_Reference.htm" format="html" processing-role="normal">
+      <book navtitle="通用操作库" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Common/Common_Actions_Library.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Common/Assign_Variable.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Common/Declare_Temporary_Variable.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Common/Set_Global_Variable.htm" format="html" processing-role="normal"></page>
@@ -303,7 +303,7 @@
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Common/Exit.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Common/Declare_A_New_Function.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Instance/Instance_Actions_Library.htm" format="html" processing-role="normal">
+      <book navtitle="实例操作库" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Instance/Instance_Actions_Library.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Instance/Create_Object_Instance.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Instance/Destroy_Object_Instance.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Instance/Destroy_At_Position.htm" format="html" processing-role="normal"></page>
@@ -323,7 +323,7 @@
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Instance/If_Instance_Exists.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Instance/Call_Parent_Event.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Sequences/Sequence_Actions_Library.htm" format="html" processing-role="normal">
+      <book navtitle="序列操作库" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Sequences/Sequence_Actions_Library.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Sequences/Create_Sequence_Element.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Sequences/Destroy_Sequence_Element.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Sequences/Get_Sequence_Position.htm" format="html" processing-role="normal"></page>
@@ -335,7 +335,7 @@
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Sequences/Get_Sequence_Head.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Sequences/Set_Sequence_Head.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Mouse_And_Keyboard/Mouse_And_Keyboard_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="鼠标与键盘操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Mouse_And_Keyboard/Mouse_And_Keyboard_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Mouse_And_Keyboard/If_Mouse_Pressed.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Mouse_And_Keyboard/If_Mouse_Down.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Mouse_And_Keyboard/If_Mouse_Released.htm" format="html" processing-role="normal"></page>
@@ -347,7 +347,7 @@
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Mouse_And_Keyboard/Get_Virtual_Keyboard_Height.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Mouse_And_Keyboard/If_Virtual_Keyboard_Is_Showing.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Gamepad/Gamepad_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="游戏手柄操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Gamepad/Gamepad_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Gamepad/Get_Gamepad_Axis.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Gamepad/Get_Gamepad_Trigger.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Gamepad/Get_Gamepad_Count.htm" format="html" processing-role="normal"></page>
@@ -357,7 +357,7 @@
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Gamepad/If_Gamepad_Button_Pressed.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Gamepad/If_Gamepad_Button_Released.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Movement/Movement_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="运动操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Movement/Movement_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Movement/Set_Direction_Fixed.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Movement/Set_Direction_Variable.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Movement/Set_Point_Direction.htm" format="html" processing-role="normal"></page>
@@ -374,13 +374,13 @@
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Movement/Add_Motion.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Movement/Move_And_Collide.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Collisions/Collision_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="碰撞操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Collisions/Collision_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Collisions/If_Any_Object_At_Place.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Collisions/If_Object_At_Place.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Collisions/If_Collision_Shape.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Collisions/If_Collision_Point.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Drawing/Drawing_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="绘制操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Drawing/Drawing_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Drawing/Draw_Self.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Drawing/Draw_Value.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Drawing/Draw_Transformed_Value.htm" format="html" processing-role="normal"></page>
@@ -405,7 +405,7 @@
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Drawing/Set_Text_Alignment.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Drawing/Get_Text_Alignment.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Tiles/Tile_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="图块操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Tiles/Tile_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Tiles/Set_Tile_Index_At_Pixel.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Tiles/Get_Tile_Index_At_Pixel.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Tiles/Set_Tile_Index_In_Cell.htm" format="html" processing-role="normal"></page>
@@ -419,7 +419,7 @@
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Tiles/Set_Tile_Data_Transform.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Tiles/Get_Tile_Data_Transform.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Audio/Audio_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="音频操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Audio/Audio_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Audio/Play_Audio.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Audio/Stop_Audio.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Audio/Stop_All_Audio.htm" format="html" processing-role="normal"></page>
@@ -444,19 +444,19 @@
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Audio/Set_Audio_Loop_End.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Audio/Get_Audio_Loop_End.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Loops/Loop_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="循环操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Loops/Loop_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Loops/Loop.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Loops/Repeat.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Loops/While.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Loops/For.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Loops/Break.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Switch/Switch_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="Switch 操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Switch/Switch_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Switch/Switch.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Switch/Case.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Switch/Default.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Data_Structures/Data_Structure_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="数据结构操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Data_Structures/Data_Structure_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Data_Structures/Create_List.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Data_Structures/Create_Map.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Data_Structures/Create_Grid.htm" format="html" processing-role="normal"></page>
@@ -480,7 +480,7 @@
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Data_Structures/If_Data_Structure_Exists.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Data_Structures/If_Data_Structure_Empty.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Buffers/Buffer_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="缓冲区操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Buffers/Buffer_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Buffers/Create_Buffer.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Buffers/Copy_Buffer.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Buffers/Delete_Buffer.htm" format="html" processing-role="normal"></page>
@@ -492,7 +492,7 @@
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Buffers/If_Buffer_Exists.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Buffers/If_End_Of_Buffer.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Files/File_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="文件操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Files/File_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Files/Load_Buffer.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Files/Save_Buffer.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Files/Rename_File.htm" format="html" processing-role="normal"></page>
@@ -504,21 +504,21 @@
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Files/Read_Ini_File.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Files/If_File_Exists.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Data_Types/Data_Type_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="数据类型操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Data_Types/Data_Type_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Data_Types/Decimal_To_Integer.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Data_Types/String_To_Number.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Data_Types/Number_To_String.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Random/Random_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="随机操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Random/Random_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Random/Get_Random_Number.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Random/Randomise.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Random/Choose.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Cameras/Camera_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="摄像机操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Cameras/Camera_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Cameras/Set_View_Variable.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Cameras/Get_View_Variable.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Rooms/Room_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="房间操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Rooms/Room_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Rooms/Go_To_Room.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Rooms/Go_To_Next_Room.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Rooms/Go_To_Previous_Room.htm" format="html" processing-role="normal"></page>
@@ -527,7 +527,7 @@
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Rooms/If_Room_Is_Last.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Rooms/Get_Current_Room.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Paths/Path_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="路径操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Paths/Path_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Paths/Start_Following_Path.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Paths/Stop_Following_Path.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Paths/Set_Position_Along_Path.htm" format="html" processing-role="normal"></page>
@@ -535,19 +535,19 @@
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Paths/Set_Path_Follow_Speed.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Paths/Get_Path_Follow_Speed.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Timelines/Timeline_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="时间表操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Timelines/Timeline_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Timelines/Set_Instance_Timeline.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Timelines/Set_Timeline_Moment.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Timelines/Set_Timeline_Speed.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Timelines/Set_Timeline_State.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Game/Game_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="游戏操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Game/Game_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Game/Restart_Game.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Game/Exit_Game.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Game/Save_Game.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Game/Load_Game.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Instance_Vars/Instance_Variable_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="实例变量操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Instance_Vars/Instance_Variable_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Instance_Vars/Set_Score.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Instance_Vars/Get_Score.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Instance_Vars/Set_Lives.htm" format="html" processing-role="normal"></page>
@@ -558,11 +558,11 @@
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Instance_Vars/If_Lives.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Instance_Vars/If_Health.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Miscellaneous/Miscellaneous_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="杂项操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Miscellaneous/Miscellaneous_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Miscellaneous/Show_Debug_Message.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Miscellaneous/Set_Window_State.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Particles/Particle_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="粒子操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Particles/Particle_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Particles/Create_Particle_System.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Particles/Destroy_Particle_System.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Particles/Clear_Particle_System.htm" format="html" processing-role="normal"></page>
@@ -588,7 +588,7 @@
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Particles/Set_Emitter_Region.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Particles/Do_Effect.htm" format="html" processing-role="normal"></page>
       </book>
-      <book navtitle="Time Source Actions" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Time_Sources/Time_Sources_(GML_Visual).htm" format="html" processing-role="normal">
+      <book navtitle="时间源操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Time_Sources/Time_Sources_(GML_Visual).htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Time_Sources/Create_Time_Source.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Time_Sources/Destroy_Time_Source.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Time_Sources/Start_Time_Source.htm" format="html" processing-role="normal"></page>
@@ -612,7 +612,7 @@
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Time_Sources/BPM_to_Seconds.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Time_Sources/Seconds_to_BPM.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Rollback/Rollback_Actions.htm" format="html" processing-role="normal">
+      <book navtitle="回滚式多人游戏操作" href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Rollback/Rollback_Actions.htm" format="html" processing-role="normal">
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Rollback/Create_Game.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Rollback/Join_Game.htm" format="html" processing-role="normal"></page>
         <page href="../contents/Drag_And_Drop/Drag_And_Drop_Reference/Rollback/Start_Game.htm" format="html" processing-role="normal"></page>
@@ -638,14 +638,14 @@
       </book>
     </book>
   </book>
-  <book navtitle="GML Code" href="../contents/GameMaker_Language/GameMaker_Language_Index.htm" format="html" processing-role="normal">
-    <book navtitle="GML Code Overview" href="../contents/GameMaker_Language/GML_Overview/GML_Overview.htm" format="html" processing-role="normal">
+  <book navtitle="GML 代码" href="../contents/GameMaker_Language/GameMaker_Language_Index.htm" format="html" processing-role="normal">
+    <book navtitle="GML 代码概述" href="../contents/GameMaker_Language/GML_Overview/GML_Overview.htm" format="html" processing-role="normal">
       <page href="../contents/GameMaker_Language/GML_Overview/Basic_Code_Structure.htm" format="html" processing-role="normal"></page>
       <page href="../contents/GameMaker_Language/GML_Overview/Runtime_Functions.htm" format="html" processing-role="normal"></page>
-      <book href="../contents/GameMaker_Language/GML_Overview/Variables_And_Variable_Scope.htm" format="html" processing-role="normal">
+      <book navtitle="变量和变量范围" href="../contents/GameMaker_Language/GML_Overview/Variables_And_Variable_Scope.htm" format="html" processing-role="normal">
         <page href="../contents/GameMaker_Language/GML_Overview/Variables/Local_Variables.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Overview/Variables/Instance_Variables.htm" format="html" processing-role="normal"></page>
-        <book href="../contents/GameMaker_Language/GML_Overview/Variables/Global_Variables.htm" format="html" processing-role="normal">
+        <book navtitle="全局变量" href="../contents/GameMaker_Language/GML_Overview/Variables/Global_Variables.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/score.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/lives.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Overview/Variables/Builtin_Global_Variables/health.htm" format="html" processing-role="normal"></page>
@@ -665,7 +665,7 @@
       <page href="../contents/GameMaker_Language/GML_Overview/Script_Functions_vs_Methods.htm" format="html" processing-role="normal"></page>
       <page href="../contents/GameMaker_Language/GML_Overview/Functions/Static_Variables.htm" format="html" processing-role="normal"></page>
       <page href="../contents/GameMaker_Language/GML_Overview/Arrays.htm" format="html" processing-role="normal"></page>
-      <book href="../contents/GameMaker_Language/GML_Overview/Structs.htm" format="html" processing-role="normal">
+      <book navtitle="结构体与构造函数" href="../contents/GameMaker_Language/GML_Overview/Structs.htm" format="html" processing-role="normal">
         <page href="../contents/GameMaker_Language/GML_Overview/Structs/Static_Structs.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Overview/Struct_Forbidden_Variables.htm" format="html" processing-role="normal"></page>
       </book>
@@ -673,7 +673,7 @@
       <page href="../contents/GameMaker_Language/GML_Overview/Instance_Keywords.htm" format="html" processing-role="normal"></page>
       <page href="../contents/GameMaker_Language/GML_Overview/Evaluation_Order.htm" format="html" processing-role="normal"></page>
       <page href="../contents/GameMaker_Language/GML_Overview/Accessors.htm" format="html" processing-role="normal"></page>
-      <book href="../contents/GameMaker_Language/GML_Overview/Language_Features.htm" format="html" processing-role="normal">
+      <book navtitle="语言功能" href="../contents/GameMaker_Language/GML_Overview/Language_Features.htm" format="html" processing-role="normal">
         <page href="../contents/GameMaker_Language/GML_Overview/Language_Features/repeat.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Overview/Language_Features/while.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Overview/Language_Features/do___until.htm" format="html" processing-role="normal"></page>
@@ -691,8 +691,8 @@
         <page href="../contents/GameMaker_Language/GML_Overview/Language_Features/delete.htm" format="html" processing-role="normal"></page>
       </book>
     </book>
-    <book navtitle="GML Code Reference" href="../contents/GameMaker_Language/GML_Reference/GML_Reference.htm" format="html" processing-role="normal">
-      <book href="../contents/GameMaker_Language/GML_Reference/Variable_Functions/Variable_Functions.htm" format="html" processing-role="normal">
+    <book navtitle="GML 代码参考" href="../contents/GameMaker_Language/GML_Reference/GML_Reference.htm" format="html" processing-role="normal">
+      <book navtitle="变量函数" href="../contents/GameMaker_Language/GML_Reference/Variable_Functions/Variable_Functions.htm" format="html" processing-role="normal">
         <page href="../contents/GameMaker_Language/GML_Reference/Variable_Functions/variable_instance_exists.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Variable_Functions/variable_instance_get_names.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Variable_Functions/variable_instance_names_count.htm" format="html" processing-role="normal"></page>
@@ -743,7 +743,7 @@
         <page href="../contents/GameMaker_Language/GML_Reference/Variable_Functions/int64.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Variable_Functions/handle.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/Variable_Functions/Array_Functions.htm" format="html" processing-role="normal">
+      <book navtitle="数组函数" href="../contents/GameMaker_Language/GML_Reference/Variable_Functions/Array_Functions.htm" format="html" processing-role="normal">
         <page href="../contents/GameMaker_Language/GML_Reference/Variable_Functions/array_create.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Variable_Functions/array_copy.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Variable_Functions/array_equals.htm" format="html" processing-role="normal"></page>
@@ -786,8 +786,8 @@
         <page href="../contents/GameMaker_Language/GML_Reference/Variable_Functions/array_reverse_ext.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Variable_Functions/array_shuffle_ext.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Asset_Management.htm" format="html" processing-role="normal">
-        <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Assets_And_Tags/Assets_And_Tags.htm" format="html" processing-role="normal">
+      <book navtitle="资产管理" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Asset_Management.htm" format="html" processing-role="normal">
+        <book navtitle="资产和标签" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Assets_And_Tags/Assets_And_Tags.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Assets_And_Tags/asset_get_index.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Assets_And_Tags/asset_get_type.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Assets_And_Tags/tag_get_asset_ids.htm" format="html" processing-role="normal"></page>
@@ -800,7 +800,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Assets_And_Tags/asset_has_any_tag.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Assets_And_Tags/asset_clear_tags.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Animation_Curves/Animation_Curves.htm" format="html" processing-role="normal">
+        <book navtitle="动画曲线" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Animation_Curves/Animation_Curves.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Animation_Curves/animcurve_get.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Animation_Curves/animcurve_get_channel_index.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Animation_Curves/animcurve_get_channel.htm" format="html" processing-role="normal"></page>
@@ -811,8 +811,8 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Animation_Curves/animcurve_point_new.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Animation_Curves/animcurve_destroy.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprites.htm" format="html" processing-role="normal">
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Information/Sprite_Information.htm" format="html" processing-role="normal">
+        <book navtitle="精灵" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprites.htm" format="html" processing-role="normal">
+          <book navtitle="精灵信息" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Information/Sprite_Information.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Manipulation/sprite_exists.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Information/sprite_get_name.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Information/sprite_get_number.htm" format="html" processing-role="normal"></page>
@@ -833,7 +833,7 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Information/sprite_get_uvs.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Information/sprite_get_info.htm" format="html" processing-role="normal"></page>
           </book>
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Manipulation/Sprite_Manipulation.htm" format="html" processing-role="normal">
+          <book navtitle="精灵操作" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Manipulation/Sprite_Manipulation.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Manipulation/sprite_collision_mask.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Manipulation/sprite_set_offset.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Manipulation/sprite_set_bbox_mode.htm" format="html" processing-role="normal"></page>
@@ -860,7 +860,7 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Manipulation/sprite_flush.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Manipulation/sprite_flush_multi.htm" format="html" processing-role="normal"></page>
           </book>
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/Sprite_Instance_Variables.htm" format="html" processing-role="normal">
+          <book navtitle="精灵实例变量" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/Sprite_Instance_Variables.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/sprite_index.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/sprite_width.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/sprite_height.htm" format="html" processing-role="normal"></page>
@@ -880,8 +880,8 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/bbox_right.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Sprite_Instance_Variables/bbox_top.htm" format="html" processing-role="normal"></page>
           </book>
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Skeletal_Animation.htm" format="html" processing-role="normal">
-            <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Animation/Animation.htm" format="html" processing-role="normal">
+          <book navtitle="骨骼动画" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Skeletal_Animation.htm" format="html" processing-role="normal">
+            <book navtitle="动画" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Animation/Animation.htm" format="html" processing-role="normal">
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Animation/skeleton_animation_get.htm" format="html" processing-role="normal"></page>
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Animation/skeleton_animation_set.htm" format="html" processing-role="normal"></page>
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Animation/skeleton_animation_get_ext.htm" format="html" processing-role="normal"></page>
@@ -899,13 +899,13 @@
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Animation/skeleton_animation_is_looping.htm" format="html" processing-role="normal"></page>
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Animation/skeleton_animation_is_finished.htm" format="html" processing-role="normal"></page>
             </book>
-            <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Skins/Skins.htm" format="html" processing-role="normal">
+            <book navtitle="皮肤" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Skins/Skins.htm" format="html" processing-role="normal">
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Skins/skeleton_skin_create.htm" format="html" processing-role="normal"></page>
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Skins/skeleton_skin_get.htm" format="html" processing-role="normal"></page>
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Skins/skeleton_skin_set.htm" format="html" processing-role="normal"></page>
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Skins/skeleton_skin_list.htm" format="html" processing-role="normal"></page>
             </book>
-            <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Attachments/Attachments.htm" format="html" processing-role="normal">
+            <book navtitle="附件" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Attachments/Attachments.htm" format="html" processing-role="normal">
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Attachments/skeleton_attachment_get.htm" format="html" processing-role="normal"></page>
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Attachments/skeleton_attachment_set.htm" format="html" processing-role="normal"></page>
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Attachments/skeleton_attachment_exists.htm" format="html" processing-role="normal"></page>
@@ -915,14 +915,14 @@
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Attachments/skeleton_attachment_replace_colour.htm" format="html" processing-role="normal"></page>
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Attachments/skeleton_attachment_destroy.htm" format="html" processing-role="normal"></page>
             </book>
-            <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Bones/Bones.htm" format="html" processing-role="normal">
+            <book navtitle="骨骼" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Bones/Bones.htm" format="html" processing-role="normal">
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Bones/skeleton_bone_data_get.htm" format="html" processing-role="normal"></page>
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Bones/skeleton_bone_data_set.htm" format="html" processing-role="normal"></page>
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Bones/skeleton_bone_state_get.htm" format="html" processing-role="normal"></page>
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Bones/skeleton_bone_state_set.htm" format="html" processing-role="normal"></page>
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Bones/skeleton_bone_list.htm" format="html" processing-role="normal"></page>
             </book>
-            <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Slots/Slots.htm" format="html" processing-role="normal">
+            <book navtitle="插槽" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Slots/Slots.htm" format="html" processing-role="normal">
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Slots/skeleton_slot_list.htm" format="html" processing-role="normal"></page>
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Slots/skeleton_slot_data.htm" format="html" processing-role="normal"></page>
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Slots/skeleton_slot_data_instance.htm" format="html" processing-role="normal"></page>
@@ -931,7 +931,7 @@
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Slots/skeleton_slot_colour_get.htm" format="html" processing-role="normal"></page>
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Slots/skeleton_slot_alpha_get.htm" format="html" processing-role="normal"></page>
             </book>
-            <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Drawing_And_Miscellaneous/Drawing_And_Miscellaneous.htm" format="html" processing-role="normal">
+            <book navtitle="绘制与杂项" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Drawing_And_Miscellaneous/Drawing_And_Miscellaneous.htm" format="html" processing-role="normal">
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Drawing_And_Miscellaneous/skeleton_get_minmax.htm" format="html" processing-role="normal"></page>
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Drawing_And_Miscellaneous/skeleton_get_num_bounds.htm" format="html" processing-role="normal"></page>
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Drawing_And_Miscellaneous/skeleton_get_bounds.htm" format="html" processing-role="normal"></page>
@@ -944,17 +944,17 @@
               <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Skeletal_Animation/Drawing_And_Miscellaneous/draw_get_enable_skeleton_blendmodes.htm" format="html" processing-role="normal"></page>
             </book>
           </book>
-          <book navtitle="Nine Slice" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Nine_Slice_Functions.htm" format="html" processing-role="normal">
+          <book navtitle="九切片" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Nine_Slice_Functions.htm" format="html" processing-role="normal">
             <page navtitle="The Nine Slice Struct" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sprites/Nine_Slice_Struct.htm" format="html" processing-role="normal"></page>
           </book>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Tilsets/Tile_Sets.htm" format="html" processing-role="normal">
+        <book navtitle="图块集" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Tilsets/Tile_Sets.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Tilsets/tileset_get_name.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Tilsets/tileset_get_texture.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Tilsets/tileset_get_uvs.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Tilsets/tileset_get_info.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio.htm" format="html" processing-role="normal">
+        <book navtitle="音频" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Properties.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/audio_exists.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/audio_get_name.htm" format="html" processing-role="normal"></page>
@@ -992,7 +992,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/db_to_lin.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/audio_create_stream.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/audio_destroy_stream.htm" format="html" processing-role="normal"></page>
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Emitters/Audio_Emitters.htm" format="html" processing-role="normal">
+          <book navtitle="音频发射器" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Emitters/Audio_Emitters.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Emitters/audio_emitter_create.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Emitters/audio_emitter_exists.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Emitters/audio_emitter_position.htm" format="html" processing-role="normal"></page>
@@ -1015,7 +1015,7 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Emitters/audio_emitter_bus.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Emitters/audio_emitter_get_bus.htm" format="html" processing-role="normal"></page>
           </book>
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Listeners/Audio_Listeners.htm" format="html" processing-role="normal">
+          <book navtitle="音频监听器" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Listeners/Audio_Listeners.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Listeners/audio_listener_position.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Listeners/audio_listener_velocity.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Listeners/audio_listener_orientation.htm" format="html" processing-role="normal"></page>
@@ -1028,7 +1028,7 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Listeners/audio_get_listener_mask.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Listeners/audio_set_listener_mask.htm" format="html" processing-role="normal"></page>
           </book>
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Effects/Audio_Effects.htm" format="html" processing-role="normal">
+          <book navtitle="音频效果" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Effects/Audio_Effects.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Effects/audio_effect_create.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Effects/audio_bus_create.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Effects/audio_bus_main.htm" format="html" processing-role="normal"></page>
@@ -1039,7 +1039,7 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Effects/AudioEffectType.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Effects/AudioLFOType.htm" format="html" processing-role="normal"></page>
           </book>
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Groups/Audio_Groups.htm" format="html" processing-role="normal">
+          <book navtitle="音频组" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Groups/Audio_Groups.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Groups/audiogroup_default.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Groups/audio_group_name.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Groups/audio_group_get_assets.htm" format="html" processing-role="normal"></page>
@@ -1052,7 +1052,7 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Groups/audio_group_set_gain.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Groups/audio_group_get_gain.htm" format="html" processing-role="normal"></page>
           </book>
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Buffers/Audio_Buffers.htm" format="html" processing-role="normal">
+          <book navtitle="音频缓冲区" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Buffers/Audio_Buffers.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Buffers/audio_create_buffer_sound.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Buffers/audio_free_buffer_sound.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Buffers/audio_create_play_queue.htm" format="html" processing-role="normal"></page>
@@ -1063,7 +1063,7 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Buffers/audio_get_recorder_count.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Buffers/audio_get_recorder_info.htm" format="html" processing-role="normal"></page>
           </book>
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Synchronisation/Audio_Synchronisation.htm" format="html" processing-role="normal">
+          <book navtitle="音频同步" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Synchronisation/Audio_Synchronisation.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Synchronisation/audio_create_sync_group.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Synchronisation/audio_play_in_sync_group.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Synchronisation/audio_start_sync_group.htm" format="html" processing-role="normal"></page>
@@ -1076,7 +1076,7 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Synchronisation/audio_sync_group_is_playing.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Synchronisation/audio_sync_group_is_paused.htm" format="html" processing-role="normal"></page>
           </book>
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Loop_Points/Audio_Loop_Points.htm" format="html" processing-role="normal">
+          <book navtitle="音频循环点" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Loop_Points/Audio_Loop_Points.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Loop_Points/audio_sound_loop.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Loop_Points/audio_sound_get_loop.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Loop_Points/audio_sound_loop_start.htm" format="html" processing-role="normal"></page>
@@ -1085,7 +1085,7 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Audio/Audio_Loop_Points/audio_sound_get_loop_end.htm" format="html" processing-role="normal"></page>
           </book>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/Paths.htm" format="html" processing-role="normal">
+        <book navtitle="路径" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/Paths.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/path_start.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/path_end.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/path_get_closed.htm" format="html" processing-role="normal"></page>
@@ -1100,7 +1100,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/path_get_speed.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/path_get_x.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/path_get_y.htm" format="html" processing-role="normal"></page>
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/Path_Manipulation/Path_Manipulation.htm" format="html" processing-role="normal">
+          <book navtitle="路径操作" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/Path_Manipulation/Path_Manipulation.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/Path_Manipulation/path_exists.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/Path_Manipulation/path_add.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/Path_Manipulation/path_add_point.htm" format="html" processing-role="normal"></page>
@@ -1122,7 +1122,7 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/Path_Manipulation/path_set_precision.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/Path_Manipulation/path_shift.htm" format="html" processing-role="normal"></page>
           </book>
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/Path_Variables/Path_Variables.htm" format="html" processing-role="normal">
+          <book navtitle="路径变量" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/Path_Variables/Path_Variables.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/Path_Variables/path_index.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/Path_Variables/path_position.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/Path_Variables/path_positionprevious.htm" format="html" processing-role="normal"></page>
@@ -1132,13 +1132,13 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Paths/Path_Variables/path_endaction.htm" format="html" processing-role="normal"></page>
           </book>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Scripts/Scripts.htm" format="html" processing-role="normal">
+        <book navtitle="脚本" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Scripts/Scripts.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Scripts/script_exists.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Scripts/script_get_name.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Scripts/script_execute.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Scripts/script_execute_ext.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Shaders/Shaders.htm" format="html" processing-role="normal">
+        <book navtitle="着色器" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Shaders/Shaders.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Shaders/shader_get_name.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Shaders/shader_get_uniform.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Shaders/shader_get_sampler_index.htm" format="html" processing-role="normal"></page>
@@ -1157,7 +1157,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Shaders/shader_enable_corner_id.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Shaders/Shader_Constants.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sequences/Sequences.htm" format="html" processing-role="normal">
+        <book navtitle="序列" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sequences/Sequences.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sequences/sequence_exists.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sequences/sequence_create.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sequences/sequence_destroy.htm" format="html" processing-role="normal"></page>
@@ -1170,14 +1170,14 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sequences/Sequence_Events_Moments_Broadcast.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sequences/in_sequence.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sequences/sequence_instance.htm" format="html" processing-role="normal"></page>
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sequences/Sequence_Structs/The_Sequence_Object_Struct.htm" format="html" processing-role="normal">
+          <book navtitle="序列对象结构" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sequences/Sequence_Structs/The_Sequence_Object_Struct.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sequences/Sequence_Structs/The_Sequence_Instance_Struct.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sequences/Sequence_Structs/The_Track_Struct.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sequences/Sequence_Structs/The_Keyframe_Struct.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Sequences/Sequence_Structs/The_Keyframe_Data_Struct.htm" format="html" processing-role="normal"></page>
           </book>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Fonts/Fonts.htm" format="html" processing-role="normal">
+        <book navtitle="字体" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Fonts/Fonts.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Fonts/font_exists.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Fonts/font_get_name.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Fonts/font_get_fontname.htm" format="html" processing-role="normal"></page>
@@ -1206,7 +1206,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Fonts/font_get_sdf_enabled.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Fonts/font_get_sdf_spread.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Timelines/Timelines.htm" format="html" processing-role="normal">
+        <book navtitle="时间表" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Timelines/Timelines.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Timelines/timeline_exists.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Timelines/timeline_get_name.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Timelines/timeline_add.htm" format="html" processing-role="normal"></page>
@@ -1222,8 +1222,8 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Timelines/timeline_position.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Timelines/timeline_loop.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Objects/Objects.htm" format="html" processing-role="normal">
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Objects/Object_Events/Generating_Object_Events.htm" format="html" processing-role="normal">
+        <book navtitle="物体" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Objects/Objects.htm" format="html" processing-role="normal">
+          <book navtitle="生成物体事件" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Objects/Object_Events/Generating_Object_Events.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Objects/Object_Events/event_inherited.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Objects/Object_Events/event_perform.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Objects/Object_Events/event_perform_async.htm" format="html" processing-role="normal"></page>
@@ -1251,8 +1251,8 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Objects/object_set_sprite.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Objects/object_set_visible.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instances.htm" format="html" processing-role="normal">
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/Instance_Variables.htm" format="html" processing-role="normal">
+        <book navtitle="实例" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instances.htm" format="html" processing-role="normal">
+          <book navtitle="实例变量" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/Instance_Variables.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/id.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/visible.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/solid.htm" format="html" processing-role="normal"></page>
@@ -1274,7 +1274,7 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/xprevious.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Instances/Instance_Variables/yprevious.htm" format="html" processing-role="normal"></page>
           </book>
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Instances/Deactivating_Instances/Deactivating_Instances.htm" format="html" processing-role="normal">
+          <book navtitle="停用实例" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Instances/Deactivating_Instances/Deactivating_Instances.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Instances/Deactivating_Instances/instance_activate_all.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Instances/Deactivating_Instances/instance_activate_object.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Instances/Deactivating_Instances/instance_activate_region.htm" format="html" processing-role="normal"></page>
@@ -1304,7 +1304,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Instances/alarm_get.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Instances/alarm_set.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Rooms.htm" format="html" processing-role="normal">
+        <book navtitle="房间" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Rooms.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/room_first.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/room_last.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/room_next.htm" format="html" processing-role="normal"></page>
@@ -1334,7 +1334,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/room_get_viewport.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/room_set_camera.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/room_get_camera.htm" format="html" processing-role="normal"></page>
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/General_Layer_Functions/General_Layer_Functions.htm" format="html" processing-role="normal">
+          <book navtitle="常规图层函数" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/General_Layer_Functions/General_Layer_Functions.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/General_Layer_Functions/layer_exists.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/General_Layer_Functions/layer_get_id.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/General_Layer_Functions/layer_get_depth.htm" format="html" processing-role="normal"></page>
@@ -1375,7 +1375,7 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/General_Layer_Functions/layer_get_target_room.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/General_Layer_Functions/layer_reset_target_room.htm" format="html" processing-role="normal"></page>
           </book>
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Tile_Map_Layers/Tile_Map_Layers.htm" format="html" processing-role="normal">
+          <book navtitle="图块地图图层" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Tile_Map_Layers/Tile_Map_Layers.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Tile_Map_Layers/layer_tilemap_get_id.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Tile_Map_Layers/layer_tilemap_exists.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Tile_Map_Layers/layer_tilemap_create.htm" format="html" processing-role="normal"></page>
@@ -1415,7 +1415,7 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Tile_Map_Layers/tile_set_mirror.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Tile_Map_Layers/tile_set_rotate.htm" format="html" processing-role="normal"></page>
           </book>
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Background_Layers/Background_Layers.htm" format="html" processing-role="normal">
+          <book navtitle="背景图层" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Background_Layers/Background_Layers.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Background_Layers/layer_background_get_id.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Background_Layers/layer_background_exists.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Background_Layers/layer_background_create.htm" format="html" processing-role="normal"></page>
@@ -1443,7 +1443,7 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Background_Layers/layer_background_get_xscale.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Background_Layers/layer_background_get_yscale.htm" format="html" processing-role="normal"></page>
           </book>
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sprite_Layers/Sprite_Layers.htm" format="html" processing-role="normal">
+          <book navtitle="精灵图层" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sprite_Layers/Sprite_Layers.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sprite_Layers/layer_sprite_get_id.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sprite_Layers/layer_sprite_exists.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sprite_Layers/layer_sprite_create.htm" format="html" processing-role="normal"></page>
@@ -1469,7 +1469,7 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sprite_Layers/layer_sprite_get_x.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sprite_Layers/layer_sprite_get_y.htm" format="html" processing-role="normal"></page>
           </book>
-          <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sequence_Layers/Sequence_Layers.htm" format="html" processing-role="normal">
+          <book navtitle="序列图层" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sequence_Layers/Sequence_Layers.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sequence_Layers/layer_sequence_exists.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sequence_Layers/layer_sequence_create.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sequence_Layers/layer_sequence_destroy.htm" format="html" processing-role="normal"></page>
@@ -1497,7 +1497,7 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sequence_Layers/layer_sequence_is_paused.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Sequence_Layers/layer_sequence_is_finished.htm" format="html" processing-role="normal"></page>
           </book>
-          <book navtitle="Filter and Effect Functions" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Filter_Effect_Layers/Filter_Effect_Functions.htm" format="html" processing-role="normal">
+          <book navtitle="滤镜和特效函数" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Filter_Effect_Layers/Filter_Effect_Functions.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Filter_Effect_Layers/fx_create.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Filter_Effect_Layers/fx_get_parameter.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Filter_Effect_Layers/fx_get_parameters.htm" format="html" processing-role="normal"></page>
@@ -1514,7 +1514,7 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Rooms/Filter_Effect_Layers/layer_fx_is_enabled.htm" format="html" processing-role="normal"></page>
           </book>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Extensions/Extensions.htm" format="html" processing-role="normal">
+        <book navtitle="扩展" href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Extensions/Extensions.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Extensions/extension_exists.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Extensions/extension_get_version.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Extensions/extension_get_options.htm" format="html" processing-role="normal"></page>
@@ -1523,7 +1523,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Asset_Management/Extensions/extension_get_option_count.htm" format="html" processing-role="normal"></page>
         </book>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/General_Game_Control/General_Game_Control.htm" format="html" processing-role="normal">
+      <book navtitle="常规游戏控制" href="../contents/GameMaker_Language/GML_Reference/General_Game_Control/General_Game_Control.htm" format="html" processing-role="normal">
         <page href="../contents/GameMaker_Language/GML_Reference/General_Game_Control/game_id.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/General_Game_Control/game_save_id.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/General_Game_Control/game_display_name.htm" format="html" processing-role="normal"></page>
@@ -1544,8 +1544,8 @@
         <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Text/draw_highscore.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/General_Game_Control/cursor_sprite.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement_And_Collisions.htm" format="html" processing-role="normal">
-        <book href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement/Movement.htm" format="html" processing-role="normal">
+      <book navtitle="运动与碰撞" href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement_And_Collisions.htm" format="html" processing-role="normal">
+        <book navtitle="运动" href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement/Movement.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement/motion_add.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement/motion_set.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement/move_towards_point.htm" format="html" processing-role="normal"></page>
@@ -1561,7 +1561,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement/place_snapped.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Movement/move_and_collide.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Motion_Planning/Motion_Planning.htm" format="html" processing-role="normal">
+        <book navtitle="运动规划" href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Motion_Planning/Motion_Planning.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Motion_Planning/mp_linear_step.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Motion_Planning/mp_linear_step_object.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Motion_Planning/mp_linear_path.htm" format="html" processing-role="normal"></page>
@@ -1584,7 +1584,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Motion_Planning/mp_grid_to_ds_grid.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Motion_Planning/mp_grid_draw.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Collisions/Collisions.htm" format="html" processing-role="normal">
+        <book navtitle="碰撞" href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Collisions/Collisions.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Collisions/place_empty.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Collisions/place_free.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Collisions/place_meeting.htm" format="html" processing-role="normal"></page>
@@ -1611,8 +1611,8 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Movement_And_Collisions/Collisions/Collision_Compatibility_Mode.htm" format="html" processing-role="normal"></page>
         </book>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/Drawing/Drawing.htm" format="html" processing-role="normal">
-        <book href="../contents/GameMaker_Language/GML_Reference/Drawing/Colour_And_Alpha/Colour_And_Alpha.htm" format="html" processing-role="normal">
+      <book navtitle="绘制" href="../contents/GameMaker_Language/GML_Reference/Drawing/Drawing.htm" format="html" processing-role="normal">
+        <book navtitle="颜色和透明度" href="../contents/GameMaker_Language/GML_Reference/Drawing/Colour_And_Alpha/Colour_And_Alpha.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Colour_And_Alpha/colour_get_blue.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Colour_And_Alpha/colour_get_green.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Colour_And_Alpha/colour_get_red.htm" format="html" processing-role="normal"></page>
@@ -1631,7 +1631,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Colour_And_Alpha/draw_set_alpha.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Colour_And_Alpha/draw_set_colour.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Drawing/GPU_Control/GPU_Control.htm" format="html" processing-role="normal">
+        <book navtitle="GPU 控制" href="../contents/GameMaker_Language/GML_Reference/Drawing/GPU_Control/GPU_Control.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/GPU_Control/gpu_get_blendenable.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/GPU_Control/gpu_get_ztestenable.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/GPU_Control/gpu_get_zfunc.htm" format="html" processing-role="normal"></page>
@@ -1701,7 +1701,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Mipmapping/gpu_set_tex_mip_enable.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Mipmapping/gpu_set_tex_mip_enable_ext.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Drawing/Basic_Forms/Basic_Forms.htm" format="html" processing-role="normal">
+        <book navtitle="基本格式" href="../contents/GameMaker_Language/GML_Reference/Drawing/Basic_Forms/Basic_Forms.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Basic_Forms/draw_arrow.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Basic_Forms/draw_circle.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Basic_Forms/draw_circle_colour.htm" format="html" processing-role="normal"></page>
@@ -1726,7 +1726,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Basic_Forms/draw_healthbar.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Basic_Forms/draw_path.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Drawing/Sprites_And_Tiles/Sprites_And_Tiles.htm" format="html" processing-role="normal">
+        <book navtitle="精灵和图块" href="../contents/GameMaker_Language/GML_Reference/Drawing/Sprites_And_Tiles/Sprites_And_Tiles.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Sprites_And_Tiles/draw_self.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Sprites_And_Tiles/draw_sprite.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Sprites_And_Tiles/draw_sprite_ext.htm" format="html" processing-role="normal"></page>
@@ -1744,7 +1744,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Sprites_And_Tiles/draw_tile.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Sprites_And_Tiles/draw_tilemap.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Drawing/Text/Text.htm" format="html" processing-role="normal">
+        <book navtitle="文字" href="../contents/GameMaker_Language/GML_Reference/Drawing/Text/Text.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Text/draw_set_font.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Text/draw_set_halign.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Text/draw_set_valign.htm" format="html" processing-role="normal"></page>
@@ -1761,7 +1761,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Text/draw_text_ext_transformed_colour.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Text/draw_highscore.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Drawing/Primitives/Primitives_And_Vertex_Formats.htm" format="html" processing-role="normal">
+        <book navtitle="基元和顶点格式" href="../contents/GameMaker_Language/GML_Reference/Drawing/Primitives/Primitives_And_Vertex_Formats.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Primitives/draw_primitive_begin.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Primitives/draw_primitive_begin_texture.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Primitives/draw_primitive_end.htm" format="html" processing-role="normal"></page>
@@ -1805,7 +1805,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Primitives/vertex_submit.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Primitives/vertex_submit_ext.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Drawing/Surfaces/Surfaces.htm" format="html" processing-role="normal">
+        <book navtitle="表面" href="../contents/GameMaker_Language/GML_Reference/Drawing/Surfaces/Surfaces.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Surfaces/surface_exists.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Surfaces/surface_create.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Surfaces/surface_create_ext.htm" format="html" processing-role="normal"></page>
@@ -1844,7 +1844,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Surfaces/application_get_position.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Surfaces/application_surface_draw_enable.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Drawing/Lighting/Lighting.htm" format="html" processing-role="normal">
+        <book navtitle="光照" href="../contents/GameMaker_Language/GML_Reference/Drawing/Lighting/Lighting.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Lighting/draw_light_define_ambient.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Lighting/draw_light_define_point.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Lighting/draw_light_define_direction.htm" format="html" processing-role="normal"></page>
@@ -1854,14 +1854,14 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Lighting/draw_light_get.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Lighting/draw_get_lighting.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particles.htm" format="html" processing-role="normal">
+        <book navtitle="粒子" href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particles.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/effect_create_depth.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/effect_create_layer.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/effect_create_below.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/effect_create_above.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/effect_clear.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/particle_get_info.htm" format="html" processing-role="normal"></page>
-          <book href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Systems/Particle_Systems.htm" format="html" processing-role="normal">
+          <book navtitle="粒子系统" href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Systems/Particle_Systems.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Systems/part_system_exists.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Systems/part_system_create.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Systems/part_system_create_layer.htm" format="html" processing-role="normal"></page>
@@ -1885,7 +1885,7 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Systems/part_particles_create_colour.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Systems/part_particles_burst.htm" format="html" processing-role="normal"></page>
           </book>
-          <book href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Types/Particle_Types.htm" format="html" processing-role="normal">
+          <book navtitle="粒子类型" href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Types/Particle_Types.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Types/part_type_exists.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Types/part_type_create.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Types/part_type_destroy.htm" format="html" processing-role="normal"></page>
@@ -1915,7 +1915,7 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Types/part_type_step.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Types/part_type_death.htm" format="html" processing-role="normal"></page>
           </book>
-          <book href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Emitters/Particle_Emitters.htm" format="html" processing-role="normal">
+          <book navtitle="粒子发射器" href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Emitters/Particle_Emitters.htm" format="html" processing-role="normal">
             <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Emitters/part_emitter_exists.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Emitters/part_emitter_create.htm" format="html" processing-role="normal"></page>
             <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Emitters/part_emitter_clear.htm" format="html" processing-role="normal"></page>
@@ -1930,7 +1930,7 @@
             <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Particles/Particle_Emitters/part_emitter_interval.htm" format="html" processing-role="normal"></page>
           </book>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Drawing/Textures/Textures.htm" format="html" processing-role="normal">
+        <book navtitle="纹理" href="../contents/GameMaker_Language/GML_Reference/Drawing/Textures/Textures.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Textures/texture_get_width.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Textures/texture_get_height.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Textures/texture_get_texel_width.htm" format="html" processing-role="normal"></page>
@@ -1953,7 +1953,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Textures/texturegroup_set_mode.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Textures/texturegroup_get_status.htm" format="html" processing-role="normal"></page>
         </book>
-        <book navtitle="Video Playback" href="../contents/GameMaker_Language/GML_Reference/Drawing/Videos/Videos.htm" format="html" processing-role="normal">
+        <book navtitle="视频播放" href="../contents/GameMaker_Language/GML_Reference/Drawing/Videos/Videos.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Videos/video_open.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Videos/video_close.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Drawing/Videos/video_draw.htm" format="html" processing-role="normal"></page>
@@ -1973,8 +1973,8 @@
         <page href="../contents/GameMaker_Language/GML_Reference/Drawing/draw_enable_drawevent.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Drawing/draw_flush.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/Cameras_And_Display/Cameras_And_Display.htm" format="html" processing-role="normal">
-        <book href="../contents/GameMaker_Language/GML_Reference/Cameras_And_Display/Cameras_And_Viewports/Cameras_And_View_Ports.htm" format="html" processing-role="normal">
+      <book navtitle="摄像机和显示屏" href="../contents/GameMaker_Language/GML_Reference/Cameras_And_Display/Cameras_And_Display.htm" format="html" processing-role="normal">
+        <book navtitle="摄像机和视口" href="../contents/GameMaker_Language/GML_Reference/Cameras_And_Display/Cameras_And_Viewports/Cameras_And_View_Ports.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Cameras_And_Display/Cameras_And_Viewports/camera_create.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Cameras_And_Display/Cameras_And_Viewports/camera_create_view.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Cameras_And_Display/Cameras_And_Viewports/camera_destroy.htm" format="html" processing-role="normal"></page>
@@ -2033,7 +2033,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Cameras_And_Display/Cameras_And_Viewports/view_set_hport.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Cameras_And_Display/Cameras_And_Viewports/view_set_surface_id.htm" format="html" processing-role="normal"></page>
         </book>
-        <book navtitle="The Game Window" href="../contents/GameMaker_Language/GML_Reference/Cameras_And_Display/The_Game_Window/The_Game_Window.htm" format="html" processing-role="normal">
+        <book navtitle="游戏窗口" href="../contents/GameMaker_Language/GML_Reference/Cameras_And_Display/The_Game_Window/The_Game_Window.htm" format="html" processing-role="normal">
           <page navtitle="window_device" href="../contents/GameMaker_Language/GML_Reference/Cameras_And_Display/The_Game_Window/window_device.htm" format="html" processing-role="normal"></page>
           <page navtitle="window_handle" href="../contents/GameMaker_Language/GML_Reference/Cameras_And_Display/The_Game_Window/window_handle.htm" format="html" processing-role="normal"></page>
           <page navtitle="window_has_focus" href="../contents/GameMaker_Language/GML_Reference/Cameras_And_Display/The_Game_Window/window_has_focus.htm" format="html" processing-role="normal"></page>
@@ -2100,8 +2100,8 @@
         <page href="../contents/GameMaker_Language/GML_Reference/Cameras_And_Display/gif_save.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Cameras_And_Display/gif_save_buffer.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/Game_Input/Game_Input.htm" format="html" processing-role="normal">
-        <book href="../contents/GameMaker_Language/GML_Reference/Game_Input/Keyboard_Input/Keyboard_Input.htm" format="html" processing-role="normal">
+      <book navtitle="游戏输入" href="../contents/GameMaker_Language/GML_Reference/Game_Input/Game_Input.htm" format="html" processing-role="normal">
+        <book navtitle="键盘输入" href="../contents/GameMaker_Language/GML_Reference/Game_Input/Keyboard_Input/Keyboard_Input.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Keyboard_Input/io_clear.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Keyboard_Input/keyboard_check.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Keyboard_Input/keyboard_check_pressed.htm" format="html" processing-role="normal"></page>
@@ -2120,7 +2120,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Keyboard_Input/keyboard_lastchar.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Keyboard_Input/keyboard_string.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Game_Input/Mouse_Input/Mouse_Input.htm" format="html" processing-role="normal">
+        <book navtitle="鼠标输入" href="../contents/GameMaker_Language/GML_Reference/Game_Input/Mouse_Input/Mouse_Input.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Mouse_Input/mouse_button.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Mouse_Input/mouse_check_button.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Mouse_Input/mouse_check_button_pressed.htm" format="html" processing-role="normal"></page>
@@ -2132,7 +2132,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Mouse_Input/mouse_x.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Mouse_Input/mouse_y.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Game_Input/Device_Input/Device_Input.htm" format="html" processing-role="normal">
+        <book navtitle="设备输入" href="../contents/GameMaker_Language/GML_Reference/Game_Input/Device_Input/Device_Input.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_check_button.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_check_button_pressed.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_mouse_check_button_released.htm" format="html" processing-role="normal"></page>
@@ -2148,7 +2148,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_get_tilt_y.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Device_Input/device_get_tilt_x.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/Gesture_Input.htm" format="html" processing-role="normal">
+        <book navtitle="手势输入" href="../contents/GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/Gesture_Input.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_get_drag_time.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_get_drag_distance.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_get_flick_speed.htm" format="html" processing-role="normal"></page>
@@ -2172,7 +2172,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_time.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Gesture_Input/gesture_rotate_angle.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Game_Input/GamePad_Input/Gamepad_Input.htm" format="html" processing-role="normal">
+        <book navtitle="游戏手柄输入" href="../contents/GameMaker_Language/GML_Reference/Game_Input/GamePad_Input/Gamepad_Input.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/GamePad_Input/gamepad_is_supported.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/GamePad_Input/gamepad_is_connected.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/GamePad_Input/gamepad_get_guid.htm" format="html" processing-role="normal"></page>
@@ -2199,7 +2199,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/GamePad_Input/gamepad_test_mapping.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/GamePad_Input/gamepad_remove_mapping.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Game_Input/Virtual_Keys_And_Keyboards/Virtual_Keys_And_Keyboards.htm" format="html" processing-role="normal">
+        <book navtitle="虚拟按键和虚拟键盘" href="../contents/GameMaker_Language/GML_Reference/Game_Input/Virtual_Keys_And_Keyboards/Virtual_Keys_And_Keyboards.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Virtual_Keys_And_Keyboards/virtual_key_add.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Virtual_Keys_And_Keyboards/virtual_key_show.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Virtual_Keys_And_Keyboards/virtual_key_hide.htm" format="html" processing-role="normal"></page>
@@ -2210,8 +2210,8 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Game_Input/Virtual_Keys_And_Keyboards/keyboard_virtual_height.htm" format="html" processing-role="normal"></page>
         </book>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/Data_Structures/Data_Structures.htm" format="html" processing-role="normal">
-        <book href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Grids/DS_Grids.htm" format="html" processing-role="normal">
+      <book navtitle="数据结构" href="../contents/GameMaker_Language/GML_Reference/Data_Structures/Data_Structures.htm" format="html" processing-role="normal">
+        <book navtitle="DS 网格" href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Grids/DS_Grids.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Grids/ds_grid_create.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Grids/ds_grid_destroy.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Grids/ds_grid_width.htm" format="html" processing-role="normal"></page>
@@ -2252,7 +2252,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Grids/ds_grid_write.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Grids/ds_grid_to_mp_grid.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Lists/DS_Lists.htm" format="html" processing-role="normal">
+        <book navtitle="DS 列表" href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Lists/DS_Lists.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Lists/ds_list_create.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Lists/ds_list_destroy.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Lists/ds_list_clear.htm" format="html" processing-role="normal"></page>
@@ -2275,7 +2275,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Lists/ds_list_is_list.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Lists/ds_list_is_map.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/DS_Maps.htm" format="html" processing-role="normal">
+        <book navtitle="DS 地图" href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/DS_Maps.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/ds_map_exists.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/ds_map_create.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/ds_map_add.htm" format="html" processing-role="normal"></page>
@@ -2307,7 +2307,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/ds_map_is_list.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Maps/ds_map_is_map.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Priority_Queues/DS_Priority_Queues.htm" format="html" processing-role="normal">
+        <book navtitle="DS 优先队列" href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Priority_Queues/DS_Priority_Queues.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Priority_Queues/ds_priority_create.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Priority_Queues/ds_priority_destroy.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Priority_Queues/ds_priority_clear.htm" format="html" processing-role="normal"></page>
@@ -2325,7 +2325,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Priority_Queues/ds_priority_read.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Priority_Queues/ds_priority_write.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Queues/DS_Queues.htm" format="html" processing-role="normal">
+        <book navtitle="DS 队列" href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Queues/DS_Queues.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Queues/ds_queue_create.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Queues/ds_queue_destroy.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Queues/ds_queue_clear.htm" format="html" processing-role="normal"></page>
@@ -2339,7 +2339,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Queues/ds_queue_read.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Queues/ds_queue_write.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Stacks/DS_Stacks.htm" format="html" processing-role="normal">
+        <book navtitle="DS 堆栈" href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Stacks/DS_Stacks.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Stacks/ds_stack_create.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Stacks/ds_stack_destroy.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/DS_Stacks/ds_stack_clear.htm" format="html" processing-role="normal"></page>
@@ -2355,7 +2355,7 @@
         <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/ds_exists.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Data_Structures/ds_set_precision.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/Strings/Strings.htm" format="html" processing-role="normal">
+      <book navtitle="字符串" href="../contents/GameMaker_Language/GML_Reference/Strings/Strings.htm" format="html" processing-role="normal">
         <page href="../contents/GameMaker_Language/GML_Reference/Strings/string.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Strings/string_ext.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Strings/ansi_char.htm" format="html" processing-role="normal"></page>
@@ -2403,8 +2403,8 @@
         <page href="../contents/GameMaker_Language/GML_Reference/Strings/string_height_ext.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Strings/string_foreach.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Maths_And_Numbers.htm" format="html" processing-role="normal">
-        <book href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Date_And_Time/Date_And_Time.htm" format="html" processing-role="normal">
+      <book navtitle="数学与数字" href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Maths_And_Numbers.htm" format="html" processing-role="normal">
+        <book navtitle="日期与时间" href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Date_And_Time/Date_And_Time.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Date_And_Time/date_set_timezone.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Date_And_Time/date_get_timezone.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Date_And_Time/current_time.htm" format="html" processing-role="normal"></page>
@@ -2459,7 +2459,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Date_And_Time/delta_time.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Date_And_Time/get_timer.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/Number_Functions.htm" format="html" processing-role="normal">
+        <book navtitle="数字函数" href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/Number_Functions.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/math_set_epsilon.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/math_get_epsilon.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/choose.htm" format="html" processing-role="normal"></page>
@@ -2491,7 +2491,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/log10.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Number_Functions/logn.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Angles_And_Distance/Angles_And_Distance.htm" format="html" processing-role="normal">
+        <book navtitle="角度与距离" href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Angles_And_Distance/Angles_And_Distance.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Angles_And_Distance/arccos.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Angles_And_Distance/arcsin.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Angles_And_Distance/arctan.htm" format="html" processing-role="normal"></page>
@@ -2521,7 +2521,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Angles_And_Distance/lengthdir_x.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Angles_And_Distance/lengthdir_y.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions/Matrix_Functions.htm" format="html" processing-role="normal">
+        <book navtitle="矩阵函数" href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions/Matrix_Functions.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions/matrix_get.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions/matrix_set.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions/matrix_build.htm" format="html" processing-role="normal"></page>
@@ -2540,12 +2540,12 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Maths_And_Numbers/Matrix_Functions/matrix_stack_top.htm" format="html" processing-role="normal"></page>
         </book>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/Time_Sources/Time_Sources.htm" format="html" processing-role="normal">
+      <book navtitle="时间源" href="../contents/GameMaker_Language/GML_Reference/Time_Sources/Time_Sources.htm" format="html" processing-role="normal">
         <page href="../contents/GameMaker_Language/GML_Reference/Time_Sources/Built_In_Time_Sources.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Time_Sources/Time_Source_Units.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Time_Sources/Time_Source_Expiry_Types.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Time_Sources/Time_Source_States.htm" format="html" processing-role="normal"></page>
-        <book navtitle="Functions" format="html" processing-role="normal">
+        <book navtitle="函数" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Time_Sources/time_source_create.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Time_Sources/time_source_destroy.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Time_Sources/time_source_start.htm" format="html" processing-role="normal"></page>
@@ -2569,8 +2569,8 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Time_Sources/call_cancel.htm" format="html" processing-role="normal"></page>
         </book>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/Physics/Physics.htm" format="html" processing-role="normal">
-        <book href="../contents/GameMaker_Language/GML_Reference/Physics/The_Physics_World/The_Physics_World.htm" format="html" processing-role="normal">
+      <book navtitle="物理" href="../contents/GameMaker_Language/GML_Reference/Physics/Physics.htm" format="html" processing-role="normal">
+        <book navtitle="物理世界" href="../contents/GameMaker_Language/GML_Reference/Physics/The_Physics_World/The_Physics_World.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/The_Physics_World/physics_world_create.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/The_Physics_World/physics_world_gravity.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/The_Physics_World/physics_world_update_iterations.htm" format="html" processing-role="normal"></page>
@@ -2579,7 +2579,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/The_Physics_World/physics_draw_debug.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/The_Physics_World/physics_pause_enable.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Physics/Forces/Forces.htm" format="html" processing-role="normal">
+        <book navtitle="力" href="../contents/GameMaker_Language/GML_Reference/Physics/Forces/Forces.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Forces/physics_apply_force.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Forces/physics_apply_impulse.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Forces/physics_apply_local_force.htm" format="html" processing-role="normal"></page>
@@ -2587,7 +2587,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Forces/physics_apply_torque.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Forces/physics_apply_angular_impulse.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Physics/Fixtures/Fixtures.htm" format="html" processing-role="normal">
+        <book navtitle="装置" href="../contents/GameMaker_Language/GML_Reference/Physics/Fixtures/Fixtures.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Fixtures/physics_fixture_create.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Fixtures/physics_fixture_bind.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Fixtures/physics_fixture_bind_ext.htm" format="html" processing-role="normal"></page>
@@ -2615,7 +2615,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Fixtures/physics_set_density.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Fixtures/physics_set_restitution.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Physics/Joints/Joints.htm" format="html" processing-role="normal">
+        <book navtitle="连接" href="../contents/GameMaker_Language/GML_Reference/Physics/Joints/Joints.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Joints/Physics_Joint_Constants.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Joints/physics_joint_distance_create.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Joints/physics_joint_revolute_create.htm" format="html" processing-role="normal"></page>
@@ -2631,7 +2631,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Joints/physics_joint_get_value.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Joints/physics_joint_set_value.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Physics/Soft_Body_Particles/Soft_Body_Particles.htm" format="html" processing-role="normal">
+        <book navtitle="软体粒子" href="../contents/GameMaker_Language/GML_Reference/Physics/Soft_Body_Particles/Soft_Body_Particles.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Soft_Body_Particles/physics_particle_count.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Soft_Body_Particles/physics_particle_group_count.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Soft_Body_Particles/physics_particle_set_max_count.htm" format="html" processing-role="normal"></page>
@@ -2677,7 +2677,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Soft_Body_Particles/physics_particle_draw.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Soft_Body_Particles/physics_particle_draw_ext.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Physics/Physics_Variables/Physics_Variables.htm" format="html" processing-role="normal">
+        <book navtitle="物理变量" href="../contents/GameMaker_Language/GML_Reference/Physics/Physics_Variables/Physics_Variables.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Physics_Variables/phy_active.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Physics_Variables/phy_angular_velocity.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Physics/Physics_Variables/phy_angular_damping.htm" format="html" processing-role="normal"></page>
@@ -2711,7 +2711,7 @@
         <page href="../contents/GameMaker_Language/GML_Reference/Physics/physics_mass_properties.htm" format="html" processing-role="normal"></page>
       </book>
       <page href="../contents/GameMaker_Language/GML_Reference/In_App_Purchases/In_App_Purchases.htm" format="html" processing-role="normal"></page>
-      <book href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/Asynchronous_Functions.htm" format="html" processing-role="normal">
+      <book navtitle="异步函数" href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/Asynchronous_Functions.htm" format="html" processing-role="normal">
         <book href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/HTTP/HTTP.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/HTTP/http_request.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/HTTP/http_get.htm" format="html" processing-role="normal"></page>
@@ -2720,7 +2720,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/HTTP/http_get_request_crossorigin.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/HTTP/http_set_request_crossorigin.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/Dialog/Dialog.htm" format="html" processing-role="normal">
+        <book navtitle="对话框" href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/Dialog/Dialog.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/Dialog/get_login_async.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/Dialog/get_string_async.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/Dialog/get_integer_async.htm" format="html" processing-role="normal"></page>
@@ -2728,7 +2728,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/Dialog/show_question_async.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/Dialog/shop_leave_rating.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/Cloud_Saving/Cloud_Saving.htm" format="html" processing-role="normal">
+        <book navtitle="云保存" href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/Cloud_Saving/Cloud_Saving.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/Cloud_Saving/cloud_synchronise.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/Cloud_Saving/cloud_string_save.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/Cloud_Saving/cloud_file_save.htm" format="html" processing-role="normal"></page>
@@ -2736,7 +2736,7 @@
         <page href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/Push_Notifications/Push_Notifications.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Asynchronous_Functions/Facebook/Facebook.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/Networking/Networking.htm" format="html" processing-role="normal">
+      <book navtitle="网络" href="../contents/GameMaker_Language/GML_Reference/Networking/Networking.htm" format="html" processing-role="normal">
         <page href="../contents/GameMaker_Language/GML_Reference/Networking/network_create_server.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Networking/network_create_server_raw.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Networking/network_create_socket.htm" format="html" processing-role="normal"></page>
@@ -2755,7 +2755,7 @@
         <page href="../contents/GameMaker_Language/GML_Reference/Networking/network_send_udp_raw.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Networking/network_destroy.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/Rollback/Rollback_Multiplayer.htm" format="html" processing-role="normal">
+      <book navtitle="回滚式多人游戏" href="../contents/GameMaker_Language/GML_Reference/Rollback/Rollback_Multiplayer.htm" format="html" processing-role="normal">
         <page href="../contents/GameMaker_Language/GML_Reference/Rollback/Creating_Multiplayer.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Rollback/Rollback_System.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Rollback/Defining_Inputs.htm" format="html" processing-role="normal"></page>
@@ -2763,7 +2763,7 @@
         <page href="../contents/GameMaker_Language/GML_Reference/Rollback/Rollback_Events.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Rollback/Rollback_Errors.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Rollback/Rollback_Preferences.htm" format="html" processing-role="normal"></page>
-        <book href="../contents/GameMaker_Language/GML_Reference/Rollback/Rollback_Functions/Rollback_Functions.htm" format="html" processing-role="normal">
+        <book navtitle="回滚函数" href="../contents/GameMaker_Language/GML_Reference/Rollback/Rollback_Functions/Rollback_Functions.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Rollback/Rollback_Functions/rollback_create_game.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Rollback/Rollback_Functions/rollback_join_game.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Rollback/Rollback_Functions/rollback_start_game.htm" format="html" processing-role="normal"></page>
@@ -2783,7 +2783,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Rollback/Rollback_Functions/rollback_set_player_prefs.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Rollback/Rollback_Functions/rollback_get_player_prefs.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/Rollback/Rollback_Variables/Rollback_Variables.htm" format="html" processing-role="normal">
+        <book navtitle="回滚变量" href="../contents/GameMaker_Language/GML_Reference/Rollback/Rollback_Variables/Rollback_Variables.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Rollback/Rollback_Variables/player_avatar_s.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Rollback/Rollback_Variables/player_avatar_url.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Rollback/Rollback_Variables/player_id.htm" format="html" processing-role="normal"></page>
@@ -2799,7 +2799,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Rollback/Rollback_Variables/rollback_game_running.htm" format="html" processing-role="normal"></page>
         </book>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/Web_And_HTML5/Web_And_HTML5.htm" format="html" processing-role="normal">
+      <book navtitle="Web 和 HTML5" href="../contents/GameMaker_Language/GML_Reference/Web_And_HTML5/Web_And_HTML5.htm" format="html" processing-role="normal">
         <page href="../contents/GameMaker_Language/GML_Reference/Web_And_HTML5/url_open.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Web_And_HTML5/url_open_ext.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Web_And_HTML5/url_open_full.htm" format="html" processing-role="normal"></page>
@@ -2818,8 +2818,8 @@
         <page href="../contents/GameMaker_Language/GML_Reference/Web_And_HTML5/analytics_event_ext.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Web_And_HTML5/analytics_event.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/File_Handling/File_Handling.htm" format="html" processing-role="normal">
-        <book href="../contents/GameMaker_Language/GML_Reference/File_Handling/File_System/File_System.htm" format="html" processing-role="normal">
+      <book navtitle="文件处理" href="../contents/GameMaker_Language/GML_Reference/File_Handling/File_Handling.htm" format="html" processing-role="normal">
+        <book navtitle="文件系统" href="../contents/GameMaker_Language/GML_Reference/File_Handling/File_System/File_System.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/File_System/file_exists.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/File_System/file_delete.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/File_System/file_rename.htm" format="html" processing-role="normal"></page>
@@ -2839,7 +2839,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/File_System/get_save_filename.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/File_System/get_save_filename_ext.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/File_Handling/Ini_Files/Ini_Files.htm" format="html" processing-role="normal">
+        <book navtitle="ini 文件" href="../contents/GameMaker_Language/GML_Reference/File_Handling/Ini_Files/Ini_Files.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/Ini_Files/ini_open.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/Ini_Files/ini_close.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/Ini_Files/ini_write_real.htm" format="html" processing-role="normal"></page>
@@ -2852,7 +2852,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/Ini_Files/ini_section_delete.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/Ini_Files/ini_open_from_string.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/File_Handling/Text_Files/Text_Files.htm" format="html" processing-role="normal">
+        <book navtitle="文本文件" href="../contents/GameMaker_Language/GML_Reference/File_Handling/Text_Files/Text_Files.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/Text_Files/file_text_open_read.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/Text_Files/file_text_open_write.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/Text_Files/file_text_open_append.htm" format="html" processing-role="normal"></page>
@@ -2867,7 +2867,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/Text_Files/file_text_eof.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/Text_Files/file_text_close.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/File_Handling/Binary_Files/Binary_Files.htm" format="html" processing-role="normal">
+        <book navtitle="二进制文件" href="../contents/GameMaker_Language/GML_Reference/File_Handling/Binary_Files/Binary_Files.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/Binary_Files/file_bin_open.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/Binary_Files/file_bin_rewrite.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/Binary_Files/file_bin_close.htm" format="html" processing-role="normal"></page>
@@ -2877,7 +2877,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/Binary_Files/file_bin_write_byte.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/Binary_Files/file_bin_read_byte.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/File_Handling/File_Directories/File_Directories.htm" format="html" processing-role="normal">
+        <book navtitle="文件目录" href="../contents/GameMaker_Language/GML_Reference/File_Handling/File_Directories/File_Directories.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/File_Directories/directory_exists.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/File_Directories/directory_create.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/File_Directories/directory_destroy.htm" format="html" processing-role="normal"></page>
@@ -2885,7 +2885,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/File_Directories/working_directory.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/File_Directories/program_directory.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/File_Handling/Encoding_And_Hashing/Encoding_And_Hashing.htm" format="html" processing-role="normal">
+        <book navtitle="编码与哈希算法" href="../contents/GameMaker_Language/GML_Reference/File_Handling/Encoding_And_Hashing/Encoding_And_Hashing.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/Encoding_And_Hashing/json_encode.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/Encoding_And_Hashing/json_decode.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/Encoding_And_Hashing/json_stringify.htm" format="html" processing-role="normal"></page>
@@ -2906,7 +2906,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/File_Handling/Encoding_And_Hashing/zip_save.htm" format="html" processing-role="normal"></page>
         </book>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/Buffers/Buffers.htm" format="html" processing-role="normal">
+      <book navtitle="缓冲区" href="../contents/GameMaker_Language/GML_Reference/Buffers/Buffers.htm" format="html" processing-role="normal">
         <page href="../contents/GameMaker_Language/GML_Reference/Buffers/buffer_exists.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Buffers/buffer_create.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Buffers/buffer_create_from_vertex_buffer.htm" format="html" processing-role="normal"></page>
@@ -2952,7 +2952,7 @@
         <page href="../contents/GameMaker_Language/GML_Reference/Buffers/Transferring_Data_Between_Buffers.htm" format="html" processing-role="normal"></page>
       </book>
       <book navtitle="Xbox Live" href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/UWP_And_XBox_Live.htm" format="html" processing-role="normal">
-        <book href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Users_And_Accounts/Users_And_Accounts.htm" format="html" processing-role="normal">
+        <book navtitle="用户与账户" href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Users_And_Accounts/Users_And_Accounts.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Users_And_Accounts/xboxlive_user_is_signed_in.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Users_And_Accounts/xboxlive_user_is_signing_in.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Users_And_Accounts/xboxlive_gamertag_for_user.htm" format="html" processing-role="normal"></page>
@@ -2977,12 +2977,12 @@
           <page href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Users_And_Accounts/xboxlive_sprite_add_from_gamerpicture.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Users_And_Accounts/xboxlive_generate_player_session_id.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Saving_Data/Saving_Data.htm" format="html" processing-role="normal">
+        <book navtitle="保存数据" href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Saving_Data/Saving_Data.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Saving_Data/xboxlive_set_savedata_user.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Saving_Data/xboxlive_get_savedata_user.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Saving_Data/xboxlive_get_file_error.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Stats_And_Leaderboards/Stats_And_Leaderboards.htm" format="html" processing-role="normal">
+        <book navtitle="统计和排行榜" href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Stats_And_Leaderboards/Stats_And_Leaderboards.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Stats_And_Leaderboards/xboxlive_stats_setup.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Stats_And_Leaderboards/xboxlive_stats_add_user.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Stats_And_Leaderboards/xboxlive_stats_remove_user.htm" format="html" processing-role="normal"></page>
@@ -3003,7 +3003,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Stats_And_Leaderboards/xboxlive_read_player_leaderboard.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Stats_And_Leaderboards/xboxlive_fire_event.htm" format="html" processing-role="normal"></page>
         </book>
-        <book href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Match_Making/Match_Making.htm" format="html" processing-role="normal">
+        <book navtitle="匹配" href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Match_Making/Match_Making.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Match_Making/xboxlive_matchmaking_start.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Match_Making/xboxlive_matchmaking_stop.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Match_Making/xboxlive_matchmaking_create.htm" format="html" processing-role="normal"></page>
@@ -3016,10 +3016,10 @@
           <page href="../contents/GameMaker_Language/GML_Reference/UWP_And_XBox_Live/Match_Making/xboxlive_matchmaking_join_invite.htm" format="html" processing-role="normal"></page>
         </book>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/GXC/GXC_Functions.htm" format="html" processing-role="normal">
+      <book navtitle="GX.games 函数" href="../contents/GameMaker_Language/GML_Reference/GXC/GXC_Functions.htm" format="html" processing-role="normal">
         <page href="../contents/GameMaker_Language/GML_Reference/GXC/File_System/gxc_file_sync.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/OS_And_Compiler/OS_And_Compiler.htm" format="html" processing-role="normal">
+      <book navtitle="操作系统和编译器" href="../contents/GameMaker_Language/GML_Reference/OS_And_Compiler/OS_And_Compiler.htm" format="html" processing-role="normal">
         <page href="../contents/GameMaker_Language/GML_Reference/OS_And_Compiler/os_browser.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/OS_And_Compiler/os_device.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/OS_And_Compiler/os_type.htm" format="html" processing-role="normal"></page>
@@ -3055,7 +3055,7 @@
         <page href="../contents/GameMaker_Language/GML_Reference/OS_And_Compiler/external_call.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/OS_And_Compiler/external_free.htm" format="html" processing-role="normal"></page>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/Debugging/Debugging.htm" format="html" processing-role="normal">
+      <book navtitle="调试" href="../contents/GameMaker_Language/GML_Reference/Debugging/Debugging.htm" format="html" processing-role="normal">
         <page href="../contents/GameMaker_Language/GML_Reference/Debugging/debug_mode.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Debugging/debug_event.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Debugging/debug_get_callstack.htm" format="html" processing-role="normal"></page>
@@ -3070,7 +3070,7 @@
         <page href="../contents/GameMaker_Language/GML_Reference/Debugging/code_is_compiled.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Debugging/fps.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Debugging/fps_real.htm" format="html" processing-role="normal"></page>
-        <book href="../contents/GameMaker_Language/GML_Reference/Debugging/The_Debug_Overlay.htm" format="html" processing-role="normal">
+        <book navtitle="调试覆盖图" href="../contents/GameMaker_Language/GML_Reference/Debugging/The_Debug_Overlay.htm" format="html" processing-role="normal">
           <page href="../contents/GameMaker_Language/GML_Reference/Debugging/show_debug_overlay.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Debugging/show_debug_log.htm" format="html" processing-role="normal"></page>
           <page href="../contents/GameMaker_Language/GML_Reference/Debugging/is_debug_overlay_open.htm" format="html" processing-role="normal"></page>
@@ -3094,7 +3094,7 @@
           <page href="../contents/GameMaker_Language/GML_Reference/Debugging/is_keyboard_used_debug_overlay.htm" format="html" processing-role="normal"></page>
         </book>
       </book>
-      <book href="../contents/GameMaker_Language/GML_Reference/Garbage_Collection/Garbage_Collection.htm" format="html" processing-role="normal">
+      <book navtitle="垃圾回收" href="../contents/GameMaker_Language/GML_Reference/Garbage_Collection/Garbage_Collection.htm" format="html" processing-role="normal">
         <page href="../contents/GameMaker_Language/GML_Reference/Garbage_Collection/gc_enable.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Garbage_Collection/gc_is_enabled.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Garbage_Collection/gc_collect.htm" format="html" processing-role="normal"></page>
@@ -3106,7 +3106,7 @@
         <page href="../contents/GameMaker_Language/GML_Reference/Garbage_Collection/weak_ref_any_alive.htm" format="html" processing-role="normal"></page>
       </book>
       <page href="../contents/GameMaker_Language/GML_Reference/Steam/Steam.htm" format="html" processing-role="normal"></page>
-      <book href="../contents/GameMaker_Language/GML_Reference/Live_Wallpapers/Live_Wallpapers.htm" format="html" processing-role="normal">
+      <book navtitle="实时壁纸" href="../contents/GameMaker_Language/GML_Reference/Live_Wallpapers/Live_Wallpapers.htm" format="html" processing-role="normal">
         <page href="../contents/GameMaker_Language/GML_Reference/Live_Wallpapers/wallpaper_set_config.htm" format="html" processing-role="normal"></page>
         <page href="../contents/GameMaker_Language/GML_Reference/Live_Wallpapers/wallpaper_set_subscriptions.htm" format="html" processing-role="normal"></page>
       </book>

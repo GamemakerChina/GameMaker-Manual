@@ -9,6 +9,6 @@
   <link rel="stylesheet" type="text/css" href="../css/default.css" />
 </head>
 <body>
-  <p class="note"><span data-conref="Tag_tip.hts"> </span> If you prefer a more visual approach to creating particles and don&#39;t need the extensive functionality that <span data-keyref="GML_Code">GML Code</span> offers, you can also create a <span data-keyref="Type_Asset_ParticleSystem"><a href="The_Asset_Editors/Particle_Systems.htm" target="_blank">Particle System Asset</a></span> using <a data-xref="{title}" href="../../The_Asset_Editors/Particle_Systems.htm">The Particle System Editor</a>. Additionally, you can generate the <span data-keyref="GML_Code">GML Code</span> for it using the editor&#39;s <strong>Copy GML to Clipboard</strong> <img class="icon" src="../Images/Icons/Icon_GML_To_Clipboard.png" title="" />.</p>
+  <p class="note"><span data-conref="Tag_tip.hts"> </span> 如果您偏好用更直观的方法来创建粒子，而不需要 GML 代码提供的广泛功能，您也可以使用<a data-xref="{title}" href="../../The_Asset_Editors/Particle_Systems.htm">The Particle System Editor</a>来创建 <span data-keyref="Type_Asset_ParticleSystem"><a href="../../The_Asset_Editors/Particle_Systems.htm" target="_blank">粒子系统资产</a></span> 。此外，您还可以使用编辑器的 &quot;复制 GML 到剪贴板&quot;（Copy GML to Clipboard）<img class="icon" src="../Images/Icons/Icon_GML_To_Clipboard.png" title="" />为其生成 GML 代码。</p>
 </body>
 </html>
