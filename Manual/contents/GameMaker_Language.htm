@@ -1,38 +1,39 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <meta name="generator" content="Adobe RoboHelp 2022"/>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="Adobe RoboHelp 2022" />
   <title>GameMaker Language</title>
-  <meta name="topic-status" content="Draft"/>
-  <link rel="stylesheet" type="text/css" href="assets/css/default.css"/>
-  <meta name="template" content="assets/masterpages/Manual_Page.htt"/>
-  <meta name="rh-authors" content="Gurpreet S. Matharoo"/>
+  <meta name="topic-status" content="Draft" />
+  <link rel="stylesheet" type="text/css" href="assets/css/default.css" />
+  <meta name="template" content="assets/masterpages/Manual_Page.htt" />
+  <meta name="rh-authors" content="Gurpreet S. Matharoo" />
 </head>
 <body>
   <h1 id="h">GameMaker Language</h1>
-  <p>You can use GameMaker Language to program your games in two different ways: by placing blocks to &quot;write&quot; code visually, or by writing code manually.</p>
-  <p>The first option, <a data-xref="{title}" href="Drag_And_Drop/Drag_And_Drop_Index.htm">GML Visual</a>, is best suited for beginners and hobbyists who want to get started making their own games quickly.</p>
-  <p>The second option, <a data-xref="{title}" href="GameMaker_Language/GameMaker_Language_Index.htm">GML Code</a>, allows you to harness the full power of GameMaker Language by writing your code manually.</p>
-  <p>While <span data-keyref="GML_Visual">GML Visual</span> is easier to start with, <span data-keyref="GML_Code">GML Code</span> is still an easy-to-use programming language with powerful features (<a href="GameMaker_Language/GML_Overview/Script_Functions.htm">Functions</a>, <a href="GameMaker_Language/GML_Overview/Method_Variables.htm">Methods</a>, <a data-xref="{title}" href="GameMaker_Language/GML_Overview/Structs.htm">Structs &amp; Constructors</a>, etc.).</p>
-  <h2>Creating Visual/Code Scripts</h2>
-  <p>You are asked to choose between <span data-keyref="GML_Code">GML Code</span> and <span data-keyref="GML_Visual">GML Visual</span> on creating a new Object event, a new Script asset, or anything else that results in the creation of a script:</p>
-  <p><img class="center" src="assets/Images/Scripting_Reference/GML_Visual_Code_Dialog.png"/>In addition to the choice between <span data-keyref="GML_Code">GML Code</span> and <span data-keyref="GML_Visual">GML Visual</span>, this window contains two checkboxes:</p>
+  <p>你可以使用 GameMaker Language 通过两种完全不同的方式来编写程序：通过简单的拖动积木块来“写”代码，亦或是手动的编写代码。</p>
+  <p>你的第一个选择，<a data-xref="{title}" href="Drag_And_Drop/Drag_And_Drop_Index.htm">GML Visual</a>，最适合想要快速开始制作自己的游戏的初学者和爱好者。</p>
+  <p>还有第二个选择，<a data-xref="{title}" href="GameMaker_Language/GameMaker_Language_Index.htm">GML Code</a>，它允许你通过手动编写代码来利用 Gamemaker 的所有功能。</p>
+  <p>虽然从 <span data-keyref="GML_Visual">GML Visual</span> 开始更加的容易，但是 <span data-keyref="GML_Code">GML Code</span> 也是一种非常易于使用的编程语言，<span data-keyref="GML_Code">GML Code</span> 具有强大的功能 (<a href="GameMaker_Language/GML_Overview/Script_Functions.htm">函数</a>、<a href="GameMaker_Language/GML_Overview/Method_Variables.htm">方法</a>、<a data-xref="{title}" href="GameMaker_Language/GML_Overview/Structs.htm">结构 &amp; 构造函数</a>等).</p>
+  <h2>创建 Visual（可视化）/Code（代码） 脚本</h2>
+  <p>在创建新物体的事件、新的脚本资源或是进行其他任何会创建脚本的行动时，系统会要求你在 <span data-keyref="GML_Code">GML Code</span> 和 <span data-keyref="GML_Visual">GML Visual</span> 之间做选择:</p>
+  <p><img class="center" height="485" src="assets/Images/Scripting_Reference/GML_Visual_Code_Dialog.png" width="627" />除了 <span data-keyref="GML_Code">GML Code</span> 和 <span data-keyref="GML_Visual">GML Visual</span> 之间的选择之外，这个窗口还包括两个复选框：</p>
   <ul class="colour">
-    <li><strong>Don&#39;t ask again for this project</strong>: When this is enabled, it sets the &quot;Default scripting language&quot; <a href="Settings/Game_Options.htm">Game Option</a> to your new selection, so you are not asked to choose again for the current project.</li>
-    <li><strong>Don&#39;t ask again ever</strong>: When this is enabled, it sets the &quot;Default scripting language&quot; <a href="Setting_Up_And_Version_Information/IDE_Preferences/Language_Preferences.htm">Preference</a> to your new selection, so you are never asked to choose again, for <em>any </em>projects.</li>
+    <li><strong>不再询问此项目</strong>：启用此选项后，会将 <a href="Settings/Game_Options.htm">游戏选项</a> 中的 “默认脚本语言” 设置为你的选择，因此在当前项目中不会要求你再次选择</li>
+    <li><b>不在询问</b>：启用此选项后，会将 <a href="Setting_Up_And_Version_Information/IDE_Preferences/Language_Preferences.htm">偏好设定</a> 中的 “默认脚本语言” 设置为你的选择，因此对于所有项目都不会要求你再次选择</li>
   </ul>
   <h2><span data-keyref="GML_Visual">GML Visual</span></h2>
-  <p>This is GameMaker&#39;s <strong>Visual Scripting</strong> method that uses blocks of <em>actions </em>which are chained together to create your game&#39;s logic. The following sections explain how to use these actions:</p>
+  <p>这是 Gamemaker 的 <strong>可视化脚本</strong> 方法，它使用链接在一起的积木块来编写游戏逻辑，以下是部分相关信息来说明如何使用这些操作：</p>
   <ul class="colour">
-    <li><a data-xref="{title}" href="Drag_And_Drop/Drag_And_Drop_Overview/DnD_Overview.htm">GML Visual Overview</a></li>
-    <li><a data-xref="{title}" href="Drag_And_Drop/Drag_And_Drop_Reference/DnD_Reference.htm">GML Visual Reference</a></li>
+    <li><a data-xref="{title}" href="Drag_And_Drop/Drag_And_Drop_Overview/DnD_Overview.htm">GML Visual 概述</a></li>
+    <li><a data-xref="{title}" href="Drag_And_Drop/Drag_And_Drop_Reference/DnD_Reference.htm">GML Visual 参考</a></li>
   </ul>
   <h2><span data-keyref="GML_Code">GML Code</span></h2>
-  <p>Write GML code using functions, variables and other coding constructs, and create your game&#39;s logic. The following sections explain how to code using GML:</p>
+  <p>使用函数、变量和其他编程构造编写 GML 代码，编写你的游戏逻辑。以下部分将解释如何使用GML进行代码编写：</p>
   <ul class="colour">
-    <li><a data-xref="{title}" href="GameMaker_Language/GML_Overview/GML_Overview.htm">GML Code Overview</a></li>
-    <li><a data-xref="{title}" href="GameMaker_Language/GML_Reference/GML_Reference.htm">GML Code Reference</a></li>
+    <li><a data-xref="{title}" href="GameMaker_Language/GML_Overview/GML_Overview.htm">GML Code 概述</a></li>
+    <li><a data-xref="{title}" href="GameMaker_Language/GML_Reference/GML_Reference.htm">GML Code 参考</a></li>
   </ul>
   <p> </p>
   <div class="droptext" data-targetname="drop_down9">
@@ -43,11 +44,11 @@
   <div class="footer">
     <div class="buttons">
       <div class="clear">
-        <div>Back: <a data-xref="{title}" href="Content.htm"><span data-keyref="GameMaker 名称">GameMaker</span> Manual Index</a></div>
+        <div>Back: <a data-xref="{title}" href="Content.htm">GameMaker 手册索引</a></div>
         <div> </div>
       </div>
     </div>
-    <h5><span data-keyref="Copyright Notice">© Copyright YoYo Games Ltd. 2022 All Rights Reserved</span></h5>
+    <h5><span data-keyref="Copyright Notice">© Copyright YoYo Games Ltd. 2023 All Rights Reserved</span></h5>
   </div>
-
-</body></html>
+</body>
+</html>
